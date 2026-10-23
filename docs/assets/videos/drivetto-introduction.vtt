@@ -1,7 +1,7 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:06.000
-DriveTTO
+DriveTTO: search, compare, select
 
 00:00:06.000 --> 00:00:12.000
 HUGSIM | Urban intersection
@@ -10,10 +10,10 @@ HUGSIM | Urban intersection
 The DriveTTO pipeline
 
 00:00:18.000 --> 00:00:23.000
-Endpoint feedback
+Endpoint feedback at the achieved state
 
 00:00:23.000 --> 00:00:28.000
-Bounded refinement
+Bounded refinement around the reference
 
 00:00:28.000 --> 00:00:34.000
 NAVSIM | Urban bend
@@ -25,10 +25,10 @@ HUGSIM | Waymo hard
 HUGSIM | PandaSet extreme
 
 00:00:46.000 --> 00:00:51.000
-Temporal fusion
+Branch fusion along one future horizon
 
 00:00:51.000 --> 00:00:56.000
-Shared-context selection
+Relative-gain selection and fallback
 
 00:00:56.000 --> 00:01:02.000
 NAVSIM | Narrow street

@@ -12,13 +12,13 @@
     },
     {
       "path": "docs/assets/data/intro-edit.json",
-      "bytes": 3971,
-      "sha256": "5d8ccd53f8586c46096aefccb517fde2cadc50a73b36969716998bca23c5f460"
+      "bytes": 4189,
+      "sha256": "29c2caf5becb8136b9aa404cd48e177758b34ac7e7c493738aea59ef39915548"
     },
     {
       "path": "docs/assets/data/media-selection.json",
-      "bytes": 20076,
-      "sha256": "2e470797ec1d844b59a0150d71e70f2bf15258edb718a886ad8e58fe217b4156"
+      "bytes": 20301,
+      "sha256": "65aa0ef662b253fca2b73b9ae17871fc560fd257dec178e1ece6349e04d15a5d"
     },
     {
       "path": "docs/assets/data/results.csv",
@@ -27,8 +27,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 32402,
-      "sha256": "9a956c0c4123a5dccf0179f03d38b97ece09d9c58bcf19976529ac979e5059bd"
+      "bytes": 31845,
+      "sha256": "57acf97f9cc5cf49ce40e5c4b2dcfd0d317ef215d21f6a9e106b6187752f8051"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -71,9 +71,19 @@
       "sha256": "a3e94792700e0cad3fc66b14a9856331b8cdb1dc366dd1e2f7d2f21e8759b63b"
     },
     {
+      "path": "docs/assets/images/algorithm-poster.jpg",
+      "bytes": 221722,
+      "sha256": "ac96eabd2747cac6e590a92db6edbb8682d0417e919167263933f2a723aaa839"
+    },
+    {
+      "path": "docs/assets/images/algorithm-teaser.gif",
+      "bytes": 282014,
+      "sha256": "1a6fb16ae4cb0c871283ff04502d013292f60b174fea82b11dcbbfe92e92c2a7"
+    },
+    {
       "path": "docs/assets/images/intro-poster.jpg",
-      "bytes": 111144,
-      "sha256": "a84f6a37eae420e87dd5480a871cc545f98e78d7c5716e1a09a0aa7fb3bad59f"
+      "bytes": 112103,
+      "sha256": "ed105c747afa79027d5a1ccf49642a5878c903b6a06ba48630bb903c941812a9"
     },
     {
       "path": "docs/assets/images/kitti360-0000_8440_8640-easy_00.jpg",
@@ -111,14 +121,29 @@
       "sha256": "0b7780de67a5151abb31c9bd3e4c25c687e6aad411e1f9efc7dbb753ad2c468c"
     },
     {
+      "path": "docs/assets/videos/algorithm-chapters.vtt",
+      "bytes": 534,
+      "sha256": "7696b3d713f67c6f9577a6e8ba6a886473fadd0349fd98fdf3463117089b03d9"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-algorithm-animation.mp4",
+      "bytes": 1541328,
+      "sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-algorithm-animation.vtt",
+      "bytes": 1006,
+      "sha256": "6c2444d8919722bf450ed73e94d4559ce56240c90e1ec54a66c69a4088e521c8"
+    },
+    {
       "path": "docs/assets/videos/drivetto-introduction.mp4",
-      "bytes": 10632253,
-      "sha256": "c8cda671c84d3fd4a175d64b0918205c63d03a45d6bfc505083a40cb47d2e604"
+      "bytes": 10162128,
+      "sha256": "f1a72131b0845b684d6941e667fe64275c8dbae0b6b63c984ff24fcb1d6d94e4"
     },
     {
       "path": "docs/assets/videos/drivetto-introduction.vtt",
-      "bytes": 1006,
-      "sha256": "34444a0ae0fce38a82a9b15d2bdd1db0946679b3c888e3eb1c9176cceaa41712"
+      "bytes": 1109,
+      "sha256": "45186c54064aaa4ca38b964ba788a86f7e7a9ca48f7f5ba886b9777bd9d70ef5"
     },
     {
       "path": "docs/assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
@@ -177,13 +202,13 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 21233,
-      "sha256": "3bd73ee9f46c8a80712756403a155d24c6ad4bba8563eb0e54434534de6bfabe"
+      "bytes": 22296,
+      "sha256": "555ec339173ed2fae8cee7547203b78cc8a07fbea10b188a37d852b06bad107f"
     },
     {
       "path": "docs/styles.css",
-      "bytes": 27597,
-      "sha256": "571dffb4faf963bbbaf6233c0ad5ab3476d21e3f4987890b5145001c639b178d"
+      "bytes": 28779,
+      "sha256": "0ff7f5b0e9c8b3cf5796fb4e9aae4b4f921083899e832d1bd5116d07ef9a9d35"
     },
     {
       "path": ".github/workflows/pages.yml",
@@ -199,6 +224,11 @@
       "path": "tools/serve_site.py",
       "bytes": 2363,
       "sha256": "827b92e34782e0edc672fcb5ac894f985d56cf92fff7d18bd51b366a59923555"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7017,
+      "sha256": "ac2f0713a9c691b189b8b8091f7011b376c8cf3ca6d92a715629ecffac3dd03a"
     }
   ]
 }

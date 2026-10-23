@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:09.000
+DriveTTO searches over trajectories at test time. The planner stays frozen.
+
+2
+00:00:09.000 --> 00:00:18.000
+Each candidate is a complete eight-pose trajectory. The current reference is always included.
+
+3
+00:00:18.000 --> 00:00:27.000
+Archive the full trajectory's utility at its achieved endpoint, then guide the next request.
+
+4
+00:00:27.000 --> 00:00:36.000
+Proposal and bounded-control branches refine the shared reference.
+
+5
+00:00:36.000 --> 00:00:45.000
+Each scorer compares candidate and current reference in the same bank for this comparison.
+
+6
+00:00:45.000 --> 00:00:54.000
+Smooth weights blend branch positions along the same future horizon; headings use circular interpolation.
+
+7
+00:00:54.000 --> 00:01:03.000
+After admission checks, the minimum predicted gain drives selection; otherwise keep the current reference.
+
+8
+00:01:03.000 --> 00:01:12.000
+This NAV1 Full schematic explains the mechanism. Benchmark schedules differ; parameters stay frozen.

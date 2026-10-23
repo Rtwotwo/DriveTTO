@@ -181,14 +181,14 @@
   "intro": {
     "src": "assets/videos/drivetto-introduction.mp4",
     "duration_seconds": 114,
-    "sha256": "c8cda671c84d3fd4a175d64b0918205c63d03a45d6bfc505083a40cb47d2e604",
-    "selection": "Eight hard/extreme HUGSIM examples with RC 100 and HD-Score 94.7–100; four NAVSIM saved-plan animations; method explanation.",
+    "sha256": "f1a72131b0845b684d6941e667fe64275c8dbae0b6b63c984ff24fcb1d6d94e4",
+    "selection": "Eight recorded hard/extreme HUGSIM examples with RC 100 and HD-Score 94.7–100; four NAVSIM saved-plan animations; original cartoon algorithm chapters.",
     "chapters": [
       {
-        "title": "DriveTTO",
+        "title": "DriveTTO: search, compare, select",
         "start": 0,
         "end": 6,
-        "source_sha256": "ffe50d678adef6d82b115eaee7a95517d9160e89e2bf749cd53d48f0521ffe3d"
+        "source_sha256": "7dab894865e4caf420e2f334f0898bcf861c57eefdc1993093e8753eaaf827ae"
       },
       {
         "title": "HUGSIM | Urban intersection",
@@ -203,16 +203,16 @@
         "source_sha256": "68d83bf869830679bd8845f9cb043075ec0e250cb38ddef7123986cffd891c64"
       },
       {
-        "title": "Endpoint feedback",
+        "title": "Endpoint feedback at the achieved state",
         "start": 18,
         "end": 23,
-        "source_sha256": "c03b9622a9a8318fd1f49349719a6ed38db822d96df965ac04830a357d24f434"
+        "source_sha256": "c1ba646afc6cd799121f8a43722b97a373daa16d101aed34fe3cee4f3eb5f4af"
       },
       {
-        "title": "Bounded refinement",
+        "title": "Bounded refinement around the reference",
         "start": 23,
         "end": 28,
-        "source_sha256": "3178811ac32629b4c377935741ab8bfeb1ce434110aef7647bb079dace258c49"
+        "source_sha256": "cbc957724435946144abb5b9ffb3cf1d45dcb21fb61e31507344a867c8e113c2"
       },
       {
         "title": "NAVSIM | Urban bend",
@@ -233,16 +233,16 @@
         "source_sha256": "29cb85f76e54310b4d8f686c9b943010391e19df6120f3f618ae7a512b87fcbd"
       },
       {
-        "title": "Temporal fusion",
+        "title": "Branch fusion along one future horizon",
         "start": 46,
         "end": 51,
-        "source_sha256": "a8d535b71e3c5a682f44a35320d25e686ba106e32c945e3a8c67373a35f18a6a"
+        "source_sha256": "3ce42c11c20a118d2e467df662acd5bbf388515243376caeb629f563d096d5d1"
       },
       {
-        "title": "Shared-context selection",
+        "title": "Relative-gain selection and fallback",
         "start": 51,
         "end": 56,
-        "source_sha256": "d3ced455f753c912b2f3076a5d75c8b9edf1af6f342c66f422a9f878385fd875"
+        "source_sha256": "5d15caa5a340c701d609f8ccc9c6a7560d9234001655e973fccbe699539287f4"
       },
       {
         "title": "NAVSIM | Narrow street",
@@ -455,5 +455,15 @@
       "sha256": "c8286d1bf6ebfaffe4e0ad24bf731f5ecb0e2bdb572b62983ea6a6522c7a573c",
       "scope": "Full / seed 0; recorded front camera with calibrated saved-plan projection and recorded BEV agents; open-loop visualization."
     }
-  ]
+  ],
+  "algorithm_animation": {
+    "src": "assets/videos/drivetto-algorithm-animation.mp4",
+    "poster": "assets/images/algorithm-poster.jpg",
+    "captions": "assets/videos/drivetto-algorithm-animation.vtt",
+    "chapters": "assets/videos/algorithm-chapters.vtt",
+    "duration_seconds": 72,
+    "sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
+    "scope": "NAV1 Full schematic; benchmark schedules differ",
+    "note": "Original 2D animation. Paths and predicted gains are illustrative; the NAV1 Full schedule is shown."
+  }
 }

@@ -37,7 +37,7 @@
       <div class="hero-actions">
         <a class="button button-primary" href="#introduction"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 9 6-9 6V6Z" fill="currentColor"/></svg>Watch introduction</a>
         <a class="button button-secondary" href="https://github.com/Rtwotwo/DriveTTO" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.61-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.64-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.84c.85 0 1.71.11 2.51.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>Code <span aria-hidden="true">↗</span></a>
-        <a class="button button-text" href="#results">Explore results <span aria-hidden="true">↓</span></a>
+        <a class="button button-text" href="#algorithm">How it works <span aria-hidden="true">↓</span></a>
       </div>
       <div class="intro-heading" id="introduction"><span>See DriveTTO in action</span><span>1 min 54 s · Method · Planning · Closed-loop driving</span></div>
       <div class="hero-media" id="hero-media">
@@ -62,7 +62,12 @@
     </section>
 
     <section class="section method-section container" id="method" aria-labelledby="method-title">
-      <div class="section-heading"><div><p class="section-index">02 / METHOD</p><h2 id="method-title">Search the trajectory.<br>Keep the model fixed.</h2></div><p class="section-intro">Endpoint search and temporal fusion operate on complete trajectory candidates at test time.</p></div>
+      <div class="section-heading"><div><p class="section-index">02 / METHOD</p><h2 id="method-title">Search the trajectory.<br>Keep the model fixed.</h2></div><p class="section-intro">Construct complete alternatives around a retained plan, then compare candidates and the reference using frozen scorers.</p></div>
+      <div class="algorithm-explainer" id="algorithm">
+        <div class="animation-heading"><div><p class="section-index">ANIMATED EXPLAINER</p><h3>Search. Compare. Select.</h3></div><p>A 72-second, illustrated walkthrough of the NAV1 Full schedule.</p></div>
+        <video id="algorithm-video" controls muted playsinline preload="metadata" poster="assets/images/algorithm-poster.jpg" aria-label="DriveTTO algorithm explained through a 2D cartoon" src="assets/videos/drivetto-algorithm-animation.mp4"><track kind="chapters" src="assets/videos/algorithm-chapters.vtt" srclang="en" label="Algorithm chapters"><track kind="captions" src="assets/videos/drivetto-algorithm-animation.vtt" srclang="en" label="English"></video>
+        <div class="animation-caption"><p>Follow the retained plan through endpoint feedback, bounded refinement, shared-context scoring and branch fusion. Paths and predicted gains are schematic.</p><a href="assets/videos/drivetto-algorithm-animation.mp4" download>Download animation ↗</a></div>
+      </div>
       <figure class="method-figure"><button class="image-expand method-expand" data-image="assets/images/overview.webp" data-title="DriveTTO method overview" aria-label="Enlarge DriveTTO method overview"><img id="method-image" src="assets/images/overview.webp" alt="DriveTTO method overview: a frozen planner produces a reference trajectory, endpoint search and temporal fusion propose candidates, and scoring selects the final trajectory." loading="lazy"><span class="expand-indicator" aria-hidden="true">↗</span></button><figcaption><span>DriveTTO / Method overview</span><span>Click to inspect the complete figure</span></figcaption></figure>
       <ol class="method-steps"><li><span class="step-number">01</span><h3>Preserve the reference</h3><p>Start from the frozen planner’s output and retain the reference trajectory in the candidate set.</p></li><li><span class="step-number">02</span><h3>Propose complete trajectories</h3><p>Explore endpoint variations and temporal fusion to construct candidate trajectories around the existing plan.</p></li><li><span class="step-number">03</span><h3>Compare and return</h3><p>Evaluate complete candidates with the configured scoring rule and return the selected trajectory for execution.</p></li></ol>
     </section>
