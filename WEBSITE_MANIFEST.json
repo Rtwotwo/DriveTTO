@@ -7,8 +7,8 @@
     },
     {
       "path": "docs/app.js",
-      "bytes": 16562,
-      "sha256": "2a00ab476864265817e5d070e22997445a93a8db82ff740e2212a00bdabea583"
+      "bytes": 16627,
+      "sha256": "75d31f09a7bbdc027182f8572ccb69c99156fcb15de5c0cd0485cc731570d3e5"
     },
     {
       "path": "docs/assets/data/intro-edit.json",
@@ -177,8 +177,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 20378,
-      "sha256": "4d895c64e36aa083d3a4105b91728d04d071f173de36529672dbb0366a25f0bd"
+      "bytes": 20464,
+      "sha256": "e0459327f0feae32cc10731859a95a158d1b3c91acdd8ba750befa41599d1e13"
     },
     {
       "path": "docs/styles.css",

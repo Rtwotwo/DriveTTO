@@ -204,7 +204,8 @@
   function renderIntroduction(intro) {
     if (!intro || !safeMediaPath(intro.src)) return;
     heroVideo.poster = safeMediaPath(intro.poster);
-    heroVideo.src = safeMediaPath(intro.src);
+    const src = safeMediaPath(intro.src);
+    if (heroVideo.getAttribute('src') !== src) heroVideo.src = src;
     heroVideo.muted = true;
     heroToggle.disabled = false;
   }
