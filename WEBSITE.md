@@ -27,6 +27,8 @@ The six separate H.264 rollout videos retain their original duration and camera 
 
 The five headline values and other-method comparison tables are transcribed from the manuscript. The controlled three-seed experiment and the two six-planner transfer tables are labeled separately. `docs/assets/data/intro-edit.json` and `media-selection.json` record selected scenes and media hashes without private server paths.
 
+The tables include all five PDMS components, all nine EPDMS components (separate S1/S2 rows for NAVHARD), and Easy/Medium/Hard/Extreme RC and HD-Score. HUGSIM overall averages cover all scenarios and are not calculated as the unweighted mean of the displayed difficulty averages. Component values are also included in the results CSV.
+
 Website source is deployed at `/data/xinyao/release/DriveTTO`. The local preview server binds only to loopback; use SSH forwarding to preview it remotely. The GitHub Pages workflow is the public deployment route.
 
 NAVTEST full-strategy, NAVHARD full57, HUGSIM command-v4, and R7 endpoint_post transfer are separate experimental settings. Their labels and interpretation notes must remain attached to their results.

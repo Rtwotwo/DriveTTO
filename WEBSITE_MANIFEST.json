@@ -7,8 +7,8 @@
     },
     {
       "path": "docs/app.js",
-      "bytes": 16627,
-      "sha256": "75d31f09a7bbdc027182f8572ccb69c99156fcb15de5c0cd0485cc731570d3e5"
+      "bytes": 20015,
+      "sha256": "6596af28648c040cfd9c4b620e99319a6dd7d62851a29fb901d6a8cc9cfc316e"
     },
     {
       "path": "docs/assets/data/intro-edit.json",
@@ -22,13 +22,13 @@
     },
     {
       "path": "docs/assets/data/results.csv",
-      "bytes": 22259,
-      "sha256": "4b52d0ac94f86801b3056fc9ebca8d7a2ace0d9f76f43603bb8321722b9592aa"
+      "bytes": 84510,
+      "sha256": "98655501edeeb7f911abc088d387e7d96cde56e5ad516715635620f2f174f97d"
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 18434,
-      "sha256": "af62ad2240c05180e377b6e4fb8f45b3e34f09b711975a3c536df18d5506420b"
+      "bytes": 32402,
+      "sha256": "9a956c0c4123a5dccf0179f03d38b97ece09d9c58bcf19976529ac979e5059bd"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -177,13 +177,13 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 20464,
-      "sha256": "e0459327f0feae32cc10731859a95a158d1b3c91acdd8ba750befa41599d1e13"
+      "bytes": 21093,
+      "sha256": "92b06515996eea6a4ca1f894cc12af8622ee9fe3d8ad1855eb678d938aae6edc"
     },
     {
       "path": "docs/styles.css",
-      "bytes": 26156,
-      "sha256": "ed5293f378d68730a7493617c47856076b31757ae6d5fdeb9b95af6c7afd160e"
+      "bytes": 27597,
+      "sha256": "571dffb4faf963bbbaf6233c0ad5ab3476d21e3f4987890b5145001c639b178d"
     },
     {
       "path": ".github/workflows/pages.yml",
@@ -192,8 +192,8 @@
     },
     {
       "path": "WEBSITE.md",
-      "bytes": 2396,
-      "sha256": "47b20ad8e884db335b30924f0d41feea120e0f3ca9e44e311e1b26b8bbbc0dc9"
+      "bytes": 2732,
+      "sha256": "e5c3a35c86c0c52de21e3d89166c9e46228487b92fb74572803371b0a6282c5d"
     },
     {
       "path": "tools/serve_site.py",

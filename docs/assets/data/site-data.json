@@ -189,210 +189,742 @@
       "pdms": [
         {
           "method": "UniAD",
-          "score": 83.4
+          "score": 83.4,
+          "components": {
+            "NC": 97.8,
+            "DAC": 91.9,
+            "TTC": 92.9,
+            "Comf.": 100.0,
+            "EP": 78.8
+          }
         },
         {
           "method": "TransFuser",
-          "score": 83.9
+          "score": 83.9,
+          "components": {
+            "NC": 97.8,
+            "DAC": 92.6,
+            "TTC": 92.9,
+            "Comf.": 100.0,
+            "EP": 78.9
+          }
         },
         {
           "method": "PARA-Drive",
-          "score": 84.0
+          "score": 84.0,
+          "components": {
+            "NC": 97.9,
+            "DAC": 92.4,
+            "TTC": 93.0,
+            "Comf.": 99.8,
+            "EP": 79.3
+          }
         },
         {
           "method": "DiffusionDrive",
-          "score": 88.0
+          "score": 88.0,
+          "components": {
+            "NC": 98.2,
+            "DAC": 96.2,
+            "TTC": 94.7,
+            "Comf.": 100.0,
+            "EP": 82.2
+          }
         },
         {
           "method": "DIVER",
-          "score": 88.3
+          "score": 88.3,
+          "components": {
+            "NC": 98.5,
+            "DAC": 96.5,
+            "TTC": 94.9,
+            "Comf.": 100.0,
+            "EP": 82.6
+          }
         },
         {
           "method": "NavFormer",
-          "score": 91.4
+          "score": 91.4,
+          "components": {
+            "NC": 98.9,
+            "DAC": 97.9,
+            "TTC": 95.8,
+            "Comf.": 100.0,
+            "EP": 87.0
+          }
         },
         {
           "method": "iPad",
-          "score": 91.7
+          "score": 91.7,
+          "components": {
+            "NC": 98.6,
+            "DAC": 98.3,
+            "TTC": 94.9,
+            "Comf.": 99.9,
+            "EP": 88.0
+          }
         },
         {
           "method": "SparseDriveV2",
-          "score": 92.1
+          "score": 92.1,
+          "components": {
+            "NC": 98.6,
+            "DAC": 98.4,
+            "TTC": 95.1,
+            "Comf.": 100.0,
+            "EP": 88.6
+          }
         },
         {
           "method": "Centaur",
-          "score": 92.1
+          "score": 92.1,
+          "components": {
+            "NC": 99.2,
+            "DAC": 98.7,
+            "TTC": 97.2,
+            "Comf.": 100.0,
+            "EP": 86.0
+          }
         },
         {
           "method": "DriveSuprim",
-          "score": 93.5
+          "score": 93.5,
+          "components": {
+            "NC": 98.6,
+            "DAC": 98.6,
+            "TTC": 95.5,
+            "Comf.": 100.0,
+            "EP": 91.3
+          }
         },
         {
           "method": "RAP",
-          "score": 93.8
+          "score": 93.8,
+          "components": {
+            "NC": 99.1,
+            "DAC": 98.9,
+            "TTC": 96.7,
+            "Comf.": 100.0,
+            "EP": 90.3
+          }
         },
         {
           "method": "CLOVER",
-          "score": 94.5
+          "score": 94.5,
+          "components": {
+            "NC": 98.6,
+            "DAC": 99.1,
+            "TTC": 95.8,
+            "Comf.": 100.0,
+            "EP": 92.8
+          }
         },
         {
           "method": "DrivoR",
-          "score": 94.6
+          "score": 94.6,
+          "components": {
+            "NC": 99.1,
+            "DAC": 99.2,
+            "TTC": 96.9,
+            "Comf.": 100.0,
+            "EP": 91.6
+          }
         },
         {
           "method": "DriveZero-Scale",
-          "score": 95.3
+          "score": 95.3,
+          "components": {
+            "NC": 99.2,
+            "DAC": 99.4,
+            "TTC": 97.3,
+            "Comf.": 99.9,
+            "EP": 92.5
+          }
         },
         {
           "method": "DriveX-S",
-          "score": 84.5
+          "score": 84.5,
+          "components": {
+            "NC": 97.5,
+            "DAC": 94.0,
+            "TTC": 93.0,
+            "Comf.": 100.0,
+            "EP": 79.7
+          }
         },
         {
           "method": "World4Drive",
-          "score": 85.1
+          "score": 85.1,
+          "components": {
+            "NC": 97.4,
+            "DAC": 94.3,
+            "TTC": 92.8,
+            "Comf.": 100.0,
+            "EP": 79.9
+          }
         },
         {
           "method": "Auto-JEPA",
-          "score": 91.3
+          "score": 91.3,
+          "components": {
+            "NC": 98.4,
+            "DAC": 98.3,
+            "TTC": 95.0,
+            "Comf.": 100.0,
+            "EP": 87.1
+          }
         },
         {
           "method": "DriveVLA-W0",
-          "score": 93.0
+          "score": 93.0,
+          "components": {
+            "NC": 99.3,
+            "DAC": 97.4,
+            "TTC": 97.0,
+            "Comf.": 99.9,
+            "EP": 88.3
+          }
         },
         {
           "method": "UniVLA",
-          "score": 81.7
+          "score": 81.7,
+          "components": {
+            "NC": 96.9,
+            "DAC": 91.1,
+            "TTC": 91.7,
+            "Comf.": 96.7,
+            "EP": 76.8
+          }
         },
         {
           "method": "ReCogDrive",
-          "score": 90.8
+          "score": 90.8,
+          "components": {
+            "NC": 97.9,
+            "DAC": 97.3,
+            "TTC": 94.9,
+            "Comf.": 100.0,
+            "EP": 87.3
+          }
         },
         {
           "method": "AutoVLA (oracle 6)",
-          "score": 92.1
+          "score": 92.1,
+          "components": {
+            "NC": 99.1,
+            "DAC": 97.1,
+            "TTC": 97.1,
+            "Comf.": 100.0,
+            "EP": 87.6
+          }
         },
         {
           "method": "CLEAR",
-          "score": 93.7
+          "score": 93.7,
+          "components": {
+            "NC": 99.1,
+            "DAC": 98.8,
+            "TTC": 97.2,
+            "Comf.": 99.6,
+            "EP": 89.7
+          }
         },
         {
           "method": "ChainFlow-VLA",
-          "score": 94.8
+          "score": 94.8,
+          "components": {
+            "NC": 99.2,
+            "DAC": 99.0,
+            "TTC": 97.2,
+            "Comf.": 99.9,
+            "EP": 91.9
+          }
         },
         {
           "method": "DriveTTO",
-          "score": 95.5
+          "score": 95.5,
+          "components": {
+            "NC": 99.3,
+            "DAC": 99.6,
+            "TTC": 97.3,
+            "Comf.": 100.0,
+            "EP": 92.9
+          }
         }
       ],
       "navtest_epdms": [
         {
           "method": "EponaV2",
-          "score": 88.9
+          "score": 88.9,
+          "components": {
+            "NC": 98.5,
+            "DAC": 97.4,
+            "DDC": 99.5,
+            "TL": 99.9,
+            "EP": 87.9,
+            "TTC": 98.1,
+            "LK": 97.7,
+            "HC": 98.2,
+            "EC": 77.4
+          }
         },
         {
           "method": "Auto-JEPA",
-          "score": 89.1
+          "score": 89.1,
+          "components": {
+            "NC": 98.5,
+            "DAC": 98.7,
+            "DDC": 98.3,
+            "TL": 99.7,
+            "EP": 90.5,
+            "TTC": 97.9,
+            "LK": 94.7,
+            "HC": 97.8,
+            "EC": 75.2
+          }
         },
         {
           "method": "DriveFine",
-          "score": 89.7
+          "score": 89.7,
+          "components": {
+            "NC": 98.7,
+            "DAC": 97.3,
+            "DDC": 99.5,
+            "TL": 99.8,
+            "EP": 88.7,
+            "TTC": 97.8,
+            "LK": 97.7,
+            "HC": 98.4,
+            "EC": 83.8
+          }
         },
         {
           "method": "DriveFuture",
-          "score": 89.9
+          "score": 89.9,
+          "components": {
+            "NC": 98.8,
+            "DAC": 99.1,
+            "DDC": 99.6,
+            "TL": 99.9,
+            "EP": 86.6,
+            "TTC": 98.4,
+            "LK": 96.4,
+            "HC": 98.3,
+            "EC": 74.8
+          }
         },
         {
           "method": "SparseDriveV2",
-          "score": 90.1
+          "score": 90.1,
+          "components": {
+            "NC": 98.1,
+            "DAC": 98.1,
+            "DDC": 99.6,
+            "TL": 99.8,
+            "EP": 91.1,
+            "TTC": 97.3,
+            "LK": 96.9,
+            "HC": 98.2,
+            "EC": 78.4
+          }
         },
         {
           "method": "CLOVER",
-          "score": 90.4
+          "score": 90.4,
+          "components": {
+            "NC": 99.4,
+            "DAC": 99.3,
+            "DDC": 99.5,
+            "TL": 99.8,
+            "EP": 86.9,
+            "TTC": 98.9,
+            "LK": 95.2,
+            "HC": 98.2,
+            "EC": 75.5
+          }
         },
         {
           "method": "SUV",
-          "score": 91.0
+          "score": 91.0,
+          "components": {
+            "NC": 99.1,
+            "DAC": 97.8,
+            "DDC": 99.7,
+            "TL": 99.8,
+            "EP": 87.8,
+            "TTC": 98.7,
+            "LK": 98.1,
+            "HC": 98.4,
+            "EC": 88.3
+          }
         },
         {
           "method": "DriveTTO",
-          "score": 92.3
+          "score": 92.3,
+          "components": {
+            "NC": 99.3,
+            "DAC": 99.6,
+            "DDC": 99.7,
+            "TL": 99.7,
+            "EP": 90.5,
+            "TTC": 98.9,
+            "LK": 95.2,
+            "HC": 98.3,
+            "EC": 80.7
+          }
         }
       ],
       "navhard_epdms": [
         {
           "method": "CLOVER",
-          "score": 48.3
+          "score": 48.3,
+          "stages": {
+            "S1": {
+              "NC": 99.4,
+              "DAC": 98.0,
+              "DDC": 99.9,
+              "TL": 100.0,
+              "EP": 75.7,
+              "TTC": 98.9,
+              "LK": 94.4,
+              "HC": 97.1,
+              "EC": 56.0
+            },
+            "S2": {
+              "NC": 89.8,
+              "DAC": 88.2,
+              "DDC": 93.2,
+              "TL": 99.0,
+              "EP": 74.2,
+              "TTC": 87.7,
+              "LK": 52.6,
+              "HC": 97.0,
+              "EC": 57.3
+            }
+          }
         },
         {
           "method": "Gigapixel",
-          "score": 50.1
+          "score": 50.1,
+          "stages": {
+            "S1": {
+              "NC": 99.4,
+              "DAC": 95.8,
+              "DDC": 99.4,
+              "TL": 99.8,
+              "EP": 68.1,
+              "TTC": 99.6,
+              "LK": 91.8,
+              "HC": 97.6,
+              "EC": 49.8
+            },
+            "S2": {
+              "NC": 93.7,
+              "DAC": 92.9,
+              "DDC": 96.0,
+              "TL": 98.9,
+              "EP": 62.6,
+              "TTC": 90.7,
+              "LK": 60.2,
+              "HC": 98.2,
+              "EC": 58.8
+            }
+          }
         },
         {
           "method": "SimScale",
-          "score": 53.2
+          "score": 53.2,
+          "stages": {
+            "S1": {
+              "NC": 99.6,
+              "DAC": 99.1,
+              "DDC": 99.9,
+              "TL": 100.0,
+              "EP": 69.6,
+              "TTC": 99.6,
+              "LK": 95.8,
+              "HC": 95.6,
+              "EC": 28.4
+            },
+            "S2": {
+              "NC": 94.5,
+              "DAC": 94.2,
+              "DDC": 95.8,
+              "TL": 99.2,
+              "EP": 75.8,
+              "TTC": 92.8,
+              "LK": 60.1,
+              "HC": 96.1,
+              "EC": 43.2
+            }
+          }
         },
         {
           "method": "DrivoR",
-          "score": 54.6
+          "score": 54.6,
+          "stages": {
+            "S1": {
+              "NC": 99.1,
+              "DAC": 98.2,
+              "DDC": 99.3,
+              "TL": 99.8,
+              "EP": 75.4,
+              "TTC": 98.7,
+              "LK": 94.9,
+              "HC": 97.6,
+              "EC": 70.2
+            },
+            "S2": {
+              "NC": 92.3,
+              "DAC": 91.6,
+              "DDC": 97.3,
+              "TL": 99.1,
+              "EP": 75.7,
+              "TTC": 90.6,
+              "LK": 56.1,
+              "HC": 98.4,
+              "EC": 44.7
+            }
+          }
         },
         {
           "method": "DriveFuture",
-          "score": 55.5
+          "score": 55.5,
+          "stages": {
+            "S1": {
+              "NC": 99.8,
+              "DAC": 99.8,
+              "DDC": 100.0,
+              "TL": 99.6,
+              "EP": 85.7,
+              "TTC": 99.8,
+              "LK": 98.7,
+              "HC": 97.6,
+              "EC": 66.2
+            },
+            "S2": {
+              "NC": 90.6,
+              "DAC": 87.5,
+              "DDC": 94.1,
+              "TL": 99.1,
+              "EP": 84.6,
+              "TTC": 88.8,
+              "LK": 58.3,
+              "HC": 93.5,
+              "EC": 45.6
+            }
+          }
         },
         {
           "method": "DriveZero-Scale",
-          "score": 57.1
+          "score": 57.1,
+          "stages": {
+            "S1": {
+              "NC": 98.7,
+              "DAC": 99.3,
+              "DDC": 100.0,
+              "TL": 99.3,
+              "EP": 76.5,
+              "TTC": 98.4,
+              "LK": 95.3,
+              "HC": 97.1,
+              "EC": 44.4
+            },
+            "S2": {
+              "NC": 94.6,
+              "DAC": 95.6,
+              "DDC": 97.7,
+              "TL": 98.4,
+              "EP": 76.2,
+              "TTC": 92.7,
+              "LK": 59.9,
+              "HC": 96.1,
+              "EC": 44.0
+            }
+          }
         },
         {
           "method": "DriveTTO",
-          "score": 57.1
+          "score": 57.1,
+          "stages": {
+            "S1": {
+              "NC": 99.1,
+              "DAC": 98.0,
+              "DDC": 99.6,
+              "TL": 100.0,
+              "EP": 74.0,
+              "TTC": 99.1,
+              "LK": 91.6,
+              "HC": 97.6,
+              "EC": 65.3
+            },
+            "S2": {
+              "NC": 93.9,
+              "DAC": 94.7,
+              "DDC": 97.4,
+              "TL": 99.3,
+              "EP": 74.3,
+              "TTC": 92.1,
+              "LK": 58.4,
+              "HC": 96.3,
+              "EC": 47.9
+            }
+          }
         }
       ],
       "hugsim": [
         {
           "method": "LTF",
           "rc": 38.9,
-          "hd": 23.7
+          "hd": 23.7,
+          "rc_breakdown": {
+            "Easy": 67.8,
+            "Medium": 35.1,
+            "Hard": 26.2,
+            "Extreme": 40.5
+          },
+          "hd_breakdown": {
+            "Easy": 58.9,
+            "Medium": 18.0,
+            "Hard": 9.8,
+            "Extreme": 25.9
+          }
         },
         {
           "method": "VAD",
           "rc": 31.4,
-          "hd": 13.4
+          "hd": 13.4,
+          "rc_breakdown": {
+            "Easy": 51.3,
+            "Medium": 31.1,
+            "Hard": 25.3,
+            "Extreme": 26.5
+          },
+          "hd_breakdown": {
+            "Easy": 36.3,
+            "Medium": 9.5,
+            "Hard": 8.0,
+            "Extreme": 11.5
+          }
         },
         {
           "method": "UniAD",
           "rc": 45.9,
-          "hd": 32.7
+          "hd": 32.7,
+          "rc_breakdown": {
+            "Easy": 78.4,
+            "Medium": 60.5,
+            "Hard": 33.6,
+            "Extreme": 17.8
+          },
+          "hd_breakdown": {
+            "Easy": 64.9,
+            "Medium": 45.8,
+            "Hard": 20.6,
+            "Extreme": 6.6
+          }
         },
         {
           "method": "DrivoR",
           "rc": 49.8,
-          "hd": 35.7
+          "hd": 35.7,
+          "rc_breakdown": {
+            "Easy": 80.9,
+            "Medium": 50.5,
+            "Hard": 33.8,
+            "Extreme": 47.1
+          },
+          "hd_breakdown": {
+            "Easy": 73.3,
+            "Medium": 34.6,
+            "Hard": 18.8,
+            "Extreme": 32.5
+          }
         },
         {
           "method": "DrivoR-Scale",
           "rc": 46.4,
-          "hd": 38.1
+          "hd": 38.1,
+          "rc_breakdown": {
+            "Easy": 70.4,
+            "Medium": 54.4,
+            "Hard": 28.2,
+            "Extreme": 39.2
+          },
+          "hd_breakdown": {
+            "Easy": 64.8,
+            "Medium": 50.3,
+            "Hard": 16.8,
+            "Extreme": 25.8
+          }
         },
         {
           "method": "Gigapixel",
           "rc": 50.1,
-          "hd": 38.5
+          "hd": 38.5,
+          "rc_breakdown": {
+            "Easy": 78.6,
+            "Medium": 60.7,
+            "Hard": 32.7,
+            "Extreme": 35.4
+          },
+          "hd_breakdown": {
+            "Easy": 67.4,
+            "Medium": 51.9,
+            "Hard": 19.1,
+            "Extreme": 21.6
+          }
         },
         {
           "method": "DriveZero",
           "rc": 53.9,
-          "hd": 39.4
+          "hd": 39.4,
+          "rc_breakdown": {
+            "Easy": 85.5,
+            "Medium": 63.7,
+            "Hard": 31.7,
+            "Extreme": 43.3
+          },
+          "hd_breakdown": {
+            "Easy": 78.5,
+            "Medium": 47.2,
+            "Hard": 16.0,
+            "Extreme": 28.7
+          }
         },
         {
           "method": "DriveZero-Scale",
           "rc": 54.5,
-          "hd": 46.6
+          "hd": 46.6,
+          "rc_breakdown": {
+            "Easy": 87.5,
+            "Medium": 64.9,
+            "Hard": 34.6,
+            "Extreme": 39.8
+          },
+          "hd_breakdown": {
+            "Easy": 81.9,
+            "Medium": 60.5,
+            "Hard": 24.7,
+            "Extreme": 27.6
+          }
         },
         {
           "method": "DriveTTO",
           "rc": 54.5,
-          "hd": 40.1
+          "hd": 40.1,
+          "rc_breakdown": {
+            "Easy": 87.3,
+            "Medium": 61.4,
+            "Hard": 37.8,
+            "Extreme": 42.1
+          },
+          "hd_breakdown": {
+            "Easy": 80.3,
+            "Medium": 45.0,
+            "Hard": 22.0,
+            "Extreme": 27.6
+          }
         }
       ]
     },
@@ -548,5 +1080,43 @@
     "hugsim": "345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.",
     "transfer": "R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.",
     "qualitative": "Selected high-score NAVTEST figures from viz_high_9554; yellow = selected plan, blue = native candidates, white = human reference. Individual examples, separate from the new three-seed aggregate."
+  },
+  "metric_components": {
+    "pdms": [
+      "NC",
+      "DAC",
+      "TTC",
+      "Comf.",
+      "EP"
+    ],
+    "epdms": [
+      "NC",
+      "DAC",
+      "DDC",
+      "TL",
+      "EP",
+      "TTC",
+      "LK",
+      "HC",
+      "EC"
+    ],
+    "hugsim": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Extreme"
+    ],
+    "definitions": {
+      "NC": "No-at-fault collision",
+      "DAC": "Drivable-area compliance",
+      "TTC": "Time-to-collision",
+      "Comf.": "Comfort",
+      "EP": "Ego progress",
+      "DDC": "Driving-direction compliance",
+      "TL": "Traffic-light compliance",
+      "LK": "Lane keeping",
+      "HC": "History comfort",
+      "EC": "Extended comfort"
+    }
   }
 }

@@ -81,7 +81,7 @@
       <div id="panel-navsim" class="result-panel" role="tabpanel" aria-labelledby="tab-navsim" tabindex="0">
         <div class="result-panel-heading"><div><h3>NAVSIM benchmark comparisons</h3><p>Paper-reported scores across three evaluation settings. Higher is better.</p></div><span class="protocol-tag">Manuscript comparison rows</span></div>
         <div class="benchmark-switch" role="group" aria-label="NAVSIM benchmark"><button type="button" data-benchmark="pdms" aria-pressed="true">NAVTEST · PDMS</button><button type="button" data-benchmark="navtest_epdms" aria-pressed="false">NAVTEST · EPDMS</button><button type="button" data-benchmark="navhard_epdms" aria-pressed="false">NAVHARD · EPDMS</button></div>
-        <div class="table-scroll paper-table" id="paper-navsim-table"></div><p class="table-note" id="paper-protocol"></p>
+        <p class="scroll-hint">Full component breakdown <span aria-hidden="true">↔</span> Scroll horizontally on smaller screens.</p><div class="table-scroll paper-table" id="paper-navsim-table" tabindex="0" role="region" aria-label="NAVSIM full component comparison"></div><p class="component-legend" id="component-legend"></p><p class="table-note" id="paper-protocol"></p>
         <p class="table-note">Comparison rows are transcribed from the manuscript’s benchmark tables and retain their reported configurations. They are distinct from the controlled, same-resource experiment below.</p>
         <details class="research-note"><summary>Controlled comparison · three seeds, fixed model resources <span aria-hidden="true">+</span></summary><div>
           <div class="table-scroll" id="navtest-table"></div>
@@ -92,7 +92,7 @@
       </div>
       <div id="panel-hugsim" class="result-panel" role="tabpanel" aria-labelledby="tab-hugsim" tabindex="0" hidden>
         <div class="result-panel-heading"><div><h3>HUGSIM · Closed-loop comparison</h3><p>Route Completion (RC) and HD-Score. Higher is better.</p></div><span class="protocol-tag">345 scenarios</span></div>
-        <div class="table-scroll" id="paper-hugsim-table"></div>
+        <p class="scroll-hint">Easy / Medium / Hard / Extreme + overall average <span aria-hidden="true">↔</span></p><div class="table-scroll" id="paper-hugsim-table" tabindex="0" role="region" aria-label="HUGSIM RC and HD-Score by difficulty"></div><p class="component-legend">RC: Route Completion · HD-Score: driving quality. Avg. is computed across all 345 scenarios; it is not the unweighted mean of the four difficulty columns.</p>
         <p class="table-note">Paper-reported comparison rows follow the Gigapixel and DriveZero evaluation records. DriveTTO uses observed commands and a weighted-control schedule; its averages cover all 345 scenarios. DriveZero-Scale has the highest HD-Score in this table.</p>
         <details class="research-note"><summary>Reproduced baselines and input configurations <span aria-hidden="true">+</span></summary><div><div class="table-scroll" id="hugsim-table"></div><p>345 observed development scenes, simulation seed 2, 50 ms wall-clock iLQR. Observed-command v4 changes command inputs relative to fixed-straight. The selected hard/extreme videos are individual high-scoring examples, not the aggregate distribution.</p></div></details>
       </div>

@@ -113,3 +113,393 @@ NAVHARD,R7-endpoint_post,RAP-DINO,drive,EPDMS,52.5532,5912,R7 endpoint_post sing
 NAVHARD,R7-endpoint_post,DrivoR,native,EPDMS,54.5616,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
 NAVHARD,R7-endpoint_post,DrivoR,toad,EPDMS,55.6365,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
 NAVHARD,R7-endpoint_post,DrivoR,drive,EPDMS,56.226,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+pdms,manuscript-component-table,all,UniAD,NC,97.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniAD,DAC,91.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniAD,TTC,92.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniAD,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniAD,EP,78.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,TransFuser,NC,97.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,TransFuser,DAC,92.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,TransFuser,TTC,92.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,TransFuser,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,TransFuser,EP,78.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,PARA-Drive,NC,97.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,PARA-Drive,DAC,92.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,PARA-Drive,TTC,93.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,PARA-Drive,Comf.,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,PARA-Drive,EP,79.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DiffusionDrive,NC,98.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DiffusionDrive,DAC,96.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DiffusionDrive,TTC,94.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DiffusionDrive,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DiffusionDrive,EP,82.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DIVER,NC,98.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DIVER,DAC,96.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DIVER,TTC,94.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DIVER,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DIVER,EP,82.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,NavFormer,NC,98.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,NavFormer,DAC,97.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,NavFormer,TTC,95.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,NavFormer,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,NavFormer,EP,87.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,iPad,NC,98.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,iPad,DAC,98.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,iPad,TTC,94.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,iPad,Comf.,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,iPad,EP,88.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,SparseDriveV2,NC,98.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,SparseDriveV2,DAC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,SparseDriveV2,TTC,95.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,SparseDriveV2,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,SparseDriveV2,EP,88.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Centaur,NC,99.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Centaur,DAC,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Centaur,TTC,97.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Centaur,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Centaur,EP,86.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveSuprim,NC,98.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveSuprim,DAC,98.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveSuprim,TTC,95.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveSuprim,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveSuprim,EP,91.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,RAP,NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,RAP,DAC,98.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,RAP,TTC,96.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,RAP,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,RAP,EP,90.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLOVER,NC,98.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLOVER,DAC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLOVER,TTC,95.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLOVER,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLOVER,EP,92.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DrivoR,NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DrivoR,DAC,99.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DrivoR,TTC,96.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DrivoR,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DrivoR,EP,91.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveZero-Scale,NC,99.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveZero-Scale,DAC,99.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveZero-Scale,TTC,97.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveZero-Scale,Comf.,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveZero-Scale,EP,92.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveX-S,NC,97.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveX-S,DAC,94.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveX-S,TTC,93.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveX-S,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveX-S,EP,79.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,World4Drive,NC,97.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,World4Drive,DAC,94.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,World4Drive,TTC,92.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,World4Drive,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,World4Drive,EP,79.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Auto-JEPA,NC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Auto-JEPA,DAC,98.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Auto-JEPA,TTC,95.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Auto-JEPA,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,Auto-JEPA,EP,87.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveVLA-W0,NC,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveVLA-W0,DAC,97.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveVLA-W0,TTC,97.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveVLA-W0,Comf.,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveVLA-W0,EP,88.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniVLA,NC,96.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniVLA,DAC,91.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniVLA,TTC,91.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniVLA,Comf.,96.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,UniVLA,EP,76.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ReCogDrive,NC,97.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ReCogDrive,DAC,97.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ReCogDrive,TTC,94.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ReCogDrive,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ReCogDrive,EP,87.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,AutoVLA (oracle 6),NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,AutoVLA (oracle 6),DAC,97.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,AutoVLA (oracle 6),TTC,97.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,AutoVLA (oracle 6),Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,AutoVLA (oracle 6),EP,87.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLEAR,NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLEAR,DAC,98.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLEAR,TTC,97.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLEAR,Comf.,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,CLEAR,EP,89.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ChainFlow-VLA,NC,99.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ChainFlow-VLA,DAC,99.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ChainFlow-VLA,TTC,97.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ChainFlow-VLA,Comf.,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,ChainFlow-VLA,EP,91.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveTTO,NC,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveTTO,DAC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveTTO,TTC,97.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveTTO,Comf.,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+pdms,manuscript-component-table,all,DriveTTO,EP,92.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,NC,98.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,DAC,97.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,DDC,99.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,TL,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,EP,87.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,TTC,98.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,LK,97.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,HC,98.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,EponaV2,EC,77.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,NC,98.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,DAC,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,DDC,98.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,TL,99.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,EP,90.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,TTC,97.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,LK,94.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,HC,97.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,Auto-JEPA,EC,75.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,NC,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,DAC,97.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,DDC,99.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,TL,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,EP,88.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,TTC,97.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,LK,97.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,HC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFine,EC,83.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,NC,98.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,DAC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,DDC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,TL,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,EP,86.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,TTC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,LK,96.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,HC,98.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveFuture,EC,74.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,NC,98.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,DAC,98.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,DDC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,TL,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,EP,91.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,TTC,97.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,LK,96.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,HC,98.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SparseDriveV2,EC,78.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,NC,99.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,DAC,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,DDC,99.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,TL,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,EP,86.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,TTC,98.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,LK,95.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,HC,98.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,CLOVER,EC,75.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,DAC,97.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,DDC,99.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,TL,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,EP,87.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,TTC,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,LK,98.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,HC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,SUV,EC,88.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,NC,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,DAC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,DDC,99.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,TL,99.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,EP,90.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,TTC,98.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,LK,95.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,HC,98.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navtest_epdms,manuscript-component-table,all,DriveTTO,EC,80.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,NC,99.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,DAC,98.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,DDC,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,TL,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,EP,75.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,TTC,98.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,LK,94.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,HC,97.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,CLOVER,EC,56.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,NC,89.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,DAC,88.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,DDC,93.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,TL,99.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,EP,74.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,TTC,87.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,LK,52.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,HC,97.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,CLOVER,EC,57.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,NC,99.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,DAC,95.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,DDC,99.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,TL,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,EP,68.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,TTC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,LK,91.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,HC,97.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,Gigapixel,EC,49.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,NC,93.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,DAC,92.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,DDC,96.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,TL,98.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,EP,62.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,TTC,90.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,LK,60.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,HC,98.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,Gigapixel,EC,58.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,NC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,DAC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,DDC,99.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,TL,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,EP,69.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,TTC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,LK,95.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,HC,95.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,SimScale,EC,28.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,NC,94.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,DAC,94.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,DDC,95.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,TL,99.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,EP,75.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,TTC,92.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,LK,60.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,HC,96.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,SimScale,EC,43.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,DAC,98.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,DDC,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,TL,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,EP,75.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,TTC,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,LK,94.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,HC,97.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DrivoR,EC,70.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,NC,92.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,DAC,91.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,DDC,97.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,TL,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,EP,75.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,TTC,90.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,LK,56.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,HC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DrivoR,EC,44.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,NC,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,DAC,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,DDC,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,TL,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,EP,85.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,TTC,99.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,LK,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,HC,97.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveFuture,EC,66.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,NC,90.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,DAC,87.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,DDC,94.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,TL,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,EP,84.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,TTC,88.8,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,LK,58.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,HC,93.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveFuture,EC,45.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,NC,98.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,DAC,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,DDC,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,TL,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,EP,76.5,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,TTC,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,LK,95.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,HC,97.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveZero-Scale,EC,44.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,NC,94.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,DAC,95.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,DDC,97.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,TL,98.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,EP,76.2,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,TTC,92.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,LK,59.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,HC,96.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveZero-Scale,EC,44.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,NC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,DAC,98.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,DDC,99.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,TL,100.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,EP,74.0,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,TTC,99.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,LK,91.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,HC,97.6,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S1,DriveTTO,EC,65.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,NC,93.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,DAC,94.7,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,DDC,97.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,TL,99.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,EP,74.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,TTC,92.1,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,LK,58.4,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,HC,96.3,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+navhard_epdms,manuscript-component-table,S2,DriveTTO,EC,47.9,,Manuscript-reported component average; NAVHARD S1/S2 retain the stage-specific protocol.
+hugsim,manuscript-component-table,Easy,LTF,RC,67.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,LTF,RC,35.1,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,LTF,RC,26.2,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,LTF,RC,40.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,LTF,HD,58.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,LTF,HD,18.0,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,LTF,HD,9.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,LTF,HD,25.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,VAD,RC,51.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,VAD,RC,31.1,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,VAD,RC,25.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,VAD,RC,26.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,VAD,HD,36.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,VAD,HD,9.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,VAD,HD,8.0,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,VAD,HD,11.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,UniAD,RC,78.4,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,UniAD,RC,60.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,UniAD,RC,33.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,UniAD,RC,17.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,UniAD,HD,64.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,UniAD,HD,45.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,UniAD,HD,20.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,UniAD,HD,6.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DrivoR,RC,80.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DrivoR,RC,50.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DrivoR,RC,33.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DrivoR,RC,47.1,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DrivoR,HD,73.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DrivoR,HD,34.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DrivoR,HD,18.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DrivoR,HD,32.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DrivoR-Scale,RC,70.4,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DrivoR-Scale,RC,54.4,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DrivoR-Scale,RC,28.2,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DrivoR-Scale,RC,39.2,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DrivoR-Scale,HD,64.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DrivoR-Scale,HD,50.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DrivoR-Scale,HD,16.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DrivoR-Scale,HD,25.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,Gigapixel,RC,78.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,Gigapixel,RC,60.7,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,Gigapixel,RC,32.7,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,Gigapixel,RC,35.4,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,Gigapixel,HD,67.4,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,Gigapixel,HD,51.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,Gigapixel,HD,19.1,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,Gigapixel,HD,21.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DriveZero,RC,85.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DriveZero,RC,63.7,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DriveZero,RC,31.7,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DriveZero,RC,43.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DriveZero,HD,78.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DriveZero,HD,47.2,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DriveZero,HD,16.0,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DriveZero,HD,28.7,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DriveZero-Scale,RC,87.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DriveZero-Scale,RC,64.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DriveZero-Scale,RC,34.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DriveZero-Scale,RC,39.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DriveZero-Scale,HD,81.9,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DriveZero-Scale,HD,60.5,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DriveZero-Scale,HD,24.7,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DriveZero-Scale,HD,27.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DriveTTO,RC,87.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DriveTTO,RC,61.4,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DriveTTO,RC,37.8,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DriveTTO,RC,42.1,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Easy,DriveTTO,HD,80.3,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Medium,DriveTTO,HD,45.0,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Hard,DriveTTO,HD,22.0,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."
+hugsim,manuscript-component-table,Extreme,DriveTTO,HD,27.6,,"Manuscript-reported difficulty average; overall average is across all 345 scenarios, not the unweighted mean of four difficulty averages."

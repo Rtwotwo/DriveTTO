@@ -296,6 +296,53 @@
     root.append(table);
   }
 
+  function renderStageTable(rows, keys) {
+    const root = $('#paper-navsim-table');
+    root.replaceChildren();
+    const table = element('table', 'component-table stage-table');
+    const thead = element('thead');
+    const headings = element('tr');
+    ['Method', 'Stage', ...keys, 'EPDMS ↑'].forEach(label => {
+      const th = element('th', '', label); th.scope = 'col'; headings.append(th);
+    });
+    thead.append(headings); table.append(thead);
+    const tbody = element('tbody');
+    rows.forEach(row => ['S1', 'S2'].forEach((stage, index) => {
+      const tr = element('tr', `${row.method === 'DriveTTO' ? 'featured ' : ''}${index === 0 ? 'stage-start' : ''}`);
+      if (index === 0) {
+        const method = element('th', '', row.method); method.scope = 'rowgroup'; method.rowSpan = 2; tr.append(method);
+      }
+      tr.append(element('td', 'stage-label', stage));
+      keys.forEach(key => tr.append(element('td', '', format(row.stages?.[stage]?.[key], 1))));
+      if (index === 0) { const score = element('td', 'aggregate-cell', format(row.score, 1)); score.rowSpan = 2; tr.append(score); }
+      tbody.append(tr);
+    }));
+    table.append(tbody); root.append(table);
+  }
+
+  function renderDifficultyTable(rows) {
+    const root = $('#paper-hugsim-table'); root.replaceChildren();
+    const table = element('table', 'component-table difficulty-table');
+    const thead = element('thead'); const groups = element('tr');
+    const method = element('th', '', 'Method'); method.rowSpan = 2; method.scope = 'col'; groups.append(method);
+    ['RC ↑', 'HD-Score ↑'].forEach(label => { const th = element('th', 'metric-group', label); th.colSpan = 5; th.scope = 'colgroup'; groups.append(th); });
+    const levels = element('tr');
+    for (let group = 0; group < 2; group++) ['Easy', 'Medium', 'Hard', 'Extreme', 'Avg.'].forEach(label => {
+      const th = element('th', label === 'Avg.' ? 'aggregate-cell' : '', label); th.scope = 'col'; levels.append(th);
+    });
+    thead.append(groups, levels); table.append(thead); const tbody = element('tbody');
+    rows.forEach(row => {
+      const tr = element('tr', row.method === 'DriveTTO' ? 'featured' : '');
+      const th = element('th', '', row.method); th.scope = 'row'; tr.append(th);
+      for (const metric of ['rc', 'hd']) {
+        ['Easy', 'Medium', 'Hard', 'Extreme'].forEach(level => tr.append(element('td', '', format(row[`${metric}_breakdown`]?.[level], 1))));
+        tr.append(element('td', 'aggregate-cell', format(row[metric], 1)));
+      }
+      tbody.append(tr);
+    });
+    table.append(tbody); root.append(table);
+  }
+
   function renderResults(benchmarks = {}) {
     const navtest = Array.isArray(benchmarks.navtest) ? benchmarks.navtest : [];
     const native = navtest.find(row => /native/i.test(row.method));
@@ -311,13 +358,21 @@
       navhard_epdms: '5,912 NAVHARD scenes · official 225-group two-stage product aggregation. Standard-input configuration. The separate 58.6 pair-history setting is not included here.'
     };
     function showBenchmark(key) {
-      makeTable('#paper-navsim-table', ['Method', key === 'pdms' ? 'PDMS ↑' : 'EPDMS ↑'], paper[key], row => [row.method, format(row.score, 1)], row => row.method === 'DriveTTO');
+      const keys = key === 'pdms' ? ['NC', 'DAC', 'TTC', 'Comf.', 'EP'] : ['NC', 'DAC', 'DDC', 'TL', 'EP', 'TTC', 'LK', 'HC', 'EC'];
+      if (key === 'navhard_epdms') renderStageTable(paper[key], keys);
+      else {
+        makeTable('#paper-navsim-table', ['Method', ...keys, key === 'pdms' ? 'PDMS ↑' : 'EPDMS ↑'], paper[key], row => [row.method, ...keys.map(k => format(row.components?.[k], 1)), format(row.score, 1)], row => row.method === 'DriveTTO');
+        $('#paper-navsim-table table').classList.add('component-table');
+      }
       $('#paper-protocol').textContent = notes[key];
+      $('#component-legend').textContent = key === 'pdms'
+        ? 'NC: no-at-fault collision · DAC: drivable-area compliance · TTC: time-to-collision · Comf.: comfort · EP: ego progress. All columns: higher is better.'
+        : 'NC: no-at-fault collision · DAC: drivable-area compliance · DDC: driving-direction compliance · TL: traffic-light compliance · EP: ego progress · TTC: time-to-collision · LK: lane keeping · HC: history comfort · EC: extended comfort. All columns: higher is better.';
       $$('.benchmark-switch button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.benchmark === key)));
     }
     $$('.benchmark-switch button').forEach(button => button.addEventListener('click', () => showBenchmark(button.dataset.benchmark)));
     showBenchmark('pdms');
-    makeTable('#paper-hugsim-table', ['Method', 'RC ↑', 'HD-Score ↑'], paper.hugsim, row => [row.method, format(row.rc, 1), format(row.hd, 1)], row => row.method === 'DriveTTO');
+    renderDifficultyTable(paper.hugsim);
     const transfer = benchmarks.transfer || {};
     ['navtest', 'navhard'].forEach(benchmark => {
       makeTable(`#transfer-${benchmark}-table`, ['Base planner', 'Native ↑', 'ToAD ↑', 'DriveTTO-S ↑', 'Δ vs. Native', 'Δ vs. ToAD'], transfer[benchmark], row => [row.method, format(row.native, 4), format(row.toad, 4), format(row.drive, 4), `${row.drive >= row.native ? '+' : ''}${format(row.drive-row.native, 4)}`, `${row.drive >= row.toad ? '+' : ''}${format(row.drive-row.toad, 4)}`]);
