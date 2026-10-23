@@ -1,4 +1,4 @@
-<h1 align="center">DriveTTO: Test-Time Trajectory Optimization<br>via Endpoint Search and Temporal Fusion</h1>
+<h1 align="center">DriveTTO: Understanding Search and Selection<br>in Test-Time Trajectory Optimization</h1>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/GitHub-Code%20Coming%20Soon-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub: code coming soon"></a>
