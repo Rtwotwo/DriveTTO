@@ -1,0 +1,115 @@
+benchmark,variant,base_planner,method,metric,value,n_scenes,scope
+pdms,manuscript-benchmark-table,,UniAD,PDMS,83.4,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,TransFuser,PDMS,83.9,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,PARA-Drive,PDMS,84.0,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DiffusionDrive,PDMS,88.0,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DIVER,PDMS,88.3,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,NavFormer,PDMS,91.4,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,iPad,PDMS,91.7,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,SparseDriveV2,PDMS,92.1,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,Centaur,PDMS,92.1,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DriveSuprim,PDMS,93.5,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,RAP,PDMS,93.8,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,CLOVER,PDMS,94.5,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DrivoR,PDMS,94.6,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DriveZero-Scale,PDMS,95.3,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DriveX-S,PDMS,84.5,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,World4Drive,PDMS,85.1,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,Auto-JEPA,PDMS,91.3,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DriveVLA-W0,PDMS,93.0,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,UniVLA,PDMS,81.7,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,ReCogDrive,PDMS,90.8,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,AutoVLA (oracle 6),PDMS,92.1,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,CLEAR,PDMS,93.7,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,ChainFlow-VLA,PDMS,94.8,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+pdms,manuscript-benchmark-table,,DriveTTO,PDMS,95.5,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,EponaV2,EPDMS,88.9,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,Auto-JEPA,EPDMS,89.1,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,DriveFine,EPDMS,89.7,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,DriveFuture,EPDMS,89.9,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,SparseDriveV2,EPDMS,90.1,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,CLOVER,EPDMS,90.4,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,SUV,EPDMS,91.0,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navtest_epdms,manuscript-benchmark-table,,DriveTTO,EPDMS,92.3,12146,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,CLOVER,EPDMS,48.3,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,Gigapixel,EPDMS,50.1,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,SimScale,EPDMS,53.2,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,DrivoR,EPDMS,54.6,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,DriveFuture,EPDMS,55.5,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,DriveZero-Scale,EPDMS,57.1,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+navhard_epdms,manuscript-benchmark-table,,DriveTTO,EPDMS,57.1,5912,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,LTF,rc,38.9,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,LTF,hd,23.7,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,VAD,rc,31.4,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,VAD,hd,13.4,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,UniAD,rc,45.9,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,UniAD,hd,32.7,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DrivoR,rc,49.8,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DrivoR,hd,35.7,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DrivoR-Scale,rc,46.4,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DrivoR-Scale,hd,38.1,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,Gigapixel,rc,50.1,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,Gigapixel,hd,38.5,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DriveZero,rc,53.9,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DriveZero,hd,39.4,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DriveZero-Scale,rc,54.5,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DriveZero-Scale,hd,46.6,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DriveTTO,rc,54.5,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+hugsim,manuscript-benchmark-table,,DriveTTO,hd,40.1,345,"Comparison values reported in the manuscript; row-specific settings, not all rerun by this project."
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,Native reference,PDMS,94.88096428002481,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,Native reference,p50_seconds,0.9201427520019934,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,Native candidate union,PDMS,95.00071924344307,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,Native candidate union,p50_seconds,1.009663125500083,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,Fixed interpolation,PDMS,95.04059540718643,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,Fixed interpolation,p50_seconds,0.9190886585274711,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,Dual-scorer CEM · 4 iterations,PDMS,95.10077254670404,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,Dual-scorer CEM · 4 iterations,p50_seconds,1.0632479574996978,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,Dual-scorer CEM · 8 iterations,PDMS,95.10402229285303,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,Dual-scorer CEM · 8 iterations,p50_seconds,1.1997845944715664,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,Dual-scorer CEM · 16 iterations,PDMS,95.13323502111712,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,Dual-scorer CEM · 16 iterations,p50_seconds,1.4742430925252847,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVTEST,three-seed-full-comparison,frozen dual-model resources,DriveTTO · Full,PDMS,95.51155621509317,12146,"12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding."
+NAVTEST,isolated-latency,frozen dual-model resources,DriveTTO · Full,p50_seconds,1.3092869014944881,64,64 predefined scenes x2 repeats; each search seed where configured
+NAVHARD,original-full57,original strategy,DriveTTO full57,EPDMS,57.0982,5912,"Original full57 strategy, EPDMS 57.0982; 5,912 tokens and official 225-group two-stage product aggregation. Separate from endpoint_post transfer."
+HUGSIM,345-full-suite,original model pair,DrivoR · reproduced,RC,48.20736027,345,345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.
+HUGSIM,345-full-suite,original model pair,DrivoR · reproduced,HD,34.04253538,345,345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.
+HUGSIM,345-full-suite,original model pair,DriveTTO · fixed-straight input,RC,52.47397645,345,345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.
+HUGSIM,345-full-suite,original model pair,DriveTTO · fixed-straight input,HD,38.09102788,345,345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.
+HUGSIM,345-full-suite,original model pair,DriveTTO · observed-command v4,RC,54.47585675100443,345,345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.
+HUGSIM,345-full-suite,original model pair,DriveTTO · observed-command v4,HD,40.053724997254385,345,345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.
+NAVTEST,R7-endpoint_post,ZTRS,native,PDMS,87.1306,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,ZTRS,toad,PDMS,88.578,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,ZTRS,drive,PDMS,91.0221,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,GTRS,native,PDMS,90.93,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,GTRS,toad,PDMS,92.1587,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,GTRS,drive,PDMS,93.5195,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,Hydra-MDP,native,PDMS,90.8336,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,Hydra-MDP,toad,PDMS,92.2803,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,Hydra-MDP,drive,PDMS,93.4641,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,iPad,native,PDMS,91.7879,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,iPad,toad,PDMS,93.4141,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,iPad,drive,PDMS,94.2302,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,RAP-DINO,native,PDMS,93.8203,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,RAP-DINO,toad,PDMS,94.46,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,RAP-DINO,drive,PDMS,94.5679,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,DrivoR,native,PDMS,94.5389,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,DrivoR,toad,PDMS,94.7202,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVTEST,R7-endpoint_post,DrivoR,drive,PDMS,94.8672,12146,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,ZTRS,native,EPDMS,46.169,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,ZTRS,toad,EPDMS,49.6922,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,ZTRS,drive,EPDMS,51.4893,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,GTRS,native,EPDMS,43.8706,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,GTRS,toad,EPDMS,49.3151,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,GTRS,drive,EPDMS,49.4346,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,Hydra-MDP,native,EPDMS,41.1733,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,Hydra-MDP,toad,EPDMS,48.0827,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,Hydra-MDP,drive,EPDMS,47.6296,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,iPad,native,EPDMS,36.8378,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,iPad,toad,EPDMS,50.609,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,iPad,drive,EPDMS,47.8166,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,RAP-DINO,native,EPDMS,38.6198,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,RAP-DINO,toad,EPDMS,45.7217,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,RAP-DINO,drive,EPDMS,52.5532,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,DrivoR,native,EPDMS,54.5616,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,DrivoR,toad,EPDMS,55.6365,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.
+NAVHARD,R7-endpoint_post,DrivoR,drive,EPDMS,56.226,5912,R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.

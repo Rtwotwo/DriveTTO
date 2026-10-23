@@ -1,0 +1,459 @@
+{
+  "selection": "High-scoring illustrative examples selected across four datasets and easy/medium/hard/extreme settings; not a random or population-representative sample. No change to original experiment outputs.",
+  "run": "command_aware_v4",
+  "scoring_csv_sha256": "9198a18484ebed3e03be4a0c5c4553afe569147d914507ea2d2d18ba1bd48acf",
+  "videos": [
+    {
+      "id": "nuscenes-scene-0166-hard_00",
+      "dataset": "nuScenes",
+      "scene": "scene-0166",
+      "difficulty": "hard",
+      "mode": "hard_00",
+      "hd": 100.0,
+      "rc": 100.0,
+      "pdms": 100.0,
+      "frames": 62,
+      "duration": 15.5,
+      "source_sha256": "ab39c950dbae4a5e58383f8a8251032131d0ab3ae96a6bdd6f1ad524cd3d3cd3",
+      "src": "assets/videos/nuscenes-scene-0166-hard_00.mp4",
+      "poster": "assets/images/nuscenes-scene-0166-hard_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Through the city blocks",
+      "description": "A multi-camera rollout through an urban industrial district. The front view follows the road past parked vehicles and marked intersections; the side and rear views show the surrounding traffic.",
+      "web_sha256": "522276c76d01ce8866b94bb391bbbeb5096ea6f93ee31595c4ffcf4f0b086b35",
+      "web_bytes": 3489769
+    },
+    {
+      "id": "waymo-166085257829_0_200-hard_00",
+      "dataset": "Waymo",
+      "scene": "166085257829_0_200",
+      "difficulty": "hard",
+      "mode": "hard_00",
+      "hd": 97.20730397422126,
+      "rc": 100.0,
+      "pdms": 97.20730397422126,
+      "frames": 133,
+      "duration": 33.25,
+      "source_sha256": "d5dc3475fc1fd92277c5ba6afb7f34e6f9384c0be0ac7ee346c6b46b9bd46119",
+      "src": "assets/videos/waymo-166085257829_0_200-hard_00.mp4",
+      "poster": "assets/images/waymo-166085257829_0_200-hard_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Between parked vehicles",
+      "description": "A narrow urban street lined with parked cars. The forward cameras show the approach to an intersection and the available corridor between the vehicles along each curb.",
+      "web_sha256": "0ba18b8861a7360581fcb74482ace64f597cda4bace6b7fae2e0f80144bf9780",
+      "web_bytes": 6526897
+    },
+    {
+      "id": "pandaset-028-medium_00",
+      "dataset": "PandaSet",
+      "scene": "028",
+      "difficulty": "medium",
+      "mode": "medium_00",
+      "hd": 92.89099526066352,
+      "rc": 100.0,
+      "pdms": 92.89099526066352,
+      "frames": 211,
+      "duration": 52.75,
+      "source_sha256": "5bc61780facb7289a45c655771d006cc444c052210fa034bdbacaddff48fcef7",
+      "src": "assets/videos/pandaset-028-medium_00.mp4",
+      "poster": "assets/images/pandaset-028-medium_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Following along a residential street",
+      "description": "The ego vehicle travels behind a white vehicle on a street with close curbside parking. The camera mosaic shows the changing gap and the surrounding residential blocks.",
+      "web_sha256": "b45130c31a097a745e0c5ba371cda349fa8c779ed628db4892116e3899afa10c",
+      "web_bytes": 8972321
+    },
+    {
+      "id": "kitti360-0000_8440_8640-easy_00",
+      "dataset": "KITTI-360",
+      "scene": "0000_8440_8640",
+      "difficulty": "easy",
+      "mode": "easy_00",
+      "hd": 92.09984444209431,
+      "rc": 95.89100159530892,
+      "pdms": 96.04638903531895,
+      "frames": 271,
+      "duration": 67.75,
+      "source_sha256": "a12dd6dd51f80d64b15bf082f05ef896189a78ec6c6f6de8244bd14dd8077754",
+      "src": "assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
+      "poster": "assets/images/kitti360-0000_8440_8640-easy_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "From curbside parking to a crossing",
+      "description": "A residential route passes rows of parked cars and approaches a marked crossing. This example includes the original scene lighting and reconstruction appearance.",
+      "web_sha256": "ce030b789c53ce4445a90a60968393f2c08b8b1c8d242b95380a4bc239d78df3",
+      "web_bytes": 6977028
+    },
+    {
+      "id": "nuscenes-scene-0167-extreme_01",
+      "dataset": "nuScenes",
+      "scene": "scene-0167",
+      "difficulty": "extreme",
+      "mode": "extreme_01",
+      "hd": 98.01084990958408,
+      "rc": 100.0,
+      "pdms": 98.01084990958408,
+      "frames": 79,
+      "duration": 19.75,
+      "source_sha256": "9376c30fdf52e5334191483385147cf64d4f8513d36baa8e41dfd35774175864",
+      "src": "assets/videos/nuscenes-scene-0167-extreme_01.mp4",
+      "poster": "assets/images/nuscenes-scene-0167-extreme_01.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Across a broad intersection",
+      "description": "An industrial street opens into a wide junction. Multiple camera views show a silver vehicle alongside the ego car and the continuation of the route past roadside trucks.",
+      "web_sha256": "052832b18aaf67b83986473d62b1fe816e51eedce87d2e9d3d2d5e7ffb3992be",
+      "web_bytes": 4085504
+    },
+    {
+      "id": "waymo-322492347634_0_200-extreme_01",
+      "dataset": "Waymo",
+      "scene": "322492347634_0_200",
+      "difficulty": "extreme",
+      "mode": "extreme_01",
+      "hd": 95.37223340040242,
+      "rc": 100.0,
+      "pdms": 95.37223340040242,
+      "frames": 71,
+      "duration": 17.75,
+      "source_sha256": "128302601816d655fb4dca6840f7e3b8be066d2764497c35cc25e9ae58c4972c",
+      "src": "assets/videos/waymo-322492347634_0_200-extreme_01.mp4",
+      "poster": "assets/images/waymo-322492347634_0_200-extreme_01.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "An uphill urban corridor",
+      "description": "The forward cameras follow a rising street with parked cars on both sides. The rollout continues between the curbside vehicles toward the next block.",
+      "web_sha256": "418d7c851c5dbfb7c5372c933378f633353551fd96609839fee7137b4391a4fe",
+      "web_bytes": 2372473
+    }
+  ],
+  "images": [
+    {
+      "id": "00c489998dd4555c",
+      "token": "00c489998dd4555c",
+      "src": "assets/images/00c489998dd4555c-front.webp",
+      "bev": "assets/images/00c489998dd4555c-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "e0a53eba6962c5b1fda2280489efb03482c2dd3d9e315ff92bd05779bd15b8ba",
+      "source_bev_sha256": "d031bad107f7223299a7bfe374edb5a09f1da2ce78dc7d213352ec3980e1fc5b",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Following a curved lane",
+      "description": "At the bend, the selected yellow trajectory turns with the lane. The blue candidate set spreads over different curvatures, while the white human reference offers a geometric comparison."
+    },
+    {
+      "id": "0114734fd69b598e",
+      "token": "0114734fd69b598e",
+      "src": "assets/images/0114734fd69b598e-front.webp",
+      "bev": "assets/images/0114734fd69b598e-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "e05110908c67223bb571720f8660ef82fff6620e916d01b637df61c3b4a5bc55",
+      "source_bev_sha256": "2191acd483e0593da11c96809bfba74d6a79db6ee82b4397e6a33d944bad9a38",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Keeping a compact forward plan",
+      "description": "On the straight street, the selected path stays close to the cluster of forward candidates. The paired bird’s-eye view makes the lateral spacing near the curb easier to inspect."
+    },
+    {
+      "id": "013ec5b715635a66",
+      "token": "013ec5b715635a66",
+      "src": "assets/images/013ec5b715635a66-front.webp",
+      "bev": "assets/images/013ec5b715635a66-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "9304fd246cd772554fa223ca10b805764e17fe326a25c00bbaeb8e1d3e39a21b",
+      "source_bev_sha256": "91a8321046af695d6ac9deaa1cf28e06265ba666fc62165c75ac79a0186e8091",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Resolving a branching junction",
+      "description": "Candidate paths fan out toward different exits at the junction. The selected yellow path continues ahead, separating the chosen route from the alternatives that turn across the road."
+    },
+    {
+      "id": "003ead1914c051d7",
+      "token": "003ead1914c051d7",
+      "src": "assets/images/003ead1914c051d7-front.webp",
+      "bev": "assets/images/003ead1914c051d7-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "079063e29a2934697f46b6b4164ca97a911c82aa553c4aaca65ebe7a121540c0",
+      "source_bev_sha256": "3ceb6ab770a7ce67168ec1e921a9e2490edfe10eba11d8b6ef1303aa26f1a505",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Tracing the bridge curvature",
+      "description": "The plan follows the road’s gradual bend beside opposing traffic. The camera view and bird’s-eye map show how the selected trajectory aligns with the lane through the curve."
+    }
+  ],
+  "intro": {
+    "src": "assets/videos/drivetto-introduction.mp4",
+    "duration_seconds": 114,
+    "sha256": "c8cda671c84d3fd4a175d64b0918205c63d03a45d6bfc505083a40cb47d2e604",
+    "selection": "Eight hard/extreme HUGSIM examples with RC 100 and HD-Score 94.7–100; four NAVSIM saved-plan animations; method explanation.",
+    "chapters": [
+      {
+        "title": "DriveTTO",
+        "start": 0,
+        "end": 6,
+        "source_sha256": "ffe50d678adef6d82b115eaee7a95517d9160e89e2bf749cd53d48f0521ffe3d"
+      },
+      {
+        "title": "HUGSIM | Urban intersection",
+        "start": 6,
+        "end": 12,
+        "source_sha256": "0fecfd793146ebf3b5bc16f9cf800fcb43a41b5e8571fa929c53cf8dd264c1a4"
+      },
+      {
+        "title": "The DriveTTO pipeline",
+        "start": 12,
+        "end": 18,
+        "source_sha256": "68d83bf869830679bd8845f9cb043075ec0e250cb38ddef7123986cffd891c64"
+      },
+      {
+        "title": "Endpoint feedback",
+        "start": 18,
+        "end": 23,
+        "source_sha256": "c03b9622a9a8318fd1f49349719a6ed38db822d96df965ac04830a357d24f434"
+      },
+      {
+        "title": "Bounded refinement",
+        "start": 23,
+        "end": 28,
+        "source_sha256": "3178811ac32629b4c377935741ab8bfeb1ce434110aef7647bb079dace258c49"
+      },
+      {
+        "title": "NAVSIM | Urban bend",
+        "start": 28,
+        "end": 34,
+        "source_sha256": "2845faf304f1320677b4b34f996498c0a36866e863892800ac337b62968fea75"
+      },
+      {
+        "title": "HUGSIM | Waymo hard",
+        "start": 34,
+        "end": 40,
+        "source_sha256": "b4bd63c95acba5f847824880020ef7586c80f45e2e33187c999b44e6f0f4d060"
+      },
+      {
+        "title": "HUGSIM | PandaSet extreme",
+        "start": 40,
+        "end": 46,
+        "source_sha256": "29cb85f76e54310b4d8f686c9b943010391e19df6120f3f618ae7a512b87fcbd"
+      },
+      {
+        "title": "Temporal fusion",
+        "start": 46,
+        "end": 51,
+        "source_sha256": "a8d535b71e3c5a682f44a35320d25e686ba106e32c945e3a8c67373a35f18a6a"
+      },
+      {
+        "title": "Shared-context selection",
+        "start": 51,
+        "end": 56,
+        "source_sha256": "d3ced455f753c912b2f3076a5d75c8b9edf1af6f342c66f422a9f878385fd875"
+      },
+      {
+        "title": "NAVSIM | Narrow street",
+        "start": 56,
+        "end": 62,
+        "source_sha256": "895b5c129c0e70ed4d201d1c09e4945f2dd8af87fe2f50be9bd780506d47deb8"
+      },
+      {
+        "title": "HUGSIM | nuScenes extreme",
+        "start": 62,
+        "end": 68,
+        "source_sha256": "1d8b395df2d38d5a82cf7bdcda5c4293a39d5ce3ae60aa11ed2c83593f63aee2"
+      },
+      {
+        "title": "HUGSIM | Waymo extreme",
+        "start": 68,
+        "end": 74,
+        "source_sha256": "6783498ee20adabc1be05b58da1bf799b8286c5f073bc27c94742299c12ec7b1"
+      },
+      {
+        "title": "NAVSIM | Junction",
+        "start": 74,
+        "end": 80,
+        "source_sha256": "ddd461a67a7e593b278aafbfe1330df0be1f3c4e499b38d2089814c5bedaff12"
+      },
+      {
+        "title": "HUGSIM | nuScenes hard",
+        "start": 80,
+        "end": 86,
+        "source_sha256": "88edc5efec2d54c60d4d8eed20a9c2f6b9bee64787575be67a861b74eacceae6"
+      },
+      {
+        "title": "HUGSIM | nuScenes extreme",
+        "start": 86,
+        "end": 92,
+        "source_sha256": "d80eae3bd6888d42120605d179b57cd6fc0fa2554d1d687ae56944d67b5f9174"
+      },
+      {
+        "title": "NAVSIM | Bridge curve",
+        "start": 92,
+        "end": 98,
+        "source_sha256": "c8286d1bf6ebfaffe4e0ad24bf731f5ecb0e2bdb572b62983ea6a6522c7a573c"
+      },
+      {
+        "title": "HUGSIM | Waymo extreme",
+        "start": 98,
+        "end": 104,
+        "source_sha256": "def7af5910e81f45227ee7253cee754d78355b3f997ccb2de31eb69cd91de6b2"
+      },
+      {
+        "title": "Five benchmark metrics",
+        "start": 104,
+        "end": 114,
+        "source_sha256": "fc79ea6d1d90040201f64f1373937948606255194e218a62dae5f73372ee7d69"
+      }
+    ],
+    "hugsim_source_clips": [
+      {
+        "dataset": "nuScenes",
+        "scene": "scene-0166",
+        "mode": "hard_00",
+        "difficulty": "hard",
+        "rc": 100.0,
+        "hd": 100.0,
+        "source_sha256": "ab39c950dbae4a5e58383f8a8251032131d0ab3ae96a6bdd6f1ad524cd3d3cd3",
+        "source_fps": 4,
+        "source_duration": 15.5,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "0fecfd793146ebf3b5bc16f9cf800fcb43a41b5e8571fa929c53cf8dd264c1a4"
+      },
+      {
+        "dataset": "Waymo",
+        "scene": "166085257829_0_200",
+        "mode": "hard_00",
+        "difficulty": "hard",
+        "rc": 100.0,
+        "hd": 97.20730397422126,
+        "source_sha256": "d5dc3475fc1fd92277c5ba6afb7f34e6f9384c0be0ac7ee346c6b46b9bd46119",
+        "source_fps": 4,
+        "source_duration": 33.25,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "b4bd63c95acba5f847824880020ef7586c80f45e2e33187c999b44e6f0f4d060"
+      },
+      {
+        "dataset": "PandaSet",
+        "scene": "039",
+        "mode": "extreme_01",
+        "difficulty": "extreme",
+        "rc": 100.0,
+        "hd": 99.15966386554622,
+        "source_sha256": "5320559ac6de9a1ae71b16cd68dfccea9c5272306cf807fa40976056d506340f",
+        "source_fps": 4,
+        "source_duration": 8.5,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "29cb85f76e54310b4d8f686c9b943010391e19df6120f3f618ae7a512b87fcbd"
+      },
+      {
+        "dataset": "nuScenes",
+        "scene": "scene-0167",
+        "mode": "extreme_01",
+        "difficulty": "extreme",
+        "rc": 100.0,
+        "hd": 98.01084990958408,
+        "source_sha256": "9376c30fdf52e5334191483385147cf64d4f8513d36baa8e41dfd35774175864",
+        "source_fps": 4,
+        "source_duration": 19.75,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "1d8b395df2d38d5a82cf7bdcda5c4293a39d5ce3ae60aa11ed2c83593f63aee2"
+      },
+      {
+        "dataset": "Waymo",
+        "scene": "322492347634_0_200",
+        "mode": "extreme_01",
+        "difficulty": "extreme",
+        "rc": 100.0,
+        "hd": 95.37223340040242,
+        "source_sha256": "128302601816d655fb4dca6840f7e3b8be066d2764497c35cc25e9ae58c4972c",
+        "source_fps": 4,
+        "source_duration": 17.75,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "6783498ee20adabc1be05b58da1bf799b8286c5f073bc27c94742299c12ec7b1"
+      },
+      {
+        "dataset": "nuScenes",
+        "scene": "scene-0071",
+        "mode": "hard_00",
+        "difficulty": "hard",
+        "rc": 100.0,
+        "hd": 99.37888198757764,
+        "source_sha256": "3a4d534705b28128b49832526d70cf3dc86cc6e0ad00763d4c9110382228f4e3",
+        "source_fps": 4,
+        "source_duration": 23.0,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "88edc5efec2d54c60d4d8eed20a9c2f6b9bee64787575be67a861b74eacceae6"
+      },
+      {
+        "dataset": "nuScenes",
+        "scene": "scene-0661",
+        "mode": "extreme_01",
+        "difficulty": "extreme",
+        "rc": 100.0,
+        "hd": 97.70408163265306,
+        "source_sha256": "b64dd3c4d07e276708beafabf519c5a1effd5f83ae138586865129a67bd8ad1a",
+        "source_fps": 4,
+        "source_duration": 14.0,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "d80eae3bd6888d42120605d179b57cd6fc0fa2554d1d687ae56944d67b5f9174"
+      },
+      {
+        "dataset": "Waymo",
+        "scene": "938501362409_0_200",
+        "mode": "extreme_01",
+        "difficulty": "extreme",
+        "rc": 100.0,
+        "hd": 94.73684210526315,
+        "source_sha256": "4004e9df83c4f9032a6fa04255bd67f4a3068c9eacd8497f7a4e9c87c71b67f9",
+        "source_fps": 4,
+        "source_duration": 19.0,
+        "trim_start": 0.5,
+        "trim_duration": 6,
+        "view": "front center camera; crop x800 y0 w800 h450 from original 2400x900 mosaic",
+        "sha256": "def7af5910e81f45227ee7253cee754d78355b3f997ccb2de31eb69cd91de6b2"
+      }
+    ]
+  },
+  "navsim_animations": [
+    {
+      "token": "00c489998dd4555c",
+      "src": "assets/videos/navsim-00c489998dd4555c.mp4",
+      "duration_seconds": 6,
+      "pdms": 100,
+      "sha256": "2845faf304f1320677b4b34f996498c0a36866e863892800ac337b62968fea75",
+      "scope": "Full / seed 0; recorded front camera with calibrated saved-plan projection and recorded BEV agents; open-loop visualization."
+    },
+    {
+      "token": "0114734fd69b598e",
+      "src": "assets/videos/navsim-0114734fd69b598e.mp4",
+      "duration_seconds": 6,
+      "pdms": 100,
+      "sha256": "895b5c129c0e70ed4d201d1c09e4945f2dd8af87fe2f50be9bd780506d47deb8",
+      "scope": "Full / seed 0; recorded front camera with calibrated saved-plan projection and recorded BEV agents; open-loop visualization."
+    },
+    {
+      "token": "013ec5b715635a66",
+      "src": "assets/videos/navsim-013ec5b715635a66.mp4",
+      "duration_seconds": 6,
+      "pdms": 100,
+      "sha256": "ddd461a67a7e593b278aafbfe1330df0be1f3c4e499b38d2089814c5bedaff12",
+      "scope": "Full / seed 0; recorded front camera with calibrated saved-plan projection and recorded BEV agents; open-loop visualization."
+    },
+    {
+      "token": "003ead1914c051d7",
+      "src": "assets/videos/navsim-003ead1914c051d7.mp4",
+      "duration_seconds": 6,
+      "pdms": 100,
+      "sha256": "c8286d1bf6ebfaffe4e0ad24bf731f5ecb0e2bdb572b62983ea6a6522c7a573c",
+      "scope": "Full / seed 0; recorded front camera with calibrated saved-plan projection and recorded BEV agents; open-loop visualization."
+    }
+  ]
+}

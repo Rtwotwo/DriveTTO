@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f9f6">
+  <meta name="description" content="DriveTTO: training-free test-time trajectory optimization via endpoint search and temporal fusion. Explore the method, driving videos, and benchmark-specific results.">
+  <meta property="og:title" content="DriveTTO · More from a frozen driving planner">
+  <meta property="og:description" content="Test-Time Trajectory Optimization via Endpoint Search and Temporal Fusion.">
+  <meta property="og:type" content="website">
+  <title>DriveTTO — Test-Time Trajectory Optimization</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a href="#" class="brand" aria-label="DriveTTO home"><img src="favicon.svg" width="29" height="29" alt=""><span>Drive<span class="teal">TTO</span></span></a>
+      <div class="nav-links"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#videos">Videos</a><a href="#results">Results</a></div>
+      <a class="nav-code" href="https://github.com/Rtwotwo/DriveTTO" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="project-title">
+      <div class="eyebrow hero-eyebrow"><span class="status-dot" aria-hidden="true"></span> Training-free · Test-time optimization</div>
+      <h1 id="project-title"><span class="project-name">Drive<span>TTO</span><span class="title-period">.</span></span><span class="project-subtitle">Test-Time Trajectory Optimization<br class="desktop-break"> via Endpoint Search and Temporal Fusion</span></h1>
+      <p class="hero-claim">More from a frozen driving planner.</p>
+      <p class="hero-description">Search around an existing trajectory. Compare complete candidates.<br class="desktop-break"> Improve the plan at inference time, with the planner held fixed.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#introduction"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 9 6-9 6V6Z" fill="currentColor"/></svg>Watch introduction</a>
+        <a class="button button-secondary" href="https://github.com/Rtwotwo/DriveTTO" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.61-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.64-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.84c.85 0 1.71.11 2.51.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>Code <span aria-hidden="true">↗</span></a>
+        <a class="button button-text" href="#results">Explore results <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="intro-heading" id="introduction"><span>See DriveTTO in action</span><span>1 min 54 s · Method · Planning · Closed-loop driving</span></div>
+      <div class="hero-media" id="hero-media">
+        <video id="hero-video" controls muted playsinline preload="metadata" aria-label="DriveTTO project introduction: method animation, NAVSIM plans and HUGSIM hard and extreme rollouts"><track kind="chapters" src="assets/videos/drivetto-introduction.vtt" srclang="en" label="Chapters"></video>
+      </div>
+      <div class="hero-media-note"><button class="intro-play" id="hero-toggle" type="button" aria-label="Play project introduction" disabled><span class="toggle-icon" aria-hidden="true">▶</span> <span class="toggle-label">Play</span> introduction</button><a href="assets/videos/drivetto-introduction.mp4" download>Download introduction <span aria-hidden="true">↓</span></a></div>
+      <div class="metrics" aria-label="Five paper benchmark metrics">
+        <div class="metric"><div class="metric-label">NAVTEST</div><p><strong>95.5</strong><span>PDMS ↑</span></p><div class="metric-note">NAVSIM-v1</div></div>
+        <div class="metric"><div class="metric-label">NAVTEST</div><p><strong>92.3</strong><span>EPDMS ↑</span></p><div class="metric-note">NAVSIM-v2</div></div>
+        <div class="metric"><div class="metric-label">NAVHARD</div><p><strong>57.1</strong><span>EPDMS ↑</span></p><div class="metric-note">Two-stage evaluation</div></div>
+        <div class="metric"><div class="metric-label">HUGSIM</div><p><strong>54.5</strong><span>RC ↑</span></p><div class="metric-note">345 scenarios</div></div>
+        <div class="metric"><div class="metric-label">HUGSIM</div><p><strong>40.1</strong><span>HD-Score ↑</span></p><div class="metric-note">345 scenarios</div></div>
+      </div>
+      <p class="metric-scope">Paper benchmark results. Each benchmark uses its reported configuration; protocol details accompany the tables.</p>
+    </section>
+
+    <section class="section abstract-section" id="overview" aria-labelledby="overview-title">
+      <div class="container abstract-layout">
+        <div><p class="section-index">01 / OVERVIEW</p><h2 id="overview-title">A better plan.<br>The same planner.</h2></div>
+        <div class="abstract-copy"><p class="lead">A frozen driving planner still leaves room to improve its trajectory at inference time.</p><p>DriveTTO searches around the planner’s output, proposing complete trajectories through endpoint search and temporal fusion. It scores the candidates alongside a preserved reference and returns the selected trajectory, without updating the planner’s parameters.</p><p>We examine this approach in NAVSIM evaluation and HUGSIM closed-loop driving. The results distinguish the full strategy, search variants, and benchmark-specific configurations, together with their runtime and transfer behavior.</p><div class="concept-line"><span>Frozen planner</span><span aria-hidden="true">→</span><span>Trajectory search</span><span aria-hidden="true">→</span><span class="teal">Selected plan</span></div></div>
+      </div>
+    </section>
+
+    <section class="section method-section container" id="method" aria-labelledby="method-title">
+      <div class="section-heading"><div><p class="section-index">02 / METHOD</p><h2 id="method-title">Search the trajectory.<br>Keep the model fixed.</h2></div><p class="section-intro">Endpoint search and temporal fusion operate on complete trajectory candidates at test time.</p></div>
+      <figure class="method-figure"><button class="image-expand method-expand" data-image="assets/images/overview.webp" data-title="DriveTTO method overview" aria-label="Enlarge DriveTTO method overview"><img id="method-image" src="assets/images/overview.webp" alt="DriveTTO method overview: a frozen planner produces a reference trajectory, endpoint search and temporal fusion propose candidates, and scoring selects the final trajectory." loading="lazy"><span class="expand-indicator" aria-hidden="true">↗</span></button><figcaption><span>DriveTTO / Method overview</span><span>Click to inspect the complete figure</span></figcaption></figure>
+      <ol class="method-steps"><li><span class="step-number">01</span><h3>Preserve the reference</h3><p>Start from the frozen planner’s output and retain the reference trajectory in the candidate set.</p></li><li><span class="step-number">02</span><h3>Propose complete trajectories</h3><p>Explore endpoint variations and temporal fusion to construct candidate trajectories around the existing plan.</p></li><li><span class="step-number">03</span><h3>Compare and return</h3><p>Evaluate complete candidates with the configured scoring rule and return the selected trajectory for execution.</p></li></ol>
+    </section>
+
+    <section class="section video-section" id="videos" aria-labelledby="videos-title">
+      <div class="container"><div class="section-heading"><div><p class="section-index">03 / CLOSED-LOOP DRIVING</p><h2 id="videos-title">On the road,<br>scene by scene.</h2></div><p class="section-intro">Inspect selected HUGSIM rollouts with their scene conditions and evaluation metrics.</p></div>
+        <div class="gallery-main" id="scene-panel" role="tabpanel" tabindex="0"><video id="gallery-video" controls playsinline preload="none" aria-label="Selected closed-loop driving scene"></video><div class="gallery-empty" id="gallery-empty">Loading the scene collection…</div></div>
+        <div class="scene-caption" aria-live="polite"><div class="scene-copy"><div class="scene-eyebrow" id="scene-eyebrow">HUGSIM · EVALUATION ROLLOUT</div><h3 id="scene-title">Driving scene</h3><p id="scene-description">Select a scene below to inspect its rollout.</p><span class="scene-id" id="scene-id"></span></div><div class="scene-metrics" id="scene-metrics"></div></div>
+        <div class="scene-selectors" id="scene-selectors" role="tablist" aria-label="Choose a driving scene"></div>
+        <p class="media-note">Selected examples illustrate individual rollouts. Aggregate performance is reported in the benchmark tables below.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="qualitative" aria-labelledby="qualitative-title"><div class="section-heading"><div><p class="section-index">04 / PLANNING VISUALIZATIONS</p><h2 id="qualitative-title">The plan, in context.</h2></div><p class="section-intro">Illustrative NAVSIM examples, selected at 100 PDMS. Switch between the front and bird’s-eye views, or open a figure to inspect the full image.</p></div><div class="image-grid" id="image-grid"><p class="loading-message">Loading planning visualizations…</p></div><div class="motion-heading"><h3>Plans in motion</h3><p>Recorded front-camera frames and calibrated plan projections, paired with a bird’s-eye view. These open-loop animations follow the saved Full / seed 0 plan; camera motion and other agents come from the recorded scene.</p></div><div class="navsim-motion-grid"><figure><video controls muted playsinline preload="metadata" aria-label="NAVSIM saved plan: Urban bend" src="assets/videos/navsim-00c489998dd4555c.mp4"></video><figcaption><strong>Urban bend</strong><span>PDMS 100 · 4 s prediction horizon</span></figcaption></figure><figure><video controls muted playsinline preload="metadata" aria-label="NAVSIM saved plan: Narrow street" src="assets/videos/navsim-0114734fd69b598e.mp4"></video><figcaption><strong>Narrow street</strong><span>PDMS 100 · 4 s prediction horizon</span></figcaption></figure><figure><video controls muted playsinline preload="metadata" aria-label="NAVSIM saved plan: Junction" src="assets/videos/navsim-013ec5b715635a66.mp4"></video><figcaption><strong>Junction</strong><span>PDMS 100 · 4 s prediction horizon</span></figcaption></figure><figure><video controls muted playsinline preload="metadata" aria-label="NAVSIM saved plan: Bridge curve" src="assets/videos/navsim-003ead1914c051d7.mp4"></video><figcaption><strong>Bridge curve</strong><span>PDMS 100 · 4 s prediction horizon</span></figcaption></figure></div></section>
+
+    <section class="section results-section" id="results" aria-labelledby="results-title"><div class="container"><div class="section-heading"><div><p class="section-index">05 / EXPERIMENTS</p><h2 id="results-title">Results, with context.</h2></div><p class="section-intro">Compare the full strategy, search variants, and planner transfer under their reported protocols.</p></div>
+      <div class="result-tabs" role="tablist" aria-label="Benchmark results"><button id="tab-navsim" type="button" class="result-tab active" role="tab" aria-selected="true" aria-controls="panel-navsim" data-panel="navsim">NAVSIM<span>Open-loop evaluation</span></button><button id="tab-hugsim" type="button" class="result-tab" role="tab" aria-selected="false" aria-controls="panel-hugsim" data-panel="hugsim" tabindex="-1">HUGSIM<span>Closed-loop driving</span></button><button id="tab-transfer" type="button" class="result-tab" role="tab" aria-selected="false" aria-controls="panel-transfer" data-panel="transfer" tabindex="-1">Planner transfer<span>Across base planners</span></button></div>
+      <div id="panel-navsim" class="result-panel" role="tabpanel" aria-labelledby="tab-navsim" tabindex="0">
+        <div class="result-panel-heading"><div><h3>NAVSIM benchmark comparisons</h3><p>Paper-reported scores across three evaluation settings. Higher is better.</p></div><span class="protocol-tag">Manuscript comparison rows</span></div>
+        <div class="benchmark-switch" role="group" aria-label="NAVSIM benchmark"><button type="button" data-benchmark="pdms" aria-pressed="true">NAVTEST · PDMS</button><button type="button" data-benchmark="navtest_epdms" aria-pressed="false">NAVTEST · EPDMS</button><button type="button" data-benchmark="navhard_epdms" aria-pressed="false">NAVHARD · EPDMS</button></div>
+        <div class="table-scroll paper-table" id="paper-navsim-table"></div><p class="table-note" id="paper-protocol"></p>
+        <p class="table-note">Comparison rows are transcribed from the manuscript’s benchmark tables and retain their reported configurations. They are distinct from the controlled, same-resource experiment below.</p>
+        <details class="research-note"><summary>Controlled comparison · three seeds, fixed model resources <span aria-hidden="true">+</span></summary><div>
+          <div class="table-scroll" id="navtest-table"></div>
+          <p>12,146 observed NAVTEST scenes, 44 parent logs, three search seeds. Full reaches <strong>95.5116 PDMS</strong>, improving over CEM8 by <strong>0.4075</strong> (95% CI [0.1149, 0.7274]; Holm-adjusted p = .036).</p>
+          <p>Isolated p50 latency is 1.3093 s for Full and 1.1998 s for CEM8 (+9.1%). All timings include the common dual-model encoding; the Native row is not a standalone single-model deployment latency.</p>
+          <p>After averaging seeds within scenes, drops exceeding 20 points from Native occur in 118/12,146 Full scenes and 11/12,146 CEM8 scenes. Minimum, mean and DrivoR terminal ranking show no resolved mean-score difference; this comparison does not isolate temporal fusion.</p>
+        </div></details>
+      </div>
+      <div id="panel-hugsim" class="result-panel" role="tabpanel" aria-labelledby="tab-hugsim" tabindex="0" hidden>
+        <div class="result-panel-heading"><div><h3>HUGSIM · Closed-loop comparison</h3><p>Route Completion (RC) and HD-Score. Higher is better.</p></div><span class="protocol-tag">345 scenarios</span></div>
+        <div class="table-scroll" id="paper-hugsim-table"></div>
+        <p class="table-note">Paper-reported comparison rows follow the Gigapixel and DriveZero evaluation records. DriveTTO uses observed commands and a weighted-control schedule; its averages cover all 345 scenarios. DriveZero-Scale has the highest HD-Score in this table.</p>
+        <details class="research-note"><summary>Reproduced baselines and input configurations <span aria-hidden="true">+</span></summary><div><div class="table-scroll" id="hugsim-table"></div><p>345 observed development scenes, simulation seed 2, 50 ms wall-clock iLQR. Observed-command v4 changes command inputs relative to fixed-straight. The selected hard/extreme videos are individual high-scoring examples, not the aggregate distribution.</p></div></details>
+      </div>
+      <div id="panel-transfer" class="result-panel" role="tabpanel" aria-labelledby="tab-transfer" tabindex="0" hidden><div class="result-panel-heading"><div><h3>Transfer across base planners</h3><p>Native outputs, ToAD, and DriveTTO-S with the same native anchor and top-64 bank.</p></div><span class="protocol-tag">Benchmark-specific variants</span></div><h4 class="transfer-heading">NAVTEST <span>PDMS ↑</span></h4><div class="table-scroll" id="transfer-navtest-table"></div><h4 class="transfer-heading">NAVHARD <span>EPDMS ↑</span></h4><div class="table-scroll" id="transfer-navhard-table"></div><p class="table-note">DriveTTO-S is the single-scorer endpoint_post transfer branch; ToAD uses K = 10 on NAVTEST and K = 5 on NAVHARD. Native denotes each base planner’s original output. These settings are separate from the full-strategy benchmark results. In the isolated search timing study, DriveTTO-S takes 153.9–185.2 ms versus 40.3–48.8 ms for ToAD (median ratio ≈3.8).</p></div>
+      <div class="results-source"><p>Inspect the numbers behind the page.</p><a class="text-link" href="assets/data/results.csv" download>Download results CSV <span aria-hidden="true">↓</span></a></div>
+    </div></section>
+
+    <section class="section resources-section container" id="resources" aria-labelledby="resources-title"><div class="section-heading"><div><p class="section-index">06 / RESOURCES</p><h2 id="resources-title">Explore DriveTTO.</h2></div><p class="section-intro">Code, reported results, and selected visual evidence in one place.</p></div><div class="resource-list"><a href="https://github.com/Rtwotwo/DriveTTO" target="_blank" rel="noopener noreferrer"><span class="resource-number">01</span><div><h3>Project code</h3><p>Explore the DriveTTO repository.</p></div><span class="resource-format">GITHUB</span><span class="resource-arrow" aria-hidden="true">↗</span></a><a href="assets/data/results.csv" download><span class="resource-number">02</span><div><h3>Benchmark results</h3><p>Download the reported comparison tables.</p></div><span class="resource-format">CSV</span><span class="resource-arrow" aria-hidden="true">↓</span></a><a href="assets/data/media-selection.json" download><span class="resource-number">03</span><div><h3>Selected media</h3><p>Scene identifiers, metrics, and media selection.</p></div><span class="resource-format">JSON</span><span class="resource-arrow" aria-hidden="true">↓</span></a><a id="method-download" href="assets/images/overview.webp" download><span class="resource-number">04</span><div><h3>Method overview</h3><p>The complete DriveTTO framework figure.</p></div><span class="resource-format">IMAGE</span><span class="resource-arrow" aria-hidden="true">↓</span></a></div><div class="paper-status"><span class="status-dot" aria-hidden="true"></span><p><strong>Paper coming soon.</strong> A paper link and citation will be added when available.</p></div></section>
+    <p class="data-status container" id="data-status" role="status" hidden></p>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a href="#" class="brand"><img src="favicon.svg" width="29" height="29" alt=""><span>Drive<span class="teal">TTO</span></span></a><p>Test-time trajectory optimization.<br>Endpoint search. Temporal fusion.</p><a href="#" class="back-top">Back to top <span aria-hidden="true">↑</span></a></div><div class="container footer-bottom"><span>© 2026 DriveTTO</span><p>Page design inspired by <a href="https://opendrivelab.com/SimVTA/" target="_blank" rel="noopener noreferrer">SimVTA</a> and <a href="https://xiaomiautol3.github.io/DriveZero/" target="_blank" rel="noopener noreferrer">DriveZero</a>; introduction format inspired by <a href="https://countnemochan.github.io/FPD-Drive/" target="_blank" rel="noopener noreferrer">FPD-Drive</a>.</p></div></footer>
+  <dialog id="image-dialog" class="image-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><h2 id="dialog-title">Planning visualization</h2><button id="dialog-close" class="dialog-close" type="button" aria-label="Close image preview">×</button></div><div class="dialog-image-wrap"><img id="dialog-image" alt=""></div><p id="dialog-description"></p></dialog>
+</body>
+</html>

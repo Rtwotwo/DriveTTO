@@ -1,0 +1,204 @@
+{
+  "files": [
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/app.js",
+      "bytes": 16562,
+      "sha256": "2a00ab476864265817e5d070e22997445a93a8db82ff740e2212a00bdabea583"
+    },
+    {
+      "path": "docs/assets/data/intro-edit.json",
+      "bytes": 3971,
+      "sha256": "5d8ccd53f8586c46096aefccb517fde2cadc50a73b36969716998bca23c5f460"
+    },
+    {
+      "path": "docs/assets/data/media-selection.json",
+      "bytes": 20076,
+      "sha256": "2e470797ec1d844b59a0150d71e70f2bf15258edb718a886ad8e58fe217b4156"
+    },
+    {
+      "path": "docs/assets/data/results.csv",
+      "bytes": 22259,
+      "sha256": "4b52d0ac94f86801b3056fc9ebca8d7a2ace0d9f76f43603bb8321722b9592aa"
+    },
+    {
+      "path": "docs/assets/data/site-data.json",
+      "bytes": 18434,
+      "sha256": "af62ad2240c05180e377b6e4fb8f45b3e34f09b711975a3c536df18d5506420b"
+    },
+    {
+      "path": "docs/assets/images/003ead1914c051d7-bev.webp",
+      "bytes": 86596,
+      "sha256": "3f14f578c5a8d3fe964492f32f5de2d869276b84035fa465cbd1a31807580257"
+    },
+    {
+      "path": "docs/assets/images/003ead1914c051d7-front.webp",
+      "bytes": 127124,
+      "sha256": "68cb38ecf8f297f75e9b131eb4e92f5588ad9256d4262ae50e9983a7fcbf9b64"
+    },
+    {
+      "path": "docs/assets/images/00c489998dd4555c-bev.webp",
+      "bytes": 114654,
+      "sha256": "df3525985642ae6bce6e25a4272d24f752d0f4630545f487fcab07eef493984c"
+    },
+    {
+      "path": "docs/assets/images/00c489998dd4555c-front.webp",
+      "bytes": 94564,
+      "sha256": "8118ce75899898c0317f9313e2f31019366a42345dc126483453ab7c010d7424"
+    },
+    {
+      "path": "docs/assets/images/0114734fd69b598e-bev.webp",
+      "bytes": 39296,
+      "sha256": "7d863a67a8131c7ce6174b505591520ae26e77c75e677d73c03d0c76a9593ff2"
+    },
+    {
+      "path": "docs/assets/images/0114734fd69b598e-front.webp",
+      "bytes": 129216,
+      "sha256": "2d1f3b9aa998ee22228ecc80eff2b47063fb7df111faccd5b2b77d9a80bba728"
+    },
+    {
+      "path": "docs/assets/images/013ec5b715635a66-bev.webp",
+      "bytes": 95396,
+      "sha256": "ee5d5ccc45d8312479792ee20c6a8c8267ef16a8f9165dd53edfd8074410d463"
+    },
+    {
+      "path": "docs/assets/images/013ec5b715635a66-front.webp",
+      "bytes": 181102,
+      "sha256": "a3e94792700e0cad3fc66b14a9856331b8cdb1dc366dd1e2f7d2f21e8759b63b"
+    },
+    {
+      "path": "docs/assets/images/intro-poster.jpg",
+      "bytes": 111144,
+      "sha256": "a84f6a37eae420e87dd5480a871cc545f98e78d7c5716e1a09a0aa7fb3bad59f"
+    },
+    {
+      "path": "docs/assets/images/kitti360-0000_8440_8640-easy_00.jpg",
+      "bytes": 42982,
+      "sha256": "89d4216300dbdf3dc952555dbfdb4184d8b60ba32d62b43e670391d96fd38299"
+    },
+    {
+      "path": "docs/assets/images/nuscenes-scene-0166-hard_00.jpg",
+      "bytes": 51993,
+      "sha256": "a456aeb433a08fadde31dfe77db5234fc037d73b2d819140d3be1f9dc8e88e97"
+    },
+    {
+      "path": "docs/assets/images/nuscenes-scene-0167-extreme_01.jpg",
+      "bytes": 53854,
+      "sha256": "4298526db80cbf0de51d3ad4972395e3dca74d5e4db3d3a8c0a0f07c387a4f41"
+    },
+    {
+      "path": "docs/assets/images/overview.webp",
+      "bytes": 307632,
+      "sha256": "bd7fbe140a4fa2d170823dbcc6272a1bd1eb6ebe98ab3874506b91314f7938e8"
+    },
+    {
+      "path": "docs/assets/images/pandaset-028-medium_00.jpg",
+      "bytes": 80936,
+      "sha256": "7f145909f872e8b78247e36be13244b71ec21d614d2abda544fe4718a2d61745"
+    },
+    {
+      "path": "docs/assets/images/waymo-166085257829_0_200-hard_00.jpg",
+      "bytes": 57891,
+      "sha256": "3f1f0039054fe4068f6ca29519363da819c9364cf0f4a1301a67deba944957b7"
+    },
+    {
+      "path": "docs/assets/images/waymo-322492347634_0_200-extreme_01.jpg",
+      "bytes": 43022,
+      "sha256": "0b7780de67a5151abb31c9bd3e4c25c687e6aad411e1f9efc7dbb753ad2c468c"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-introduction.mp4",
+      "bytes": 10632253,
+      "sha256": "c8cda671c84d3fd4a175d64b0918205c63d03a45d6bfc505083a40cb47d2e604"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-introduction.vtt",
+      "bytes": 1006,
+      "sha256": "34444a0ae0fce38a82a9b15d2bdd1db0946679b3c888e3eb1c9176cceaa41712"
+    },
+    {
+      "path": "docs/assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
+      "bytes": 6977028,
+      "sha256": "ce030b789c53ce4445a90a60968393f2c08b8b1c8d242b95380a4bc239d78df3"
+    },
+    {
+      "path": "docs/assets/videos/navsim-003ead1914c051d7.mp4",
+      "bytes": 663504,
+      "sha256": "c8286d1bf6ebfaffe4e0ad24bf731f5ecb0e2bdb572b62983ea6a6522c7a573c"
+    },
+    {
+      "path": "docs/assets/videos/navsim-00c489998dd4555c.mp4",
+      "bytes": 536883,
+      "sha256": "2845faf304f1320677b4b34f996498c0a36866e863892800ac337b62968fea75"
+    },
+    {
+      "path": "docs/assets/videos/navsim-0114734fd69b598e.mp4",
+      "bytes": 622248,
+      "sha256": "895b5c129c0e70ed4d201d1c09e4945f2dd8af87fe2f50be9bd780506d47deb8"
+    },
+    {
+      "path": "docs/assets/videos/navsim-013ec5b715635a66.mp4",
+      "bytes": 787982,
+      "sha256": "ddd461a67a7e593b278aafbfe1330df0be1f3c4e499b38d2089814c5bedaff12"
+    },
+    {
+      "path": "docs/assets/videos/nuscenes-scene-0166-hard_00.mp4",
+      "bytes": 3489769,
+      "sha256": "522276c76d01ce8866b94bb391bbbeb5096ea6f93ee31595c4ffcf4f0b086b35"
+    },
+    {
+      "path": "docs/assets/videos/nuscenes-scene-0167-extreme_01.mp4",
+      "bytes": 4085504,
+      "sha256": "052832b18aaf67b83986473d62b1fe816e51eedce87d2e9d3d2d5e7ffb3992be"
+    },
+    {
+      "path": "docs/assets/videos/pandaset-028-medium_00.mp4",
+      "bytes": 8972321,
+      "sha256": "b45130c31a097a745e0c5ba371cda349fa8c779ed628db4892116e3899afa10c"
+    },
+    {
+      "path": "docs/assets/videos/waymo-166085257829_0_200-hard_00.mp4",
+      "bytes": 6526897,
+      "sha256": "0ba18b8861a7360581fcb74482ace64f597cda4bace6b7fae2e0f80144bf9780"
+    },
+    {
+      "path": "docs/assets/videos/waymo-322492347634_0_200-extreme_01.mp4",
+      "bytes": 2372473,
+      "sha256": "418d7c851c5dbfb7c5372c933378f633353551fd96609839fee7137b4391a4fe"
+    },
+    {
+      "path": "docs/favicon.svg",
+      "bytes": 469,
+      "sha256": "2ac093d6c20eff0581cfce9e5e5e9c0e3c114435712fed5c53a4a94922cf8a8f"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 20378,
+      "sha256": "4d895c64e36aa083d3a4105b91728d04d071f173de36529672dbb0366a25f0bd"
+    },
+    {
+      "path": "docs/styles.css",
+      "bytes": 26156,
+      "sha256": "ed5293f378d68730a7493617c47856076b31757ae6d5fdeb9b95af6c7afd160e"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 663,
+      "sha256": "768b8dceeb9f4522ac80573b27e5a4c42887875c6ddcaa1c982ffc0533f7fa9d"
+    },
+    {
+      "path": "WEBSITE.md",
+      "bytes": 2396,
+      "sha256": "47b20ad8e884db335b30924f0d41feea120e0f3ca9e44e311e1b26b8bbbc0dc9"
+    },
+    {
+      "path": "tools/serve_site.py",
+      "bytes": 2363,
+      "sha256": "827b92e34782e0edc672fcb5ac894f985d56cf92fff7d18bd51b366a59923555"
+    }
+  ]
+}

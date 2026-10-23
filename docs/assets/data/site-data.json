@@ -1,0 +1,552 @@
+{
+  "version": "2026-10-24",
+  "intro": {
+    "src": "assets/videos/drivetto-introduction.mp4",
+    "poster": "assets/images/intro-poster.jpg",
+    "title": "DriveTTO — from trajectory search to closed-loop driving",
+    "duration": 114,
+    "sha256": "c8cda671c84d3fd4a175d64b0918205c63d03a45d6bfc505083a40cb47d2e604",
+    "chapters": "assets/videos/drivetto-introduction.vtt"
+  },
+  "videos": [
+    {
+      "id": "nuscenes-scene-0166-hard_00",
+      "dataset": "nuScenes",
+      "scene": "scene-0166",
+      "difficulty": "hard",
+      "mode": "hard_00",
+      "hd": 100.0,
+      "rc": 100.0,
+      "pdms": 100.0,
+      "frames": 62,
+      "duration": 15.5,
+      "source_sha256": "ab39c950dbae4a5e58383f8a8251032131d0ab3ae96a6bdd6f1ad524cd3d3cd3",
+      "src": "assets/videos/nuscenes-scene-0166-hard_00.mp4",
+      "poster": "assets/images/nuscenes-scene-0166-hard_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Through the city blocks",
+      "description": "A multi-camera rollout through an urban industrial district. The front view follows the road past parked vehicles and marked intersections; the side and rear views show the surrounding traffic.",
+      "web_sha256": "522276c76d01ce8866b94bb391bbbeb5096ea6f93ee31595c4ffcf4f0b086b35",
+      "web_bytes": 3489769
+    },
+    {
+      "id": "waymo-166085257829_0_200-hard_00",
+      "dataset": "Waymo",
+      "scene": "166085257829_0_200",
+      "difficulty": "hard",
+      "mode": "hard_00",
+      "hd": 97.20730397422126,
+      "rc": 100.0,
+      "pdms": 97.20730397422126,
+      "frames": 133,
+      "duration": 33.25,
+      "source_sha256": "d5dc3475fc1fd92277c5ba6afb7f34e6f9384c0be0ac7ee346c6b46b9bd46119",
+      "src": "assets/videos/waymo-166085257829_0_200-hard_00.mp4",
+      "poster": "assets/images/waymo-166085257829_0_200-hard_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Between parked vehicles",
+      "description": "A narrow urban street lined with parked cars. The forward cameras show the approach to an intersection and the available corridor between the vehicles along each curb.",
+      "web_sha256": "0ba18b8861a7360581fcb74482ace64f597cda4bace6b7fae2e0f80144bf9780",
+      "web_bytes": 6526897
+    },
+    {
+      "id": "pandaset-028-medium_00",
+      "dataset": "PandaSet",
+      "scene": "028",
+      "difficulty": "medium",
+      "mode": "medium_00",
+      "hd": 92.89099526066352,
+      "rc": 100.0,
+      "pdms": 92.89099526066352,
+      "frames": 211,
+      "duration": 52.75,
+      "source_sha256": "5bc61780facb7289a45c655771d006cc444c052210fa034bdbacaddff48fcef7",
+      "src": "assets/videos/pandaset-028-medium_00.mp4",
+      "poster": "assets/images/pandaset-028-medium_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Following along a residential street",
+      "description": "The ego vehicle travels behind a white vehicle on a street with close curbside parking. The camera mosaic shows the changing gap and the surrounding residential blocks.",
+      "web_sha256": "b45130c31a097a745e0c5ba371cda349fa8c779ed628db4892116e3899afa10c",
+      "web_bytes": 8972321
+    },
+    {
+      "id": "kitti360-0000_8440_8640-easy_00",
+      "dataset": "KITTI-360",
+      "scene": "0000_8440_8640",
+      "difficulty": "easy",
+      "mode": "easy_00",
+      "hd": 92.09984444209431,
+      "rc": 95.89100159530892,
+      "pdms": 96.04638903531895,
+      "frames": 271,
+      "duration": 67.75,
+      "source_sha256": "a12dd6dd51f80d64b15bf082f05ef896189a78ec6c6f6de8244bd14dd8077754",
+      "src": "assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
+      "poster": "assets/images/kitti360-0000_8440_8640-easy_00.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "From curbside parking to a crossing",
+      "description": "A residential route passes rows of parked cars and approaches a marked crossing. This example includes the original scene lighting and reconstruction appearance.",
+      "web_sha256": "ce030b789c53ce4445a90a60968393f2c08b8b1c8d242b95380a4bc239d78df3",
+      "web_bytes": 6977028
+    },
+    {
+      "id": "nuscenes-scene-0167-extreme_01",
+      "dataset": "nuScenes",
+      "scene": "scene-0167",
+      "difficulty": "extreme",
+      "mode": "extreme_01",
+      "hd": 98.01084990958408,
+      "rc": 100.0,
+      "pdms": 98.01084990958408,
+      "frames": 79,
+      "duration": 19.75,
+      "source_sha256": "9376c30fdf52e5334191483385147cf64d4f8513d36baa8e41dfd35774175864",
+      "src": "assets/videos/nuscenes-scene-0167-extreme_01.mp4",
+      "poster": "assets/images/nuscenes-scene-0167-extreme_01.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "Across a broad intersection",
+      "description": "An industrial street opens into a wide junction. Multiple camera views show a silver vehicle alongside the ego car and the continuation of the route past roadside trucks.",
+      "web_sha256": "052832b18aaf67b83986473d62b1fe816e51eedce87d2e9d3d2d5e7ffb3992be",
+      "web_bytes": 4085504
+    },
+    {
+      "id": "waymo-322492347634_0_200-extreme_01",
+      "dataset": "Waymo",
+      "scene": "322492347634_0_200",
+      "difficulty": "extreme",
+      "mode": "extreme_01",
+      "hd": 95.37223340040242,
+      "rc": 100.0,
+      "pdms": 95.37223340040242,
+      "frames": 71,
+      "duration": 17.75,
+      "source_sha256": "128302601816d655fb4dca6840f7e3b8be066d2764497c35cc25e9ae58c4972c",
+      "src": "assets/videos/waymo-322492347634_0_200-extreme_01.mp4",
+      "poster": "assets/images/waymo-322492347634_0_200-extreme_01.jpg",
+      "encoding": "H.264/yuv420p, original frame cadence and full duration, max width1600, no crop, faststart",
+      "title": "An uphill urban corridor",
+      "description": "The forward cameras follow a rising street with parked cars on both sides. The rollout continues between the curbside vehicles toward the next block.",
+      "web_sha256": "418d7c851c5dbfb7c5372c933378f633353551fd96609839fee7137b4391a4fe",
+      "web_bytes": 2372473
+    }
+  ],
+  "images": [
+    {
+      "id": "00c489998dd4555c",
+      "token": "00c489998dd4555c",
+      "src": "assets/images/00c489998dd4555c-front.webp",
+      "bev": "assets/images/00c489998dd4555c-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "e0a53eba6962c5b1fda2280489efb03482c2dd3d9e315ff92bd05779bd15b8ba",
+      "source_bev_sha256": "d031bad107f7223299a7bfe374edb5a09f1da2ce78dc7d213352ec3980e1fc5b",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Following a curved lane",
+      "description": "At the bend, the selected yellow trajectory turns with the lane. The blue candidate set spreads over different curvatures, while the white human reference offers a geometric comparison."
+    },
+    {
+      "id": "0114734fd69b598e",
+      "token": "0114734fd69b598e",
+      "src": "assets/images/0114734fd69b598e-front.webp",
+      "bev": "assets/images/0114734fd69b598e-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "e05110908c67223bb571720f8660ef82fff6620e916d01b637df61c3b4a5bc55",
+      "source_bev_sha256": "2191acd483e0593da11c96809bfba74d6a79db6ee82b4397e6a33d944bad9a38",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Keeping a compact forward plan",
+      "description": "On the straight street, the selected path stays close to the cluster of forward candidates. The paired bird’s-eye view makes the lateral spacing near the curb easier to inspect."
+    },
+    {
+      "id": "013ec5b715635a66",
+      "token": "013ec5b715635a66",
+      "src": "assets/images/013ec5b715635a66-front.webp",
+      "bev": "assets/images/013ec5b715635a66-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "9304fd246cd772554fa223ca10b805764e17fe326a25c00bbaeb8e1d3e39a21b",
+      "source_bev_sha256": "91a8321046af695d6ac9deaa1cf28e06265ba666fc62165c75ac79a0186e8091",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Resolving a branching junction",
+      "description": "Candidate paths fan out toward different exits at the junction. The selected yellow path continues ahead, separating the chosen route from the alternatives that turn across the road."
+    },
+    {
+      "id": "003ead1914c051d7",
+      "token": "003ead1914c051d7",
+      "src": "assets/images/003ead1914c051d7-front.webp",
+      "bev": "assets/images/003ead1914c051d7-bev.webp",
+      "score": 100.0,
+      "scoreLabel": "PDMS",
+      "source_front_sha256": "079063e29a2934697f46b6b4164ca97a911c82aa553c4aaca65ebe7a121540c0",
+      "source_bev_sha256": "3ceb6ab770a7ce67168ec1e921a9e2490edfe10eba11d8b6ef1303aa26f1a505",
+      "score_csv_sha256": "e2ea9b29aca1d6d29edee0e3e4154f8b43a8cef74af49eed6515de5880f5decd",
+      "title": "Tracing the bridge curvature",
+      "description": "The plan follows the road’s gradual bend beside opposing traffic. The camera view and bird’s-eye map show how the selected trajectory aligns with the lane through the curve."
+    }
+  ],
+  "benchmarks": {
+    "paper": {
+      "pdms": [
+        {
+          "method": "UniAD",
+          "score": 83.4
+        },
+        {
+          "method": "TransFuser",
+          "score": 83.9
+        },
+        {
+          "method": "PARA-Drive",
+          "score": 84.0
+        },
+        {
+          "method": "DiffusionDrive",
+          "score": 88.0
+        },
+        {
+          "method": "DIVER",
+          "score": 88.3
+        },
+        {
+          "method": "NavFormer",
+          "score": 91.4
+        },
+        {
+          "method": "iPad",
+          "score": 91.7
+        },
+        {
+          "method": "SparseDriveV2",
+          "score": 92.1
+        },
+        {
+          "method": "Centaur",
+          "score": 92.1
+        },
+        {
+          "method": "DriveSuprim",
+          "score": 93.5
+        },
+        {
+          "method": "RAP",
+          "score": 93.8
+        },
+        {
+          "method": "CLOVER",
+          "score": 94.5
+        },
+        {
+          "method": "DrivoR",
+          "score": 94.6
+        },
+        {
+          "method": "DriveZero-Scale",
+          "score": 95.3
+        },
+        {
+          "method": "DriveX-S",
+          "score": 84.5
+        },
+        {
+          "method": "World4Drive",
+          "score": 85.1
+        },
+        {
+          "method": "Auto-JEPA",
+          "score": 91.3
+        },
+        {
+          "method": "DriveVLA-W0",
+          "score": 93.0
+        },
+        {
+          "method": "UniVLA",
+          "score": 81.7
+        },
+        {
+          "method": "ReCogDrive",
+          "score": 90.8
+        },
+        {
+          "method": "AutoVLA (oracle 6)",
+          "score": 92.1
+        },
+        {
+          "method": "CLEAR",
+          "score": 93.7
+        },
+        {
+          "method": "ChainFlow-VLA",
+          "score": 94.8
+        },
+        {
+          "method": "DriveTTO",
+          "score": 95.5
+        }
+      ],
+      "navtest_epdms": [
+        {
+          "method": "EponaV2",
+          "score": 88.9
+        },
+        {
+          "method": "Auto-JEPA",
+          "score": 89.1
+        },
+        {
+          "method": "DriveFine",
+          "score": 89.7
+        },
+        {
+          "method": "DriveFuture",
+          "score": 89.9
+        },
+        {
+          "method": "SparseDriveV2",
+          "score": 90.1
+        },
+        {
+          "method": "CLOVER",
+          "score": 90.4
+        },
+        {
+          "method": "SUV",
+          "score": 91.0
+        },
+        {
+          "method": "DriveTTO",
+          "score": 92.3
+        }
+      ],
+      "navhard_epdms": [
+        {
+          "method": "CLOVER",
+          "score": 48.3
+        },
+        {
+          "method": "Gigapixel",
+          "score": 50.1
+        },
+        {
+          "method": "SimScale",
+          "score": 53.2
+        },
+        {
+          "method": "DrivoR",
+          "score": 54.6
+        },
+        {
+          "method": "DriveFuture",
+          "score": 55.5
+        },
+        {
+          "method": "DriveZero-Scale",
+          "score": 57.1
+        },
+        {
+          "method": "DriveTTO",
+          "score": 57.1
+        }
+      ],
+      "hugsim": [
+        {
+          "method": "LTF",
+          "rc": 38.9,
+          "hd": 23.7
+        },
+        {
+          "method": "VAD",
+          "rc": 31.4,
+          "hd": 13.4
+        },
+        {
+          "method": "UniAD",
+          "rc": 45.9,
+          "hd": 32.7
+        },
+        {
+          "method": "DrivoR",
+          "rc": 49.8,
+          "hd": 35.7
+        },
+        {
+          "method": "DrivoR-Scale",
+          "rc": 46.4,
+          "hd": 38.1
+        },
+        {
+          "method": "Gigapixel",
+          "rc": 50.1,
+          "hd": 38.5
+        },
+        {
+          "method": "DriveZero",
+          "rc": 53.9,
+          "hd": 39.4
+        },
+        {
+          "method": "DriveZero-Scale",
+          "rc": 54.5,
+          "hd": 46.6
+        },
+        {
+          "method": "DriveTTO",
+          "rc": 54.5,
+          "hd": 40.1
+        }
+      ]
+    },
+    "navtest": [
+      {
+        "method": "Native reference",
+        "variant": "native",
+        "score": 94.88096428002481,
+        "p50": 0.9201427520019934
+      },
+      {
+        "method": "Native candidate union",
+        "variant": "union",
+        "score": 95.00071924344307,
+        "p50": 1.009663125500083
+      },
+      {
+        "method": "Fixed interpolation",
+        "variant": "interpolation",
+        "score": 95.04059540718643,
+        "p50": 0.9190886585274711
+      },
+      {
+        "method": "Dual-scorer CEM · 4 iterations",
+        "variant": "cem4",
+        "score": 95.10077254670404,
+        "p50": 1.0632479574996978
+      },
+      {
+        "method": "Dual-scorer CEM · 8 iterations",
+        "variant": "cem8",
+        "score": 95.10402229285303,
+        "p50": 1.1997845944715664
+      },
+      {
+        "method": "Dual-scorer CEM · 16 iterations",
+        "variant": "cem16",
+        "score": 95.13323502111712,
+        "p50": 1.4742430925252847
+      },
+      {
+        "method": "DriveTTO · Full",
+        "variant": "full",
+        "score": 95.51155621509317,
+        "p50": 1.3092869014944881
+      }
+    ],
+    "hugsim": [
+      {
+        "method": "DrivoR · reproduced",
+        "rc": 48.20736027,
+        "hd": 34.04253538
+      },
+      {
+        "method": "DriveTTO · fixed-straight input",
+        "rc": 52.47397645,
+        "hd": 38.09102788
+      },
+      {
+        "method": "DriveTTO · observed-command v4",
+        "rc": 54.47585675100443,
+        "hd": 40.053724997254385
+      }
+    ],
+    "transfer": {
+      "navtest": [
+        {
+          "method": "ZTRS",
+          "native": 87.1306,
+          "toad": 88.578,
+          "drive": 91.0221
+        },
+        {
+          "method": "GTRS",
+          "native": 90.93,
+          "toad": 92.1587,
+          "drive": 93.5195
+        },
+        {
+          "method": "Hydra-MDP",
+          "native": 90.8336,
+          "toad": 92.2803,
+          "drive": 93.4641
+        },
+        {
+          "method": "iPad",
+          "native": 91.7879,
+          "toad": 93.4141,
+          "drive": 94.2302
+        },
+        {
+          "method": "RAP-DINO",
+          "native": 93.8203,
+          "toad": 94.46,
+          "drive": 94.5679
+        },
+        {
+          "method": "DrivoR",
+          "native": 94.5389,
+          "toad": 94.7202,
+          "drive": 94.8672
+        }
+      ],
+      "navhard": [
+        {
+          "method": "ZTRS",
+          "native": 46.169,
+          "toad": 49.6922,
+          "drive": 51.4893
+        },
+        {
+          "method": "GTRS",
+          "native": 43.8706,
+          "toad": 49.3151,
+          "drive": 49.4346
+        },
+        {
+          "method": "Hydra-MDP",
+          "native": 41.1733,
+          "toad": 48.0827,
+          "drive": 47.6296
+        },
+        {
+          "method": "iPad",
+          "native": 36.8378,
+          "toad": 50.609,
+          "drive": 47.8166
+        },
+        {
+          "method": "RAP-DINO",
+          "native": 38.6198,
+          "toad": 45.7217,
+          "drive": 52.5532
+        },
+        {
+          "method": "DrivoR",
+          "native": 54.5616,
+          "toad": 55.6365,
+          "drive": 56.226
+        }
+      ]
+    }
+  },
+  "links": {
+    "code": "https://github.com/Rtwotwo/DriveTTO"
+  },
+  "method": {
+    "overview": "assets/images/overview.webp"
+  },
+  "protocols": {
+    "navtest": "12,146 observed development scenes; 3 search seeds; frozen dual-model resources. Inference latency measured separately from parallel throughput. Native timing includes shared dual-model encoding.",
+    "navhard_full": "Original full57 strategy, EPDMS 57.0982; 5,912 tokens and official 225-group two-stage product aggregation. Separate from endpoint_post transfer.",
+    "hugsim": "345 observed development scenarios; simulation seed 2; 50 ms wall-clock iLQR; observed-command v4 changes the command/history input compared with fixed-straight input.",
+    "transfer": "R7 endpoint_post single-scorer transfer branch; NAVTEST ToAD K10 and NAVHARD ToAD K5. Values rounded to four decimals in the archived full-result report.",
+    "qualitative": "Selected high-score NAVTEST figures from viz_high_9554; yellow = selected plan, blue = native candidates, white = human reference. Individual examples, separate from the new three-seed aggregate."
+  }
+}

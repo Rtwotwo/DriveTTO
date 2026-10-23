@@ -1,0 +1,126 @@
+{
+  "duration_seconds": 114,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "bytes": 10632253,
+  "sha256": "c8cda671c84d3fd4a175d64b0918205c63d03a45d6bfc505083a40cb47d2e604",
+  "poster_sha256": "a84f6a37eae420e87dd5480a871cc545f98e78d7c5716e1a09a0aa7fb3bad59f",
+  "chapters": [
+    {
+      "title": "DriveTTO",
+      "start": 0,
+      "end": 6,
+      "source_sha256": "ffe50d678adef6d82b115eaee7a95517d9160e89e2bf749cd53d48f0521ffe3d"
+    },
+    {
+      "title": "HUGSIM | Urban intersection",
+      "start": 6,
+      "end": 12,
+      "source_sha256": "0fecfd793146ebf3b5bc16f9cf800fcb43a41b5e8571fa929c53cf8dd264c1a4"
+    },
+    {
+      "title": "The DriveTTO pipeline",
+      "start": 12,
+      "end": 18,
+      "source_sha256": "68d83bf869830679bd8845f9cb043075ec0e250cb38ddef7123986cffd891c64"
+    },
+    {
+      "title": "Endpoint feedback",
+      "start": 18,
+      "end": 23,
+      "source_sha256": "c03b9622a9a8318fd1f49349719a6ed38db822d96df965ac04830a357d24f434"
+    },
+    {
+      "title": "Bounded refinement",
+      "start": 23,
+      "end": 28,
+      "source_sha256": "3178811ac32629b4c377935741ab8bfeb1ce434110aef7647bb079dace258c49"
+    },
+    {
+      "title": "NAVSIM | Urban bend",
+      "start": 28,
+      "end": 34,
+      "source_sha256": "2845faf304f1320677b4b34f996498c0a36866e863892800ac337b62968fea75"
+    },
+    {
+      "title": "HUGSIM | Waymo hard",
+      "start": 34,
+      "end": 40,
+      "source_sha256": "b4bd63c95acba5f847824880020ef7586c80f45e2e33187c999b44e6f0f4d060"
+    },
+    {
+      "title": "HUGSIM | PandaSet extreme",
+      "start": 40,
+      "end": 46,
+      "source_sha256": "29cb85f76e54310b4d8f686c9b943010391e19df6120f3f618ae7a512b87fcbd"
+    },
+    {
+      "title": "Temporal fusion",
+      "start": 46,
+      "end": 51,
+      "source_sha256": "a8d535b71e3c5a682f44a35320d25e686ba106e32c945e3a8c67373a35f18a6a"
+    },
+    {
+      "title": "Shared-context selection",
+      "start": 51,
+      "end": 56,
+      "source_sha256": "d3ced455f753c912b2f3076a5d75c8b9edf1af6f342c66f422a9f878385fd875"
+    },
+    {
+      "title": "NAVSIM | Narrow street",
+      "start": 56,
+      "end": 62,
+      "source_sha256": "895b5c129c0e70ed4d201d1c09e4945f2dd8af87fe2f50be9bd780506d47deb8"
+    },
+    {
+      "title": "HUGSIM | nuScenes extreme",
+      "start": 62,
+      "end": 68,
+      "source_sha256": "1d8b395df2d38d5a82cf7bdcda5c4293a39d5ce3ae60aa11ed2c83593f63aee2"
+    },
+    {
+      "title": "HUGSIM | Waymo extreme",
+      "start": 68,
+      "end": 74,
+      "source_sha256": "6783498ee20adabc1be05b58da1bf799b8286c5f073bc27c94742299c12ec7b1"
+    },
+    {
+      "title": "NAVSIM | Junction",
+      "start": 74,
+      "end": 80,
+      "source_sha256": "ddd461a67a7e593b278aafbfe1330df0be1f3c4e499b38d2089814c5bedaff12"
+    },
+    {
+      "title": "HUGSIM | nuScenes hard",
+      "start": 80,
+      "end": 86,
+      "source_sha256": "88edc5efec2d54c60d4d8eed20a9c2f6b9bee64787575be67a861b74eacceae6"
+    },
+    {
+      "title": "HUGSIM | nuScenes extreme",
+      "start": 86,
+      "end": 92,
+      "source_sha256": "d80eae3bd6888d42120605d179b57cd6fc0fa2554d1d687ae56944d67b5f9174"
+    },
+    {
+      "title": "NAVSIM | Bridge curve",
+      "start": 92,
+      "end": 98,
+      "source_sha256": "c8286d1bf6ebfaffe4e0ad24bf731f5ecb0e2bdb572b62983ea6a6522c7a573c"
+    },
+    {
+      "title": "HUGSIM | Waymo extreme",
+      "start": 98,
+      "end": 104,
+      "source_sha256": "def7af5910e81f45227ee7253cee754d78355b3f997ccb2de31eb69cd91de6b2"
+    },
+    {
+      "title": "Five benchmark metrics",
+      "start": 104,
+      "end": 114,
+      "source_sha256": "fc79ea6d1d90040201f64f1373937948606255194e218a62dae5f73372ee7d69"
+    }
+  ],
+  "note": "Eight high-scoring hard/extreme HUGSIM examples, four saved-plan NAVSIM animations, and a four-step method explanation. HUGSIM clips play at original recording cadence. NAVSIM uses recorded camera motion with an open-loop plan overlay. Silent video; text carries the explanation."
+}
