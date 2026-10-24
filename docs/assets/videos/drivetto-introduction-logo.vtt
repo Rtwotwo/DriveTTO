@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+DriveTTO | Logo opening
+
+00:00:05.000 --> 00:00:11.000
+DriveTTO: search, compare, select
+
+00:00:11.000 --> 00:00:17.000
+HUGSIM | Urban intersection
+
+00:00:17.000 --> 00:00:23.000
+The DriveTTO pipeline
+
+00:00:23.000 --> 00:00:28.000
+Endpoint feedback at the achieved state
+
+00:00:28.000 --> 00:00:33.000
+Bounded refinement around the reference
+
+00:00:33.000 --> 00:00:39.000
+NAVSIM | Urban bend
+
+00:00:39.000 --> 00:00:45.000
+HUGSIM | Waymo hard
+
+00:00:45.000 --> 00:00:51.000
+HUGSIM | PandaSet extreme
+
+00:00:51.000 --> 00:00:56.000
+Branch fusion along one future horizon
+
+00:00:56.000 --> 00:01:01.000
+Relative-gain selection and fallback
+
+00:01:01.000 --> 00:01:07.000
+NAVSIM | Narrow street
+
+00:01:07.000 --> 00:01:13.000
+HUGSIM | nuScenes extreme
+
+00:01:13.000 --> 00:01:19.000
+HUGSIM | Waymo extreme
+
+00:01:19.000 --> 00:01:25.000
+NAVSIM | Junction
+
+00:01:25.000 --> 00:01:31.000
+HUGSIM | nuScenes hard
+
+00:01:31.000 --> 00:01:37.000
+HUGSIM | nuScenes extreme
+
+00:01:37.000 --> 00:01:43.000
+NAVSIM | Bridge curve
+
+00:01:43.000 --> 00:01:49.000
+HUGSIM | Waymo extreme
+
+00:01:49.000 --> 00:01:59.000
+Five benchmark metrics

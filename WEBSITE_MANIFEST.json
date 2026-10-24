@@ -12,13 +12,18 @@
     },
     {
       "path": "docs/assets/data/intro-edit.json",
-      "bytes": 4189,
-      "sha256": "29c2caf5becb8136b9aa404cd48e177758b34ac7e7c493738aea59ef39915548"
+      "bytes": 4541,
+      "sha256": "5170aac4a209e1b33da99c96fb8c9b362732718fb0021ca1c9a71df3d2391fe0"
+    },
+    {
+      "path": "docs/assets/data/logo-intro.json",
+      "bytes": 2491,
+      "sha256": "6af213593b6a537cfd7d9c264482e1da69f633f751904ab6e1ae7746a74c9759"
     },
     {
       "path": "docs/assets/data/media-selection.json",
-      "bytes": 20301,
-      "sha256": "65aa0ef662b253fca2b73b9ae17871fc560fd257dec178e1ece6349e04d15a5d"
+      "bytes": 21953,
+      "sha256": "7887748f6e0f1e437bf9ed66eab58f67c2cd87385d469243f92cb89303b17c36"
     },
     {
       "path": "docs/assets/data/results.csv",
@@ -27,8 +32,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 31845,
-      "sha256": "57acf97f9cc5cf49ce40e5c4b2dcfd0d317ef215d21f6a9e106b6187752f8051"
+      "bytes": 31860,
+      "sha256": "b6c8bbccc24da9283963f448551e2cb4450c5c244306f0c55796dc7686591579"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -79,6 +84,16 @@
       "path": "docs/assets/images/algorithm-teaser.gif",
       "bytes": 282014,
       "sha256": "1a6fb16ae4cb0c871283ff04502d013292f60b174fea82b11dcbbfe92e92c2a7"
+    },
+    {
+      "path": "docs/assets/images/intro-logo-poster.jpg",
+      "bytes": 93410,
+      "sha256": "245003c3e610c96a327e5f59ccc37399c09f86e1cd8dbc25e0e6ac4c67b8ca10"
+    },
+    {
+      "path": "docs/assets/images/intro-logo-teaser.gif",
+      "bytes": 3022931,
+      "sha256": "806fb3ba64c3b2da2d4c769dd897ad2cfc158c730adebc954f743462e7c12877"
     },
     {
       "path": "docs/assets/images/intro-poster.jpg",
@@ -136,6 +151,16 @@
       "sha256": "6c2444d8919722bf450ed73e94d4559ce56240c90e1ec54a66c69a4088e521c8"
     },
     {
+      "path": "docs/assets/videos/drivetto-introduction-logo.mp4",
+      "bytes": 11218806,
+      "sha256": "0a4b0cb7c43a5d1b699467f856f9831b10a2557377ae6de68dddc5f456314f15"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-introduction-logo.vtt",
+      "bytes": 1164,
+      "sha256": "737abfb1b8a29b3afa49c77aa1b590a80fb6a196fc57ee35fcb97542febe4abb"
+    },
+    {
       "path": "docs/assets/videos/drivetto-introduction.mp4",
       "bytes": 10162128,
       "sha256": "f1a72131b0845b684d6941e667fe64275c8dbae0b6b63c984ff24fcb1d6d94e4"
@@ -144,6 +169,11 @@
       "path": "docs/assets/videos/drivetto-introduction.vtt",
       "bytes": 1109,
       "sha256": "45186c54064aaa4ca38b964ba788a86f7e7a9ca48f7f5ba886b9777bd9d70ef5"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-logo-opening.mp4",
+      "bytes": 1056761,
+      "sha256": "9320ad56a3ab4c63cf3328ae0952cf070868139a5660cafdb3c2297905b393ee"
     },
     {
       "path": "docs/assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
@@ -202,8 +232,18 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22296,
-      "sha256": "555ec339173ed2fae8cee7547203b78cc8a07fbea10b188a37d852b06bad107f"
+      "bytes": 22316,
+      "sha256": "ba9e86aee1567a8c7c834369eb2b1ff1b97f9fc18cc9488d09ba8c9fe39bdf64"
+    },
+    {
+      "path": "docs/player.html",
+      "bytes": 3623,
+      "sha256": "b70521bc9ad183f68ff0c4ee25abcb6eda7e17474b72b07305a82dd62a2cbdbd"
+    },
+    {
+      "path": "docs/player.js",
+      "bytes": 5859,
+      "sha256": "5027a1bdc4ee452e34bfee4853411ba4d320f7ee3d3ec24fb9754a8e64183bd7"
     },
     {
       "path": "docs/styles.css",
@@ -211,9 +251,9 @@
       "sha256": "0ff7f5b0e9c8b3cf5796fb4e9aae4b4f921083899e832d1bd5116d07ef9a9d35"
     },
     {
-      "path": ".github/workflows/pages.yml",
-      "bytes": 663,
-      "sha256": "768b8dceeb9f4522ac80573b27e5a4c42887875c6ddcaa1c982ffc0533f7fa9d"
+      "path": "README.md",
+      "bytes": 7480,
+      "sha256": "ad91265b3b89d45f1945488dbc256f7a60a2699257e00c34d6fc2d5a37c2fc66"
     },
     {
       "path": "WEBSITE.md",
@@ -221,14 +261,19 @@
       "sha256": "e5c3a35c86c0c52de21e3d89166c9e46228487b92fb74572803371b0a6282c5d"
     },
     {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 663,
+      "sha256": "768b8dceeb9f4522ac80573b27e5a4c42887875c6ddcaa1c982ffc0533f7fa9d"
+    },
+    {
       "path": "tools/serve_site.py",
       "bytes": 2363,
       "sha256": "827b92e34782e0edc672fcb5ac894f985d56cf92fff7d18bd51b366a59923555"
     },
     {
-      "path": "README.md",
-      "bytes": 2731,
-      "sha256": "c3c35fe9e0265fb12fedd1e0fd91e43eebdfa81b4eeb895c732e26e32220c853"
+      "path": "tools/render_logo_intro.py",
+      "bytes": 10363,
+      "sha256": "58e14f2b40a8ae1d91b972a55d6e49f9844fb9c7995e26604a9a7dcd9a66feb1"
     }
   ]
 }

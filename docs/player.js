@@ -63,8 +63,8 @@
       push(a.token, "NAVSIM plan animation", a.src, "", ["PDMS " + a.pdms, "4 s prediction horizon"], a.scope);
     });
     if (d.intro) {
-      push("intro", "DriveTTO introduction", d.intro.src, "assets/images/intro-poster.jpg",
-        ["1 min 54 s", "Method · Planning · Closed-loop driving"], d.intro.selection);
+      push("intro", "DriveTTO introduction", d.intro.src, d.intro.poster,
+        [Math.floor(d.intro.duration_seconds / 60) + " min " + (d.intro.duration_seconds % 60) + " s", "Method · Planning · Closed-loop driving"], d.intro.selection);
     }
     if (d.algorithm_animation) {
       push("algorithm", "DriveTTO algorithm animation", d.algorithm_animation.src, d.algorithm_animation.poster,

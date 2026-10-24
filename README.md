@@ -26,10 +26,10 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 ## 🎬 Visualizations
 
 <p align="center">
-  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/intro-poster.jpg" width="720" alt="Video thumbnail"></a>
+  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="docs/assets/images/intro-logo-teaser.gif" width="720" alt="Play the DriveTTO project video with its animated logo opening"></a>
 </p>
 
-<p align="center"><em>1 min 54 s · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
+<p align="center"><em>1 min 59 s · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
 
 ### 🛣️ HUGSIM closed-loop rollouts
 

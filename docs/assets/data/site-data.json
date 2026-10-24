@@ -1,12 +1,12 @@
 {
   "version": "2026-10-24",
   "intro": {
-    "src": "assets/videos/drivetto-introduction.mp4",
-    "poster": "assets/images/intro-poster.jpg",
+    "src": "assets/videos/drivetto-introduction-logo.mp4",
+    "poster": "assets/images/intro-logo-poster.jpg",
     "title": "DriveTTO — from trajectory search to closed-loop driving",
-    "duration": 114,
-    "sha256": "f1a72131b0845b684d6941e667fe64275c8dbae0b6b63c984ff24fcb1d6d94e4",
-    "chapters": "assets/videos/drivetto-introduction.vtt"
+    "duration": 119,
+    "sha256": "0a4b0cb7c43a5d1b699467f856f9831b10a2557377ae6de68dddc5f456314f15",
+    "chapters": "assets/videos/drivetto-introduction-logo.vtt"
   },
   "videos": [
     {

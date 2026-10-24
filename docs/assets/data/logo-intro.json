@@ -1,0 +1,67 @@
+{
+  "source_sha256": "f1a72131b0845b684d6941e667fe64275c8dbae0b6b63c984ff24fcb1d6d94e4",
+  "source_duration_seconds": 114,
+  "intro_duration_seconds": 5,
+  "duration_seconds": 119,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "audio": "silent, as in original",
+  "original_decoded_frames_preserved": 2736,
+  "all_original_frames_identical": true,
+  "full_decode_actual_exit": 0,
+  "files": {
+    "drivetto-introduction-logo.mp4": {
+      "bytes": 11218806,
+      "sha256": "0a4b0cb7c43a5d1b699467f856f9831b10a2557377ae6de68dddc5f456314f15"
+    },
+    "drivetto-introduction-logo.vtt": {
+      "bytes": 1164,
+      "sha256": "737abfb1b8a29b3afa49c77aa1b590a80fb6a196fc57ee35fcb97542febe4abb"
+    },
+    "drivetto-logo-opening.mp4": {
+      "bytes": 1056761,
+      "sha256": "9320ad56a3ab4c63cf3328ae0952cf070868139a5660cafdb3c2297905b393ee"
+    },
+    "intro-logo-poster.jpg": {
+      "bytes": 93410,
+      "sha256": "245003c3e610c96a327e5f59ccc37399c09f86e1cd8dbc25e0e6ac4c67b8ca10"
+    },
+    "intro-logo-teaser.gif": {
+      "bytes": 3022931,
+      "sha256": "806fb3ba64c3b2da2d4c769dd897ad2cfc158c730adebc954f743462e7c12877"
+    }
+  },
+  "background_sources": [
+    {
+      "path": "docs/assets/videos/nuscenes-scene-0166-hard_00.mp4",
+      "sha256": "522276c76d01ce8866b94bb391bbbeb5096ea6f93ee31595c4ffcf4f0b086b35",
+      "trim_start_seconds": 0.5,
+      "duration_seconds": 5,
+      "view": "front-center camera"
+    },
+    {
+      "path": "docs/assets/videos/waymo-166085257829_0_200-hard_00.mp4",
+      "sha256": "0ba18b8861a7360581fcb74482ace64f597cda4bace6b7fae2e0f80144bf9780",
+      "trim_start_seconds": 0.5,
+      "duration_seconds": 5,
+      "view": "front-center camera"
+    },
+    {
+      "path": "docs/assets/videos/nuscenes-scene-0167-extreme_01.mp4",
+      "sha256": "052832b18aaf67b83986473d62b1fe816e51eedce87d2e9d3d2d5e7ffb3992be",
+      "trim_start_seconds": 0.5,
+      "duration_seconds": 5,
+      "view": "front-center camera"
+    },
+    {
+      "path": "docs/assets/videos/waymo-322492347634_0_200-extreme_01.mp4",
+      "sha256": "418d7c851c5dbfb7c5372c933378f633353551fd96609839fee7137b4391a4fe",
+      "trim_start_seconds": 0.5,
+      "duration_seconds": 5,
+      "view": "front-center camera"
+    }
+  ],
+  "design": "Original dual-trajectory logo draw-on and wordmark over four moving HUGSIM front views; cream transition into the untouched original movie.",
+  "reference": "FPD project page opening structure, using only DriveTTO media and branding."
+}
