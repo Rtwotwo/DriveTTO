@@ -17,7 +17,7 @@
 
 **DriveTTO is a training-free framework for test-time trajectory optimization that connects structured search with reference-relative selection.** A driving planner may generate a good trajectory yet fail to select it. Adding more candidates therefore makes both trajectory quality and selection quality central to the value of search. DriveTTO explores alternatives around a retained complete plan and compares each proposed update with that reference, while keeping the driving models frozen throughout inference. Across the corresponding benchmark settings, DriveTTO achieves **95.5 PDMS** and **92.3 EPDMS** on NAVTEST, **57.1 EPDMS** on NAVHARD, and **54.5 route completion (RC)** with **40.1 HD-Score** on 345 HUGSIM scenarios. The single-scorer variant, **DriveTTO-S**, is also evaluated across six base planners against their native outputs and ToAD. [Full results](https://rtwotwo.github.io/DriveTTO/#results). The animation below illustrates how DriveTTO searches and selects around a retained complete plan at test time.
 
-<p align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/drivetto-algorithm-animation.mp4"><img src="docs/assets/images/algorithm-teaser.gif" alt="DriveTTO algorithm animation" width="640"></a></p>
+<p align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=algorithm"><img src="docs/assets/images/algorithm-teaser.gif" alt="DriveTTO algorithm animation" width="640"></a></p>
 
 Concretely, endpoint feedback associates the predicted utility of a complete trajectory with its achieved terminal state, guiding further search through the planner's native path geometry. Geometric refinement, cross-model proposals and bounded control residuals produce alternative motions around the retained plan. Frozen scorers evaluate gains over the reference in a shared scoring context, and temporal fusion combines proposal and control trajectories along the prediction horizon. Each accepted update becomes the reference for later decisions. By separating the best trajectory available in a candidate pool from the trajectory actually returned, DriveTTO examines how candidate construction, filtering and ranking contribute to the final driving result.
 
@@ -26,7 +26,7 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 ## 🎬 Visualizations
 
 <p align="center">
-  <a href="https://rtwotwo.github.io/DriveTTO/assets/videos/drivetto-introduction.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/intro-poster.jpg" width="720" alt="Video thumbnail"></a>
+  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/intro-poster.jpg" width="720" alt="Video thumbnail"></a>
 </p>
 
 <p align="center"><em>1 min 54 s · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
@@ -36,14 +36,14 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 <table align="center">
 <tbody>
 <tr>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/nuscenes-scene-0166-hard_00.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/nuscenes-scene-0166-hard_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Through the city blocks</strong><br><em>nuScenes · hard · RC 100.0 · HD 100.0</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/waymo-166085257829_0_200-hard_00.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/waymo-166085257829_0_200-hard_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Between parked vehicles</strong><br><em>Waymo · hard · RC 100.0 · HD 97.2</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/pandaset-028-medium_00.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/pandaset-028-medium_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Following along a residential street</strong><br><em>PandaSet · medium · RC 100.0 · HD 92.9</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=nuscenes-scene-0166-hard_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/nuscenes-scene-0166-hard_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Through the city blocks</strong><br><em>nuScenes · hard · RC 100.0 · HD 100.0</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=waymo-166085257829_0_200-hard_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/waymo-166085257829_0_200-hard_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Between parked vehicles</strong><br><em>Waymo · hard · RC 100.0 · HD 97.2</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=pandaset-028-medium_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/pandaset-028-medium_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Following along a residential street</strong><br><em>PandaSet · medium · RC 100.0 · HD 92.9</em></td>
 </tr>
 <tr>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/kitti360-0000_8440_8640-easy_00.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/kitti360-0000_8440_8640-easy_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>From curbside parking to a crossing</strong><br><em>KITTI-360 · easy · RC 95.9 · HD 92.1</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/nuscenes-scene-0167-extreme_01.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/nuscenes-scene-0167-extreme_01.jpg" width="320" alt="Video thumbnail"></a><br><strong>Across a broad intersection</strong><br><em>nuScenes · extreme · RC 100.0 · HD 98.0</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/waymo-322492347634_0_200-extreme_01.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/waymo-322492347634_0_200-extreme_01.jpg" width="320" alt="Video thumbnail"></a><br><strong>An uphill urban corridor</strong><br><em>Waymo · extreme · RC 100.0 · HD 95.4</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=kitti360-0000_8440_8640-easy_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/kitti360-0000_8440_8640-easy_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>From curbside parking to a crossing</strong><br><em>KITTI-360 · easy · RC 95.9 · HD 92.1</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=nuscenes-scene-0167-extreme_01"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/nuscenes-scene-0167-extreme_01.jpg" width="320" alt="Video thumbnail"></a><br><strong>Across a broad intersection</strong><br><em>nuScenes · extreme · RC 100.0 · HD 98.0</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=waymo-322492347634_0_200-extreme_01"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/waymo-322492347634_0_200-extreme_01.jpg" width="320" alt="Video thumbnail"></a><br><strong>An uphill urban corridor</strong><br><em>Waymo · extreme · RC 100.0 · HD 95.4</em></td>
 </tr>
 </tbody>
 </table>
@@ -53,12 +53,12 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 <table align="center">
 <tbody>
 <tr>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/navsim-00c489998dd4555c.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/00c489998dd4555c-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Urban bend</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/navsim-0114734fd69b598e.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/0114734fd69b598e-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Narrow street</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=00c489998dd4555c"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/00c489998dd4555c-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Urban bend</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=0114734fd69b598e"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/0114734fd69b598e-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Narrow street</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
 </tr>
 <tr>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/navsim-013ec5b715635a66.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/013ec5b715635a66-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Junction</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/assets/videos/navsim-003ead1914c051d7.mp4"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/003ead1914c051d7-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Bridge curve</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=013ec5b715635a66"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/013ec5b715635a66-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Junction</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=003ead1914c051d7"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/003ead1914c051d7-front.webp" width="360" alt="Video thumbnail"></a><br><strong>Bridge curve</strong><br><em>PDMS 100 · 4 s prediction horizon</em></td>
 </tr>
 </tbody>
 </table>

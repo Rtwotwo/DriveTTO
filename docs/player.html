@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f9f6">
+  <title>DriveTTO — Video player</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{background:var(--paper)}
+    .player-wrap{max-width:960px;margin:0 auto;padding:42px 24px 90px}
+    .player-top{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:24px;flex-wrap:wrap}
+    .player-back{color:var(--teal);font:600 12px var(--font);text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+    .player-back:hover{text-decoration:underline}
+    .player-loc{font-size:11px;color:var(--muted);text-align:right}
+    .player-frame{background:#0d1f1e;border-radius:12px;overflow:hidden;box-shadow:0 18px 60px rgba(13,31,30,.22);border:1px solid #173130}
+    .player-frame video{width:100%;display:block;aspect-ratio:16/9;background:#0d1f1e}
+    .player-details{margin-top:28px}
+    .player-title{font:700 27px/1.3 var(--display);letter-spacing:-.6px;margin:0}
+    .player-meta{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+    .player-chip{border:1px solid var(--line);background:#fff;border-radius:30px;font-size:11px;color:var(--muted);padding:6px 12px}
+    .player-chip strong{color:var(--ink);font-weight:600}
+    .player-desc{color:var(--muted);font-size:14px;line-height:1.85;margin-top:16px}
+    .related{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin-top:40px}
+    .related-head{grid-column:1/-1;font:700 16px var(--display);letter-spacing:-.3px;margin:6px 0 2px}
+    .related-item{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#fff;transition:box-shadow .2s,transform .2s}
+    .related-item:hover{box-shadow:0 10px 30px rgba(20,42,42,.12);transform:translateY(-2px)}
+    .related-item img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+    .related-item span{display:block;padding:10px 12px 2px;font-size:12px;font-weight:600}
+    .related-item em{display:block;padding:0 12px 12px;font-size:10px;color:var(--muted);font-style:normal}
+    .player-error{max-width:520px;margin:90px auto;text-align:center}
+    .player-error h1{font:700 22px var(--display);letter-spacing:-.4px}
+    .player-error p{color:var(--muted);font-size:13px;margin-top:10px}
+    @media(max-width:650px){.player-wrap{padding:26px 16px 60px}.player-title{font-size:21px}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="player-wrap">
+      <div class="player-top">
+        <a class="player-back" href="index.html">← DriveTTO project page</a>
+        <div class="player-loc" id="player-loc"></div>
+      </div>
+      <div class="player-frame">
+        <video id="player-video" controls playsinline preload="auto" poster=""></video>
+      </div>
+      <div class="player-details">
+        <h1 class="player-title" id="player-title">Loading…</h1>
+        <div class="player-meta" id="player-meta"></div>
+        <p class="player-desc" id="player-desc"></p>
+      </div>
+      <div class="related" id="related"></div>
+    </div>
+  </main>
+  <script src="player.js"></script>
+</body>
+</html>
