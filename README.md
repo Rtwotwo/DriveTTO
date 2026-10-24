@@ -1,4 +1,4 @@
-<h1 align="center">DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization</h1>
+<h1 align="center">🚗 DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&amp;logoColor=white" alt="arXiv" height="24">
@@ -6,12 +6,12 @@
   <a href="https://rtwotwo.github.io/DriveTTO/"><img src="https://img.shields.io/badge/GitHub.io-2563EB?logo=githubpages&amp;logoColor=white" alt="GitHub Pages project website" height="24"></a>
 </p>
 
-## News
+## 📰 News
 
-- **2026.09.25** — DriveTTO reaches state-of-the-art PDMS/EPDMS on the NAVTEST benchmark.
-- **2026.10.22** — Project page and visualization videos released.
+- [ ] **2026.10.22** — Project page and visualization videos released.
+- [ ] **2026.09.25** — DriveTTO reaches state-of-the-art PDMS/EPDMS on the NAVTEST benchmark.
 
-## Overview
+## 🔍 Overview
 
 <p align="center"><a href="assets/overview.png"><img src="assets/overview.png" alt="DriveTTO overview" width="100%"></a></p>
 
@@ -27,7 +27,7 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 
 
 
-## Visualizations
+## 🎬 Visualizations
 
 <p align="center">
   <video controls muted playsinline preload="none" poster="docs/assets/images/intro-poster.jpg" width="720">
@@ -37,7 +37,7 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 
 <p align="center"><em>1 min 54 s · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
 
-### HUGSIM closed-loop rollouts
+### 🛣️ HUGSIM closed-loop rollouts
 
 <table align="center">
 <tbody>
@@ -54,7 +54,7 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 </tbody>
 </table>
 
-### NAVSIM planning animations
+### 🧭 NAVSIM planning animations
 
 <table align="center">
 <tbody>
@@ -70,11 +70,6 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 </table>
 
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
-We thank the authors of the following open-source works that supported this project:
-
-- [ToAD](https://github.com/valeoai/TOAD) — test-time trajectory optimization that uses DrivoR's scorer as a reward to search for better trajectories at test time
-- [DrivoR](https://github.com/valeoai/DrivoR) — end-to-end driving model by driving on registers
-- [ChainFlow](https://github.com/Rtwotwo/ChainFlow) — our autonomous driving planning and evaluation pipeline built on NAVSIM
-- [GETok-DSR-NAVSIM-v1](https://huggingface.co/minfishmovemountain/GETok-DSR-NAVSIM-v1) — NAVSIM-v1 driving model weights and resources
+We thank the authors of [ToAD](https://github.com/valeoai/TOAD) for demonstrating that DrivoR's scorer can be used as a reward to search for better trajectories at test time, [DrivoR](https://github.com/valeoai/DrivoR) for the end-to-end driving model by driving on registers, our own [ChainFlow](https://github.com/Rtwotwo/ChainFlow) planning and evaluation pipeline built on NAVSIM, and the [GETok-DSR-NAVSIM-v1](https://huggingface.co/minfishmovemountain/GETok-DSR-NAVSIM-v1) driving model weights and resources, all of which supported this project.
