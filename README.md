@@ -1,64 +1,54 @@
-<h1 align="center">DriveTTO: Understanding Search and Selection<br>in Test-Time Trajectory Optimization</h1>
+# DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization
 
-<p align="center">
+<p align="left">
   <a href="https://rtwotwo.github.io/DriveTTO/">Project page</a> ·
   <a href="https://rtwotwo.github.io/DriveTTO/#algorithm">Animated explanation</a> ·
   <a href="https://rtwotwo.github.io/DriveTTO/#introduction">Driving demonstrations</a> ·
   <a href="https://rtwotwo.github.io/DriveTTO/#results">Complete results</a>
 </p>
 
-<p align="center"><strong>More search helps when its better candidates reach the returned plan.</strong> DriveTTO constructs complete alternatives around a frozen planner's trajectory and studies how candidate construction, admission, ranking and replacement determine the final result. Model parameters stay fixed throughout inference.</p>
+**More search helps when its better candidates reach the returned plan.** DriveTTO constructs complete alternatives around a frozen planner's trajectory and studies how candidate construction, admission, ranking and replacement determine the final result. Model parameters stay fixed throughout inference.
 
-<h2 align="center">Watch the algorithm</h2>
+## Watch the algorithm
 
 <p align="center"><a href="https://rtwotwo.github.io/DriveTTO/#algorithm"><img src="docs/assets/images/algorithm-teaser.gif" alt="DriveTTO animated algorithm explanation" width="640"></a></p>
 
-<p align="center"><strong>72 seconds · 2D animated explanation.</strong> Follow a retained plan through endpoint feedback, bounded refinement, paired scoring and branch fusion. The animation illustrates the NAV1 Full schedule; paths and predicted gains are schematic. <a href="https://rtwotwo.github.io/DriveTTO/assets/videos/drivetto-algorithm-animation.mp4">Watch the complete animation</a>.</p>
+**72 seconds · 2D animated explanation.** Follow a retained plan through endpoint feedback, bounded refinement, paired scoring and branch fusion. The animation illustrates the NAV1 Full schedule; paths and predicted gains are schematic. [Watch the complete animation](https://rtwotwo.github.io/DriveTTO/assets/videos/drivetto-algorithm-animation.mp4).
 
-<p align="center">The <a href="https://rtwotwo.github.io/DriveTTO/#introduction">1:54 project introduction</a> combines the animated method with recorded NAVSIM plan visualizations and selected HUGSIM hard/extreme driving scenes. Per-scene scores describe the complete source rollout; aggregate results are listed below.</p>
+The [1:54 project introduction](https://rtwotwo.github.io/DriveTTO/#introduction) combines the animated method with recorded NAVSIM plan visualizations and selected HUGSIM hard/extreme driving scenes. Per-scene scores describe the complete source rollout; aggregate results are listed below.
 
-<h2 align="center">How DriveTTO works</h2>
+## How DriveTTO works
 
-<p align="center">1. <strong>Keep a reference plan.</strong> Each stage constructs alternatives around its entering reference and keeps that reference available. An accepted update becomes the reference for later comparisons; rejection returns the current reference exactly.</p>
-
-<p align="center">2. <strong>Search endpoints using complete paths.</strong> A native parent supplies intermediate geometry. After completing and scoring the path, store its utility at the achieved terminal state, including position, heading and speed. Nearby achieved states guide subsequent requests.</p>
-
-<p align="center">3. <strong>Refine around a shared center.</strong> Geometric search establishes a center for cross-model proposals and bounded control residuals. Residual transport adds the difference between two control rollouts to the stored trajectory; a zero perturbation preserves it.</p>
-
-<p align="center">4. <strong>Measure relative gains.</strong> Candidate and reference occupy fixed slots of the same scoring bank. In configured joint-scoring stages, frozen ChainFlow and DrivoR heads provide candidate-minus-reference gains and the minimum gain ranks admitted candidates. Initial interpolation and geometry use DrivoR. Each stage retains its specified admission and replacement rules.</p>
-
-<p align="center">5. <strong>Fuse branches along the horizon.</strong> Proposal and control trajectories are blended at corresponding future timestamps, using constant or smoothly varying weights. Score each complete fused path against the selected incumbent, and retain the incumbent if no replacement passes.</p>
+1. **Keep a reference plan.** Each stage constructs alternatives around its entering reference and keeps that reference available. An accepted update becomes the reference for later comparisons; rejection returns the current reference exactly.
+2. **Search endpoints using complete paths.** A native parent supplies intermediate geometry. After completing and scoring the path, store its utility at the achieved terminal state, including position, heading and speed. Nearby achieved states guide subsequent requests.
+3. **Refine around a shared center.** Geometric search establishes a center for cross-model proposals and bounded control residuals. Residual transport adds the difference between two control rollouts to the stored trajectory; a zero perturbation preserves it.
+4. **Measure relative gains.** Candidate and reference occupy fixed slots of the same scoring bank. In configured joint-scoring stages, frozen ChainFlow and DrivoR heads provide candidate-minus-reference gains and the minimum gain ranks admitted candidates. Initial interpolation and geometry use DrivoR. Each stage retains its specified admission and replacement rules.
+5. **Fuse branches along the horizon.** Proposal and control trajectories are blended at corresponding future timestamps, using constant or smoothly varying weights. Score each complete fused path against the selected incumbent, and retain the incumbent if no replacement passes.
 
 <p align="center"><a href="assets/overview.png"><img src="assets/overview.png" alt="DriveTTO: construct complete trajectory alternatives, compare them with the retained reference using frozen scorers, and select an output." width="100%"></a></p>
 
-<p align="center">The paper separates <strong>candidate opportunity</strong> from <strong>selection regret</strong>. For a fixed candidate pool, the offline evaluator measures its best available candidate and the candidate actually returned. Their difference reveals how much opportunity selection loses. The accounting identity is <strong>output gain = change in candidate opportunity − change in selection regret</strong>. Inference uses learned scores; offline evaluator scores are used for analysis.</p>
+The paper separates **candidate opportunity** from **selection regret**. For a fixed candidate pool, the offline evaluator measures its best available candidate and the candidate actually returned. Their difference reveals how much opportunity selection loses. The accounting identity is **output gain = change in candidate opportunity − change in selection regret**. Inference uses learned scores; offline evaluator scores are used for analysis.
 
-<h2 align="center">Five benchmark metrics</h2>
-
-<div align="center">
+## Five benchmark metrics
 
 | Benchmark | Metric | DriveTTO | Configuration |
-|:---:|:---:|:---:|:---:|
+|:---|:---|:---|:---|
 | NAVSIM-v1 NAVTEST | PDMS ↑ | **95.5** | NAV1 Full |
 | NAVSIM-v2 NAVTEST | EPDMS ↑ | **92.3** | NAV2 geometric center + terminal-preserving tracking |
 | NAVSIM-v2 NAVHARD | EPDMS ↑ | **57.1** | Control shooting + terminal-XY-constrained refinement |
 | HUGSIM, 345 scenarios | Route completion ↑ | **54.5** | NAV1 weights, three weighted control rounds, observed commands |
 | HUGSIM, 345 scenarios | HD-Score ↑ | **40.1** | Same HUGSIM configuration |
 
-</div>
+These are paper-reported results under the listed benchmark schedules. The [interactive tables](https://rtwotwo.github.io/DriveTTO/#results) include other methods, all 390 component values, NAVHARD S1/S2 breakdowns, and HUGSIM Easy/Medium/Hard/Extreme results. [Download the complete CSV](https://rtwotwo.github.io/DriveTTO/assets/data/results.csv).
 
-<p align="center">These are paper-reported results under the listed benchmark schedules. The <a href="https://rtwotwo.github.io/DriveTTO/#results">interactive tables</a> include other methods, all 390 component values, NAVHARD S1/S2 breakdowns, and HUGSIM Easy/Medium/Hard/Extreme results. <a href="https://rtwotwo.github.io/DriveTTO/assets/data/results.csv">Download the complete CSV</a>.</p>
+## Transfer across six planners
 
-<h2 align="center">Transfer across six planners</h2>
+DriveTTO-S is the single-scorer `endpoint_post` transfer branch. It uses the target planner's native anchor and top-64 bank with a frozen DrivoR scorer. Its configuration differs from NAV1 Full and the 57.1 NAVHARD schedule. ToAD uses K=10 on NAVTEST and K=5 on NAVHARD.
 
-<p align="center">DriveTTO-S is the single-scorer <code>endpoint_post</code> transfer branch. It uses the target planner's native anchor and top-64 bank with a frozen DrivoR scorer. Its configuration differs from NAV1 Full and the 57.1 NAVHARD schedule. ToAD uses K=10 on NAVTEST and K=5 on NAVHARD.</p>
-
-<h3 align="center">NAVTEST PDMS</h3>
-
-<div align="center">
+### NAVTEST PDMS
 
 | Base planner | Native | ToAD | DriveTTO-S | Δ vs. ToAD |
-|:---:|:---:|:---:|:---:|:---:|
+|:---|:---|:---|:---|:---|
 | ZTRS | 87.1306 | 88.5780 | 91.0221 | +2.4441 |
 | GTRS | 90.9300 | 92.1587 | 93.5195 | +1.3608 |
 | Hydra-MDP | 90.8336 | 92.2803 | 93.4641 | +1.1838 |
@@ -66,14 +56,10 @@
 | RAP-DINO | 93.8203 | 94.4600 | 94.5679 | +0.1079 |
 | DrivoR | 94.5389 | 94.7202 | 94.8672 | +0.1470 |
 
-</div>
-
-<h3 align="center">NAVHARD EPDMS</h3>
-
-<div align="center">
+### NAVHARD EPDMS
 
 | Base planner | Native | ToAD | DriveTTO-S | Δ vs. ToAD |
-|:---:|:---:|:---:|:---:|:---:|
+|:---|:---|:---|:---|:---|
 | ZTRS | 46.1690 | 49.6922 | 51.4893 | +1.7971 |
 | GTRS | 43.8706 | 49.3151 | 49.4346 | +0.1195 |
 | Hydra-MDP | 41.1733 | 48.0827 | 47.6296 | -0.4531 |
@@ -81,23 +67,4 @@
 | RAP-DINO | 38.6198 | 45.7217 | 52.5532 | +6.8315 |
 | DrivoR | 54.5616 | 55.6365 | 56.2260 | +0.5895 |
 
-</div>
-
-<p align="center">DriveTTO-S improves on the native output for all six planners in these two tests. Its comparison with ToAD depends on the planner; the NAVHARD Hydra-MDP and iPad differences remain negative. Search latency and protocol details are provided on the project page.</p>
-
-<h2 align="center">Controlled evidence</h2>
-
-<p align="center">On 12,146 observed NAVTEST scenes with three search seeds and fixed model resources, Full averages <strong>95.5116 PDMS</strong>. It exceeds ordinary dual-scoring CEM8 by <strong>0.4075 points</strong> (95% CI [0.1149, 0.7274]; Holm-adjusted p=.036). Isolated p50 latency is <strong>1.3093 s</strong> for Full and <strong>1.1998 s</strong> for CEM8. These compare similar, rather than equal, execution costs.</p>
-
-<p align="center">The analyses also report scene-level degradation and stage-specific selection effects. The complete downstream comparison of minimum, mean and DrivoR terminal ranking does not resolve a mean-score difference. These measurements describe the evaluated NAVTEST data and model combination.</p>
-
-<h2 align="center">Repository contents</h2>
-
-<p align="center">
-<code>docs/</code>: GitHub Pages website, benchmark tables, videos and media provenance.<br>
-<code>assets/overview.png</code>: method overview.<br>
-<code>.github/workflows/pages.yml</code>: static website deployment.<br>
-<code>WEBSITE.md</code>: website deployment notes.
-</p>
-
-<p align="center">The paper and complete algorithm release links will be added here when available.</p>
+DriveTTO-S improves on the native output for all six planners in these two tests. Its comparison with ToAD depends on the planner; the NAVHARD Hydra-MDP and iPad differences remain negative. Search latency and protocol details are provided on the project page.
