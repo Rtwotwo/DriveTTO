@@ -6,6 +6,11 @@
   <a href="https://rtwotwo.github.io/DriveTTO/"><img src="https://img.shields.io/badge/GitHub.io-2563EB?logo=githubpages&amp;logoColor=white" alt="GitHub Pages project website" height="24"></a>
 </p>
 
+## News
+
+- **2026.09.25** — DriveTTO reaches state-of-the-art PDMS/EPDMS on the NAVTEST benchmark.
+- **2026.10.22** — Project page and visualization videos released.
+
 ## Overview
 
 <p align="center"><a href="assets/overview.png"><img src="assets/overview.png" alt="DriveTTO overview" width="100%"></a></p>
@@ -63,3 +68,13 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 </tr>
 </tbody>
 </table>
+
+
+## Acknowledgements
+
+We thank the authors of the following open-source works that supported this project:
+
+- [ToAD](https://github.com/valeoai/TOAD) — test-time trajectory optimization that uses DrivoR's scorer as a reward to search for better trajectories at test time
+- [DrivoR](https://github.com/valeoai/DrivoR) — end-to-end driving model by driving on registers
+- [ChainFlow](https://github.com/Rtwotwo/ChainFlow) — our autonomous driving planning and evaluation pipeline built on NAVSIM
+- [GETok-DSR-NAVSIM-v1](https://huggingface.co/minfishmovemountain/GETok-DSR-NAVSIM-v1) — NAVSIM-v1 driving model weights and resources
