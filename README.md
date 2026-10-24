@@ -1,6 +1,6 @@
-# DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization
+<h1 align="center">DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization</h1>
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&amp;logoColor=white" alt="arXiv" height="24">
   <a href="https://github.com/Rtwotwo/DriveTTO"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&amp;logoColor=white" alt="GitHub repository" height="24"></a>
   <a href="https://rtwotwo.github.io/DriveTTO/"><img src="https://img.shields.io/badge/GitHub.io-2563EB?logo=githubpages&amp;logoColor=white" alt="GitHub Pages project website" height="24"></a>
