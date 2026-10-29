@@ -26,24 +26,38 @@ Concretely, endpoint feedback associates the predicted utility of a complete tra
 ## 🎬 Visualizations
 
 <p align="center">
-  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="docs/assets/images/intro-logo-teaser.gif" width="720" alt="Play the DriveTTO project video with its animated logo opening"></a>
+  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="docs/assets/images/intro-recut-20261030.gif" width="720" alt="Play the DriveTTO introduction with original music"></a>
 </p>
 
-<p align="center"><em>1 min 59 s · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
+<p align="center"><em>5 min 0 s · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
 
 ### 🛣️ HUGSIM closed-loop rollouts
 
 <table align="center">
 <tbody>
 <tr>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=nuscenes-scene-0166-hard_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/nuscenes-scene-0166-hard_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Through the city blocks</strong><br><em>nuScenes · hard · RC 100.0 · HD 100.0</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=waymo-166085257829_0_200-hard_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/waymo-166085257829_0_200-hard_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Between parked vehicles</strong><br><em>Waymo · hard · RC 100.0 · HD 97.2</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=pandaset-028-medium_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/pandaset-028-medium_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>Following along a residential street</strong><br><em>PandaSet · medium · RC 100.0 · HD 92.9</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-nuscenes-scene-0528-hard_01-recut"><img src="docs/assets/images/hugsim-nuscenes-scene-0528-hard_01-recut.jpg" width="320" alt="Crossing traffic on an urban street"></a><p align="left"><strong>Crossing traffic on an urban street</strong><br><em>nuScenes · hard · 8.25 s · RC 100.0 · HD 100.0</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-pandaset-039-extreme_01-recut"><img src="docs/assets/images/hugsim-pandaset-039-extreme_01-recut.jpg" width="320" alt="An urban block with parked vehicles"></a><p align="left"><strong>An urban block with parked vehicles</strong><br><em>PandaSet · extreme · 8.5 s · RC 100.0 · HD 99.2</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-113792265837_0_200-hard_00-recut"><img src="docs/assets/images/hugsim-waymo-113792265837_0_200-hard_00-recut.jpg" width="320" alt="A tree-lined residential bend"></a><p align="left"><strong>A tree-lined residential bend</strong><br><em>Waymo · hard · 16.5 s · RC 100.0 · HD 94.2</em></p></td>
 </tr>
 <tr>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=kitti360-0000_8440_8640-easy_00"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/kitti360-0000_8440_8640-easy_00.jpg" width="320" alt="Video thumbnail"></a><br><strong>From curbside parking to a crossing</strong><br><em>KITTI-360 · easy · RC 95.9 · HD 92.1</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=nuscenes-scene-0167-extreme_01"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/nuscenes-scene-0167-extreme_01.jpg" width="320" alt="Video thumbnail"></a><br><strong>Across a broad intersection</strong><br><em>nuScenes · extreme · RC 100.0 · HD 98.0</em></td>
-<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=waymo-322492347634_0_200-extreme_01"><img src="https://rtwotwo.github.io/DriveTTO/assets/images/waymo-322492347634_0_200-extreme_01.jpg" width="320" alt="Video thumbnail"></a><br><strong>An uphill urban corridor</strong><br><em>Waymo · extreme · RC 100.0 · HD 95.4</em></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-144248042870_0_200-hard_00-recut"><img src="docs/assets/images/hugsim-waymo-144248042870_0_200-hard_00-recut.jpg" width="320" alt="Following a winding neighborhood road"></a><p align="left"><strong>Following a winding neighborhood road</strong><br><em>Waymo · hard · 21.75 s · RC 100.0 · HD 87.4</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-pandaset-053-easy_00-recut"><img src="docs/assets/images/hugsim-pandaset-053-easy_00-recut.jpg" width="320" alt="City blocks and marked crossings"></a><p align="left"><strong>City blocks and marked crossings</strong><br><em>PandaSet · easy · 9.5 s · RC 100.0 · HD 100.0</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-pandaset-038-easy_00-recut"><img src="docs/assets/images/hugsim-pandaset-038-easy_00-recut.jpg" width="320" alt="A street lined with older facades"></a><p align="left"><strong>A street lined with older facades</strong><br><em>PandaSet · easy · 8.75 s · RC 100.0 · HD 98.0</em></p></td>
+</tr>
+<tr>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-pandaset-028-easy_00-recut"><img src="docs/assets/images/hugsim-pandaset-028-easy_00-recut.jpg" width="320" alt="Curbside parking on both sides"></a><p align="left"><strong>Curbside parking on both sides</strong><br><em>PandaSet · easy · 12.5 s · RC 100.0 · HD 100.0</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-342571611546_0_200-easy_00-recut"><img src="docs/assets/images/hugsim-waymo-342571611546_0_200-easy_00-recut.jpg" width="320" alt="A suburban street under clear skies"></a><p align="left"><strong>A suburban street under clear skies</strong><br><em>Waymo · easy · 8.75 s · RC 100.0 · HD 100.0</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-881121006469_0_200-easy_00-recut"><img src="docs/assets/images/hugsim-waymo-881121006469_0_200-easy_00-recut.jpg" width="320" alt="Neighborhood traffic and lane markings"></a><p align="left"><strong>Neighborhood traffic and lane markings</strong><br><em>Waymo · easy · 8.75 s · RC 100.0 · HD 100.0</em></p></td>
+</tr>
+<tr>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-398895700423_0_200-easy_00-recut"><img src="docs/assets/images/hugsim-waymo-398895700423_0_200-easy_00-recut.jpg" width="320" alt="Road markings beneath roadside trees"></a><p align="left"><strong>Road markings beneath roadside trees</strong><br><em>Waymo · easy · 13.75 s · RC 100.0 · HD 99.5</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-938501362409_0_200-easy_00-recut"><img src="docs/assets/images/hugsim-waymo-938501362409_0_200-easy_00-recut.jpg" width="320" alt="An open residential stretch"></a><p align="left"><strong>An open residential stretch</strong><br><em>Waymo · easy · 19.25 s · RC 100.0 · HD 100.0</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-132384196576_0_200-easy_00-recut"><img src="docs/assets/images/hugsim-waymo-132384196576_0_200-easy_00-recut.jpg" width="320" alt="A palm-lined residential block"></a><p align="left"><strong>A palm-lined residential block</strong><br><em>Waymo · easy · 19.25 s · RC 100.0 · HD 100.0</em></p></td>
+</tr>
+<tr>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-waymo-150623512729_0_200-medium_00-recut"><img src="docs/assets/images/hugsim-waymo-150623512729_0_200-medium_00-recut.jpg" width="320" alt="Following traffic through a leafy block"></a><p align="left"><strong>Following traffic through a leafy block</strong><br><em>Waymo · medium · 24.5 s · RC 100.0 · HD 99.4</em></p></td>
+<td align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=hugsim-nuscenes-scene-0013-easy_00-recut"><img src="docs/assets/images/hugsim-nuscenes-scene-0013-easy_00-recut.jpg" width="320" alt="A curved road beside greenery"></a><p align="left"><strong>A curved road beside greenery</strong><br><em>nuScenes · easy · 12 s · RC 100.0 · HD 99.4</em></p></td>
 </tr>
 </tbody>
 </table>

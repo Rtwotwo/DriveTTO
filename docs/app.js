@@ -206,7 +206,7 @@
     heroVideo.poster = safeMediaPath(intro.poster);
     const src = safeMediaPath(intro.src);
     if (heroVideo.getAttribute('src') !== src) heroVideo.src = src;
-    heroVideo.muted = true;
+    heroVideo.muted = false;
     heroToggle.disabled = false;
   }
 

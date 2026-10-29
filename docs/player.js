@@ -70,6 +70,12 @@
       push("algorithm", "DriveTTO algorithm animation", d.algorithm_animation.src, d.algorithm_animation.poster,
         ["72 s", "Search. Compare. Select."], d.algorithm_animation.scope + ". " + (d.algorithm_animation.note || ""));
     }
+    (d.archived_videos || []).forEach(function (v) {
+      push(v.id, v.title || v.id, v.src, v.poster,
+        ["HUGSIM · " + (v.dataset || ""), (v.difficulty || "").toUpperCase(),
+         "RC " + Number(v.rc).toFixed(1), "HD " + Number(v.hd).toFixed(1)], v.description);
+      items[items.length - 1].archived = true;
+    });
     return items;
   }
 
@@ -95,6 +101,13 @@
   function render(item, catalog) {
     document.title = item.title + " — DriveTTO";
     videoEl.src = item.src;
+    if (item.id === "intro") {
+      videoEl.removeAttribute("muted");
+      videoEl.removeAttribute("autoplay");
+      videoEl.defaultMuted = false;
+      videoEl.muted = false;
+      videoEl.controls = true;
+    }
     if (item.poster) videoEl.poster = item.poster;
     titleEl.textContent = item.title;
     metaEl.innerHTML = item.meta.map(function (m) {
@@ -103,14 +116,14 @@
     descEl.textContent = item.desc || "";
     locEl.textContent = item.src.replace(BASE, "");
 
-    // related: other clips in the same group of up to 8
-    var others = catalog.filter(function (c) { return c.id !== item.id; });
+    // Other current videos; archived examples remain accessible by their old links.
+    var others = catalog.filter(function (c) { return c.id !== item.id && !c.archived; });
     if (others.length) {
       var head = document.createElement("div");
       head.className = "related-head";
       head.textContent = "More videos";
       relatedEl.appendChild(head);
-      others.slice(0, 8).forEach(function (c) {
+      others.forEach(function (c) {
         var a = document.createElement("a");
         a.className = "related-item";
         a.href = "player.html?v=" + encodeURIComponent(c.id);

@@ -1,19 +1,34 @@
 {
   "files": [
     {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 663,
+      "sha256": "768b8dceeb9f4522ac80573b27e5a4c42887875c6ddcaa1c982ffc0533f7fa9d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10872,
+      "sha256": "aa695267b74ed99d847d031edee52acf2a6439945bff49e92b9b42590059bcbb"
+    },
+    {
+      "path": "WEBSITE.md",
+      "bytes": 2732,
+      "sha256": "e5c3a35c86c0c52de21e3d89166c9e46228487b92fb74572803371b0a6282c5d"
+    },
+    {
       "path": "docs/.nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "docs/app.js",
-      "bytes": 20015,
-      "sha256": "6596af28648c040cfd9c4b620e99319a6dd7d62851a29fb901d6a8cc9cfc316e"
+      "bytes": 19606,
+      "sha256": "ca0993ea2f22f84c751bf6ac473061d96ab7317e2859dfca0f438965288cf380"
     },
     {
       "path": "docs/assets/data/intro-edit.json",
-      "bytes": 4541,
-      "sha256": "5170aac4a209e1b33da99c96fb8c9b362732718fb0021ca1c9a71df3d2391fe0"
+      "bytes": 22092,
+      "sha256": "cef3bb73bb483bcf671b5613b95efbc8263edfd0b4791add6a378eb0dac33a5f"
     },
     {
       "path": "docs/assets/data/logo-intro.json",
@@ -22,8 +37,8 @@
     },
     {
       "path": "docs/assets/data/media-selection.json",
-      "bytes": 21953,
-      "sha256": "7887748f6e0f1e437bf9ed66eab58f67c2cd87385d469243f92cb89303b17c36"
+      "bytes": 52912,
+      "sha256": "40bc0d5a0daf3a9080aabf44109811573f6b82bf29fcb5d3bce7a71735132f12"
     },
     {
       "path": "docs/assets/data/results.csv",
@@ -32,8 +47,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 31860,
-      "sha256": "b6c8bbccc24da9283963f448551e2cb4450c5c244306f0c55796dc7686591579"
+      "bytes": 44117,
+      "sha256": "269f4ae36d97062201f6118def3ce650e8f74a2f69bfc711d7cedc666fbdb0e0"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -86,6 +101,76 @@
       "sha256": "1a6fb16ae4cb0c871283ff04502d013292f60b174fea82b11dcbbfe92e92c2a7"
     },
     {
+      "path": "docs/assets/images/hugsim-nuscenes-scene-0013-easy_00-recut.jpg",
+      "bytes": 53138,
+      "sha256": "f687909e99131f3f0bb9a436c76e6cb058a7fa4c77768e25ce7e07b1f994bfba"
+    },
+    {
+      "path": "docs/assets/images/hugsim-nuscenes-scene-0528-hard_01-recut.jpg",
+      "bytes": 29655,
+      "sha256": "18fe72521bc3e10862c7f4433f665dfd47e1e12e8da03b1350c07fbaef80e43b"
+    },
+    {
+      "path": "docs/assets/images/hugsim-pandaset-028-easy_00-recut.jpg",
+      "bytes": 57100,
+      "sha256": "c5994d96a65ab6fad19ec53db9222da00c93978ddc12fb7cb9e593f18a1b322b"
+    },
+    {
+      "path": "docs/assets/images/hugsim-pandaset-038-easy_00-recut.jpg",
+      "bytes": 60897,
+      "sha256": "95812e84d5982547bdcd0c1c1303cd12f9683164baba10e82d1121aa1bd744fb"
+    },
+    {
+      "path": "docs/assets/images/hugsim-pandaset-039-extreme_01-recut.jpg",
+      "bytes": 42027,
+      "sha256": "f337a56f3f3a889d470c602bd0617e4f51738b0e8e865756039f1ee2b02f07c0"
+    },
+    {
+      "path": "docs/assets/images/hugsim-pandaset-053-easy_00-recut.jpg",
+      "bytes": 60356,
+      "sha256": "cd5c111a819c10461fa7d03b4e0badd0f409b9bed6c0456aac182d5e679b3186"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-113792265837_0_200-hard_00-recut.jpg",
+      "bytes": 51650,
+      "sha256": "7253f983d7e5be3f66feae0256daa438c6a55eaf64c095e3f36b686af6f6430d"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-132384196576_0_200-easy_00-recut.jpg",
+      "bytes": 43115,
+      "sha256": "85e3beddf3e7fb342edea6ffc34b16cac4ee746a12b9f530d1961214725ff1fd"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-144248042870_0_200-hard_00-recut.jpg",
+      "bytes": 40495,
+      "sha256": "b0f4a164fc91ff14bfb1fd5cbf91fdb5fca6a1eade7bfdae63902b16b0a4c1d4"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-150623512729_0_200-medium_00-recut.jpg",
+      "bytes": 51150,
+      "sha256": "5fdda9db237748840d7af3ded34016146be83f6d54156deb1eabf9b78114ddc9"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-342571611546_0_200-easy_00-recut.jpg",
+      "bytes": 43187,
+      "sha256": "bb39c3bbd3faa94eee9438f888e90b134f8598025820c154e1f33f954c55abd6"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-398895700423_0_200-easy_00-recut.jpg",
+      "bytes": 76181,
+      "sha256": "15425c5c2f8e815acbb0396d000905ab8a1d312986a43e3ce1edc7b6f2638281"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-881121006469_0_200-easy_00-recut.jpg",
+      "bytes": 44318,
+      "sha256": "9ad3c9bc8a63aefcb1217b8fea907ea1633d53af9a705e2fd52a2e23d19ca03e"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-938501362409_0_200-easy_00-recut.jpg",
+      "bytes": 53289,
+      "sha256": "2d18d42e0dfb0e24cfec7448eeaceb3de263a633cf2a993ea0dd04bd8f7a0d1e"
+    },
+    {
       "path": "docs/assets/images/intro-logo-poster.jpg",
       "bytes": 93410,
       "sha256": "245003c3e610c96a327e5f59ccc37399c09f86e1cd8dbc25e0e6ac4c67b8ca10"
@@ -99,6 +184,16 @@
       "path": "docs/assets/images/intro-poster.jpg",
       "bytes": 112103,
       "sha256": "ed105c747afa79027d5a1ccf49642a5878c903b6a06ba48630bb903c941812a9"
+    },
+    {
+      "path": "docs/assets/images/intro-recut-20261030.gif",
+      "bytes": 1989765,
+      "sha256": "2f6a066024747b91db6927ad6f32353e3956c7357eb957ee62cd7c3b2c7da489"
+    },
+    {
+      "path": "docs/assets/images/intro-recut-20261030.jpg",
+      "bytes": 92487,
+      "sha256": "c877e4e07f1b0989deda6e8a6c1b8c8af5b88fb9757b5216afa87a83ae4375ad"
     },
     {
       "path": "docs/assets/images/kitti360-0000_8440_8640-easy_00.jpg",
@@ -151,6 +246,16 @@
       "sha256": "6c2444d8919722bf450ed73e94d4559ce56240c90e1ec54a66c69a4088e521c8"
     },
     {
+      "path": "docs/assets/videos/drivetto-introduction-five-minute-20261030.mp4",
+      "bytes": 42829620,
+      "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-introduction-five-minute-20261030.vtt",
+      "bytes": 2052,
+      "sha256": "21a293e8a665c9168a3a8837118004c477ee0e35d5aa33c5354545cc4cdac667"
+    },
+    {
       "path": "docs/assets/videos/drivetto-introduction-logo.mp4",
       "bytes": 11218806,
       "sha256": "0a4b0cb7c43a5d1b699467f856f9831b10a2557377ae6de68dddc5f456314f15"
@@ -174,6 +279,76 @@
       "path": "docs/assets/videos/drivetto-logo-opening.mp4",
       "bytes": 1056761,
       "sha256": "9320ad56a3ab4c63cf3328ae0952cf070868139a5660cafdb3c2297905b393ee"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-nuscenes-scene-0013-easy_00-recut.mp4",
+      "bytes": 4120026,
+      "sha256": "93fe57de796128fa65d4f0e283000fe134ca2117dadcc9cb10a0c0fd1cb7b071"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-nuscenes-scene-0528-hard_01-recut.mp4",
+      "bytes": 2099628,
+      "sha256": "a01b34d00b592a23afab9de5f46fbed4c035e1e0f769419106a57c1800667ebb"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-pandaset-028-easy_00-recut.mp4",
+      "bytes": 5763178,
+      "sha256": "4aa6b21a2ca48aa64799134ffbc82b905d6a5e23ee9077814c86c6eb0f3ea3d6"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-pandaset-038-easy_00-recut.mp4",
+      "bytes": 4321253,
+      "sha256": "aedf1f3d211796188ae256a8a6f6d2f2bc04e1ba64777ef28aab7f027b20618c"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-pandaset-039-extreme_01-recut.mp4",
+      "bytes": 3596435,
+      "sha256": "4bf4d716aa1ff45434746abb9aaada10348160bad574b391cfed103efb9576b6"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-pandaset-053-easy_00-recut.mp4",
+      "bytes": 3808656,
+      "sha256": "be75dded1996ede03a397022a0a90f46212cc1a067a73c8a4b6f45ff161e23ad"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-113792265837_0_200-hard_00-recut.mp4",
+      "bytes": 3951227,
+      "sha256": "8406353ec6982f5b743e84b73efb9f3829585823f1763ac0ff0a4b6a0a6a1af9"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-132384196576_0_200-easy_00-recut.mp4",
+      "bytes": 3736672,
+      "sha256": "abffcc3cc13951637438a1346e42936d7b7a1dc7313143fbfc3563940eedf68c"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-144248042870_0_200-hard_00-recut.mp4",
+      "bytes": 4846953,
+      "sha256": "9c50ae34af44b16de814b8b86e3a650f1a6a7579abbd137f5c2278d33074aa5a"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-150623512729_0_200-medium_00-recut.mp4",
+      "bytes": 5105500,
+      "sha256": "9ea77da6a5c2d6f1d5c3a6a23413e3a9e1d1dd92c11e8b191cc89ac163fe6ddf"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-342571611546_0_200-easy_00-recut.mp4",
+      "bytes": 1749897,
+      "sha256": "2f2394d5b554f83a3132b785bf0d7cf50070b2ea6f053ab6d9505cd875634808"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-398895700423_0_200-easy_00-recut.mp4",
+      "bytes": 4273024,
+      "sha256": "68e2019734f930bc0128cdb6f882242e57e3ebe8ab09bda6ca92f07ea71d2c94"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-881121006469_0_200-easy_00-recut.mp4",
+      "bytes": 1849324,
+      "sha256": "104617639de9032293a129d869a43e11d0b1e611426de6f4c6782702562cf180"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-938501362409_0_200-easy_00-recut.mp4",
+      "bytes": 4308781,
+      "sha256": "aed5f6d8fb59de0a0b7aaac58fbade7aeda650c6bc5244c6fb7503a49fcfa345"
     },
     {
       "path": "docs/assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
@@ -232,8 +407,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22316,
-      "sha256": "ba9e86aee1567a8c7c834369eb2b1ff1b97f9fc18cc9488d09ba8c9fe39bdf64"
+      "bytes": 22351,
+      "sha256": "69ec91da59d7d7733eb04607296140365ec68c1508c8da392fc13f5790069f9b"
     },
     {
       "path": "docs/player.html",
@@ -242,8 +417,8 @@
     },
     {
       "path": "docs/player.js",
-      "bytes": 5859,
-      "sha256": "5027a1bdc4ee452e34bfee4853411ba4d320f7ee3d3ec24fb9754a8e64183bd7"
+      "bytes": 6436,
+      "sha256": "d324bb4a13fa1c10329677aa82558e48dfd846ed88cf1d8a6cfc5487644a5255"
     },
     {
       "path": "docs/styles.css",
@@ -251,29 +426,39 @@
       "sha256": "0ff7f5b0e9c8b3cf5796fb4e9aae4b4f921083899e832d1bd5116d07ef9a9d35"
     },
     {
-      "path": "README.md",
-      "bytes": 7480,
-      "sha256": "ad91265b3b89d45f1945488dbc256f7a60a2699257e00c34d6fc2d5a37c2fc66"
+      "path": "tools/extend_recut_high_scores.py",
+      "bytes": 6932,
+      "sha256": "71dcc87f9c9f54b034c45c98a298934ce92fcf11c3d74fd2538884a1acdb09df"
     },
     {
-      "path": "WEBSITE.md",
-      "bytes": 2732,
-      "sha256": "e5c3a35c86c0c52de21e3d89166c9e46228487b92fb74572803371b0a6282c5d"
+      "path": "tools/generate_recut_music.py",
+      "bytes": 12260,
+      "sha256": "0c4c6b49e8ad6b430b8c356fedc6f9cf54a1a83040dcf01d50fd3bed4d81a62b"
     },
     {
-      "path": ".github/workflows/pages.yml",
-      "bytes": 663,
-      "sha256": "768b8dceeb9f4522ac80573b27e5a4c42887875c6ddcaa1c982ffc0533f7fa9d"
+      "path": "tools/polish_recut_chapters.py",
+      "bytes": 2961,
+      "sha256": "5d3ea7201f14cdfef5d65177b5ee944c732dcbf9166a8728715574349e455340"
     },
     {
-      "path": "tools/serve_site.py",
-      "bytes": 2363,
-      "sha256": "827b92e34782e0edc672fcb5ac894f985d56cf92fff7d18bd51b366a59923555"
+      "path": "tools/publish_recut_gallery.py",
+      "bytes": 16183,
+      "sha256": "42d49dc602331bfe15725a8a19004ba17875c054598fabe2f9810cbbec132419"
     },
     {
       "path": "tools/render_logo_intro.py",
       "bytes": 10363,
       "sha256": "58e14f2b40a8ae1d91b972a55d6e49f9844fb9c7995e26604a9a7dcd9a66feb1"
+    },
+    {
+      "path": "tools/render_recut_20261030.py",
+      "bytes": 12969,
+      "sha256": "13a9142df32e39e4705a99fe459349a4be4faac5b72cf8dce331f7d5bbbaa741"
+    },
+    {
+      "path": "tools/serve_site.py",
+      "bytes": 2363,
+      "sha256": "827b92e34782e0edc672fcb5ac894f985d56cf92fff7d18bd51b366a59923555"
     }
   ]
 }

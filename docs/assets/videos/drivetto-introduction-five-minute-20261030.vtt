@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+DriveTTO
+
+00:00:05.000 --> 00:00:09.000
+Search and selection at test time
+
+00:00:09.000 --> 00:00:17.750
+A continuous search-and-selection pipeline
+
+00:00:17.750 --> 00:00:26.750
+Method | Search. Compare. Select.
+
+00:00:26.750 --> 00:00:35.750
+Method | A bank of complete trajectories
+
+00:00:35.750 --> 00:00:44.750
+Method | Learn from where the path ends
+
+00:00:44.750 --> 00:00:53.750
+Method | Refine within a bounded neighborhood
+
+00:00:53.750 --> 00:01:02.750
+Method | Compare against the same reference
+
+00:01:02.750 --> 00:01:11.750
+Method | Fuse along the same horizon
+
+00:01:11.750 --> 00:01:20.750
+Method | Select conservatively; keep a fallback
+
+00:01:20.750 --> 00:01:29.750
+Method | A new path. The same frozen models.
+
+00:01:29.750 --> 00:01:35.750
+NAVSIM | Urban bend
+
+00:01:35.750 --> 00:01:41.750
+NAVSIM | Narrow street
+
+00:01:41.750 --> 00:01:47.750
+NAVSIM | Junction
+
+00:01:47.750 --> 00:01:53.750
+NAVSIM | Bridge curve
+
+00:01:53.750 --> 00:02:02.000
+HUGSIM | Crossing traffic on an urban street
+
+00:02:02.000 --> 00:02:10.500
+HUGSIM | An urban block with parked vehicles
+
+00:02:10.500 --> 00:02:20.000
+HUGSIM | City blocks and marked crossings
+
+00:02:20.000 --> 00:02:28.750
+HUGSIM | A street lined with older facades
+
+00:02:28.750 --> 00:02:41.250
+HUGSIM | Curbside parking on both sides
+
+00:02:41.250 --> 00:02:50.000
+HUGSIM | A suburban street under clear skies
+
+00:02:50.000 --> 00:02:58.750
+HUGSIM | Neighborhood traffic and lane markings
+
+00:02:58.750 --> 00:03:12.500
+HUGSIM | Road markings beneath roadside trees
+
+00:03:12.500 --> 00:03:31.750
+HUGSIM | A palm-lined residential block
+
+00:03:31.750 --> 00:03:56.250
+HUGSIM | Following traffic through a leafy block
+
+00:03:56.250 --> 00:04:12.750
+HUGSIM | A tree-lined residential bend
+
+00:04:12.750 --> 00:04:32.000
+HUGSIM | An open residential stretch
+
+00:04:32.000 --> 00:04:44.000
+HUGSIM | A curved road beside greenery
+
+00:04:44.000 --> 00:04:56.000
+Five aggregate benchmark metrics
+
+00:04:56.000 --> 00:05:00.000
+Explore the project
