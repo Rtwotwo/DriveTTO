@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+DriveTTO
+
+00:00:05.000 --> 00:00:09.000
+Search and selection at test time
+
+00:00:09.000 --> 00:00:15.000
+A continuous search-and-selection pipeline
+
+00:00:15.000 --> 00:00:24.000
+Method | Search. Compare. Select.
+
+00:00:24.000 --> 00:00:33.000
+Method | A bank of complete trajectories
+
+00:00:33.000 --> 00:00:42.000
+Method | Learn from where the path ends
+
+00:00:42.000 --> 00:00:51.000
+Method | Refine within a bounded neighborhood
+
+00:00:51.000 --> 00:01:00.000
+Method | Compare against the same reference
+
+00:01:00.000 --> 00:01:09.000
+Method | Fuse along the same horizon
+
+00:01:09.000 --> 00:01:18.000
+Method | Select conservatively; keep a fallback
+
+00:01:18.000 --> 00:01:27.000
+Method | A new path. The same frozen models.
+
+00:01:27.000 --> 00:01:33.000
+NAVSIM | Urban bend
+
+00:01:33.000 --> 00:01:39.000
+NAVSIM | Narrow street
+
+00:01:39.000 --> 00:01:45.000
+NAVSIM | Junction
+
+00:01:45.000 --> 00:01:51.000
+NAVSIM | Bridge curve
+
+00:01:51.000 --> 00:02:00.500
+HUGSIM | City blocks and marked crossings
+
+00:02:00.500 --> 00:02:12.500
+HUGSIM | A curved road beside greenery
+
+00:02:12.500 --> 00:02:29.000
+HUGSIM | A tree-lined residential bend
+
+00:02:29.000 --> 00:02:46.500
+HUGSIM | A tree-lined road with nearby traffic
+
+00:02:46.500 --> 00:03:15.500
+HUGSIM | A neighborhood turn among parked cars
+
+00:03:15.500 --> 00:03:48.750
+HUGSIM | Turning through a busy city block
+
+00:03:48.750 --> 00:03:57.000
+HUGSIM | Crossing traffic on an urban street
+
+00:03:57.000 --> 00:04:12.500
+HUGSIM | Moving traffic beside an industrial block
+
+00:04:12.500 --> 00:04:35.500
+HUGSIM | Heavy vehicles around an industrial junction
+
+00:04:35.500 --> 00:04:44.000
+HUGSIM | Dense traffic beside curbside parking
+
+00:04:44.000 --> 00:04:56.000
+Five aggregate benchmark metrics
+
+00:04:56.000 --> 00:05:00.000
+Explore the project

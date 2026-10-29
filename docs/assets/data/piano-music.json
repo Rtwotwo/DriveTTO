@@ -1,0 +1,244 @@
+{
+  "title": "An Unhurried Drive",
+  "style": "Relaxed solo piano",
+  "composition": "Original composition for the DriveTTO five-minute introduction.",
+  "rendering": "Recorded piano WAV samples",
+  "bpm": 72,
+  "seed": 20261030,
+  "instruments": [
+    "piano"
+  ],
+  "vocals": false,
+  "drums": false,
+  "pads": false,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "duration_seconds": 300.0,
+  "sample_frames": 14400000,
+  "note_count": 718,
+  "cached_pitches": 26,
+  "sources": [
+    {
+      "file": "A0vL.wav",
+      "midi": 21,
+      "sha256": "116434adf87c09bdc6821b2383f0fd4c55f377021410b437743ce7ad784ed731",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C1vL.wav",
+      "midi": 24,
+      "sha256": "e29e6ac3bed407ddc36f8c01d151293733a1ec0d404ceff17ca95ea181d7286d",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#1vL.wav",
+      "midi": 27,
+      "sha256": "6ff20bc151c5898ef42a480472626a2d7772ef0f65fb0ee5ea824554e8f14b85",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#1vL.wav",
+      "midi": 30,
+      "sha256": "36821e6b56a546da05dbf311c7ea4872704b722fbf19e5248721a9a627283f9c",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A1vL.wav",
+      "midi": 33,
+      "sha256": "970f15f9b73048615f2c254c1c4e8618e75bed684784657f9b56872725993496",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C2vL.wav",
+      "midi": 36,
+      "sha256": "68a6ccd9fe3c05192ecc1fae49fb4bb6c1cfbfee6f8eb1bd0145754c5e694980",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#2vL.wav",
+      "midi": 39,
+      "sha256": "7bf6f2c58e0b290541b34c582bd4a0f8a2fa681048a03e2538c687a4840966c3",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#2vL.wav",
+      "midi": 42,
+      "sha256": "9238941dc739a8d18997d738e4dda4ffa9dec322d45969291921386a090cc2f4",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A2vL.wav",
+      "midi": 45,
+      "sha256": "8635425790aa1df0c5a8f5f7ffd7fcc6b23fdd12cac2abec911d2b9b96e48b72",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C3vL.wav",
+      "midi": 48,
+      "sha256": "5142f7b673405542e09550bba87c6bcffe0ceb140c020aa2b7c67e9183dbe224",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#3vL.wav",
+      "midi": 51,
+      "sha256": "57cd296cb6e98ccfac3879bec92fa6b143ecc423c42d963d09faa808f0273fd5",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#3vL.wav",
+      "midi": 54,
+      "sha256": "9ce238f8ec271911a8f44e4d3f0217ee75af77e91e201e51416f76eb04286c30",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A3vL.wav",
+      "midi": 57,
+      "sha256": "3298ea102dfe3081e823c4234e47bad5be146c4d9974ebb649a6f60d44d04a71",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C4vL.wav",
+      "midi": 60,
+      "sha256": "e6942cdf7811c0647018a806378ab57e6f7585c4f8d2c21afb699ba47a445844",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#4vL.wav",
+      "midi": 63,
+      "sha256": "c6784172269dc9d06d34ec5371e4901d4f82968974eecd6b410ae8b8ddf6b53f",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#4vL.wav",
+      "midi": 66,
+      "sha256": "166ef0c0dafa7f427cbd5bf70f31ced444651798d2788a599fc45c3aef75b8f5",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A4vL.wav",
+      "midi": 69,
+      "sha256": "fc6f6ce2e449e4b66d31f319c0f74f59393a50f3d5220ef1cd1184c8b36f428f",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C5vL.wav",
+      "midi": 72,
+      "sha256": "f7b071d6871a6036c2431079ae92cdfcdfe244925f64522a1f5caf02a0c41cf4",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#5vL.wav",
+      "midi": 75,
+      "sha256": "3c5c353cb8f7c94f551d2d53b3f709e28f2d5a26858fec680d24862c4af91112",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#5vL.wav",
+      "midi": 78,
+      "sha256": "14f32329545051a1840800cd166504e8d4892178ff0ecacfd92f300be1080544",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A5vL.wav",
+      "midi": 81,
+      "sha256": "2a8645f99f9dcceca60efcd86195529a4e5cb7e4ea8fe3ebf6836a1b3487257d",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C6vL.wav",
+      "midi": 84,
+      "sha256": "7bdc0475e62438b15e54d14f2c5f88b88575341552e2a1ba5db2f4252bdb6008",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#6vL.wav",
+      "midi": 87,
+      "sha256": "5c8b4327ca2ebd3d6dfd99e30672f5f7d1dab13d7795d7231184861034ad5db3",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#6vL.wav",
+      "midi": 90,
+      "sha256": "9ad49b6a78182bb144a58d5987450d53b80f11a82066ce14c26ea729aafb7c96",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A6vL.wav",
+      "midi": 93,
+      "sha256": "d7f90dfeab064b5b8842e36088f73e2ea2e98b0a713ea18d2c384e9a8ad86aa1",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C7vL.wav",
+      "midi": 96,
+      "sha256": "669f63aa12fb6e24c00fc38afce09f2e9a1d9978f22c4c6a088e4f8d3fee6203",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "D#7vL.wav",
+      "midi": 99,
+      "sha256": "5ca01816fb94695e7d5dc6a4ba3ac7a1cf884833e81b81a1cb0ad278328a9b6f",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "F#7vL.wav",
+      "midi": 102,
+      "sha256": "2e9283c4c1c553b029a1bb0b0005650079f1929a097ecb99298af9a4c60549a2",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "A7vL.wav",
+      "midi": 105,
+      "sha256": "5aaec1e23b67f2f37ecef4979ecc907be77639be4eca8632560b69e71fc8d9cf",
+      "sample_rate_hz": 44100
+    },
+    {
+      "file": "C8vL.wav",
+      "midi": 108,
+      "sha256": "f4023339427c9cd309e0f7a044f06234358ae09781bcca8b85ec6d3d7d30b112",
+      "sample_rate_hz": 44100
+    }
+  ],
+  "source_audio_samples_used": true,
+  "fade_in_seconds": 1.5,
+  "fade_out_seconds": 3,
+  "ending": "ii–V–I cadence over the final three bars, with the final tonic left to decay",
+  "peak": 0.4369547665119171,
+  "rms": 0.04609239573462825,
+  "render_gain": 2.5,
+  "clipped_samples": 0,
+  "mastering": {
+    "target_lufs": -21,
+    "true_peak_ceiling_dbtp": -2,
+    "loudness_range_target": 8,
+    "first_pass": {
+      "input_i": "-24.40",
+      "input_tp": "-7.19",
+      "input_lra": "4.00",
+      "input_thresh": "-34.49",
+      "output_i": "-20.67",
+      "output_tp": "-3.81",
+      "output_lra": "3.80",
+      "output_thresh": "-30.73",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.33"
+    },
+    "method": "two-pass loudnorm with linear normalization"
+  },
+  "format": "PCM16 WAV",
+  "bytes": 57600044,
+  "sha256": "e94b8bbb59f9e06170c7dd0689c67336d0f04f07b2ece1eba398d735c70325d8",
+  "description": "An original relaxed piano composition, rendered with acoustic upright-piano samples.",
+  "sample_bank": {
+    "name": "FreePats Upright Piano KW",
+    "version": "2022-02-21",
+    "instrument": "Kawai upright piano",
+    "recorded_by": "Gonzalo and Roberto",
+    "edited_by": "Roberto",
+    "source_url": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+    "download_url": "https://freepats.zenvoid.org/Piano/UprightPianoKW/UprightPianoKW-SFZ-20220221.7z",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "archive_sha256": "40d68616b4628c96eb1cdc79c07526311d387894b263de274693483864651b11"
+  }
+}

@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10872,
-      "sha256": "aa695267b74ed99d847d031edee52acf2a6439945bff49e92b9b42590059bcbb"
+      "bytes": 9349,
+      "sha256": "07cbc5e6dd4fd8627867a2df477902d4c05c58821dfee9836c5000ef451fed91"
     },
     {
       "path": "WEBSITE.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "docs/assets/data/intro-edit.json",
-      "bytes": 22092,
-      "sha256": "cef3bb73bb483bcf671b5613b95efbc8263edfd0b4791add6a378eb0dac33a5f"
+      "bytes": 25952,
+      "sha256": "afbcd55005b1dc43776e0fa0915b3896a253eb201e4609a1416c14ecb24c29e7"
     },
     {
       "path": "docs/assets/data/logo-intro.json",
@@ -37,8 +37,13 @@
     },
     {
       "path": "docs/assets/data/media-selection.json",
-      "bytes": 52912,
-      "sha256": "40bc0d5a0daf3a9080aabf44109811573f6b82bf29fcb5d3bce7a71735132f12"
+      "bytes": 63559,
+      "sha256": "4f8d38b025fee76fa340e9e1939c8671c95adf2a50653feda72994212cfe865c"
+    },
+    {
+      "path": "docs/assets/data/piano-music.json",
+      "bytes": 7243,
+      "sha256": "7f189a5a95aabc0a64323cc95aa69333325462b16dff5758e030e4eed9a8f288"
     },
     {
       "path": "docs/assets/data/results.csv",
@@ -47,8 +52,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 44117,
-      "sha256": "269f4ae36d97062201f6118def3ce650e8f74a2f69bfc711d7cedc666fbdb0e0"
+      "bytes": 38858,
+      "sha256": "ba36ec6dd16f5af7851343c92118bffb3cde01a3354c7b2ffa03c87432b1b84e"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -101,9 +106,24 @@
       "sha256": "1a6fb16ae4cb0c871283ff04502d013292f60b174fea82b11dcbbfe92e92c2a7"
     },
     {
+      "path": "docs/assets/images/hugsim-nuscenes-scene-0010-hard_00-piano.jpg",
+      "bytes": 51560,
+      "sha256": "99e0e797d5f56ff74a9769b5287f4d6abf55b4c146e32a72f19efc86b2ec34f1"
+    },
+    {
       "path": "docs/assets/images/hugsim-nuscenes-scene-0013-easy_00-recut.jpg",
       "bytes": 53138,
       "sha256": "f687909e99131f3f0bb9a436c76e6cb058a7fa4c77768e25ce7e07b1f994bfba"
+    },
+    {
+      "path": "docs/assets/images/hugsim-nuscenes-scene-0071-hard_00-piano.jpg",
+      "bytes": 32531,
+      "sha256": "edd81ff06b845f9227f4878ab4dcf959dffb8e4469fdd43113b2572ac592aacd"
+    },
+    {
+      "path": "docs/assets/images/hugsim-nuscenes-scene-0166-hard_00-piano.jpg",
+      "bytes": 39464,
+      "sha256": "8b389940db5f5f17b77cb4a61f0880b138925206be00af821019fe73cb24a06e"
     },
     {
       "path": "docs/assets/images/hugsim-nuscenes-scene-0528-hard_01-recut.jpg",
@@ -149,6 +169,16 @@
       "path": "docs/assets/images/hugsim-waymo-150623512729_0_200-medium_00-recut.jpg",
       "bytes": 51150,
       "sha256": "5fdda9db237748840d7af3ded34016146be83f6d54156deb1eabf9b78114ddc9"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-163453191685_0_200-hard_00-piano.jpg",
+      "bytes": 52830,
+      "sha256": "42da5c84793570454266a862f1080c9f5565b4cac823977aee05ac398e1967ff"
+    },
+    {
+      "path": "docs/assets/images/hugsim-waymo-166085257829_0_200-hard_00-piano.jpg",
+      "bytes": 74790,
+      "sha256": "7560b1cac091aee5d5e9ad26f4ba432aff81c6eccc2e0f961fac36ff4a340f9e"
     },
     {
       "path": "docs/assets/images/hugsim-waymo-342571611546_0_200-easy_00-recut.jpg",
@@ -266,6 +296,16 @@
       "sha256": "737abfb1b8a29b3afa49c77aa1b590a80fb6a196fc57ee35fcb97542febe4abb"
     },
     {
+      "path": "docs/assets/videos/drivetto-introduction-piano-20261030.mp4",
+      "bytes": 40716820,
+      "sha256": "c7bdf464abec5fb2a88a95ffd748874fc08b6a5d3a722684232e99553b4aa486"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-introduction-piano-20261030.vtt",
+      "bytes": 1855,
+      "sha256": "27ef7a02e6767eca9c3e4febcf1fc09171d21d55ad8c43db4da5df0bd7502444"
+    },
+    {
       "path": "docs/assets/videos/drivetto-introduction.mp4",
       "bytes": 10162128,
       "sha256": "f1a72131b0845b684d6941e667fe64275c8dbae0b6b63c984ff24fcb1d6d94e4"
@@ -281,9 +321,24 @@
       "sha256": "9320ad56a3ab4c63cf3328ae0952cf070868139a5660cafdb3c2297905b393ee"
     },
     {
+      "path": "docs/assets/videos/hugsim-nuscenes-scene-0010-hard_00-piano.mp4",
+      "bytes": 7308936,
+      "sha256": "b9bb9802ae739461009c374a3e82f504907d7735b087e3edac1df9773b85fafa"
+    },
+    {
       "path": "docs/assets/videos/hugsim-nuscenes-scene-0013-easy_00-recut.mp4",
       "bytes": 4120026,
       "sha256": "93fe57de796128fa65d4f0e283000fe134ca2117dadcc9cb10a0c0fd1cb7b071"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-nuscenes-scene-0071-hard_00-piano.mp4",
+      "bytes": 5957519,
+      "sha256": "cf64f832c71b57ab67afd72ea3bfe958ffbfc4a76ba38227857146fd3ae498e2"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-nuscenes-scene-0166-hard_00-piano.mp4",
+      "bytes": 4397294,
+      "sha256": "d8fb4641e4512a0ed19ec4c9931ae6a816c5128444328a5367961bd8c493885f"
     },
     {
       "path": "docs/assets/videos/hugsim-nuscenes-scene-0528-hard_01-recut.mp4",
@@ -329,6 +384,16 @@
       "path": "docs/assets/videos/hugsim-waymo-150623512729_0_200-medium_00-recut.mp4",
       "bytes": 5105500,
       "sha256": "9ea77da6a5c2d6f1d5c3a6a23413e3a9e1d1dd92c11e8b191cc89ac163fe6ddf"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-163453191685_0_200-hard_00-piano.mp4",
+      "bytes": 4235982,
+      "sha256": "77073fb055b1ff5ff5492b49056fd47ec36453e0dedd440e2ca542c8d64fe4ed"
+    },
+    {
+      "path": "docs/assets/videos/hugsim-waymo-166085257829_0_200-hard_00-piano.mp4",
+      "bytes": 8282195,
+      "sha256": "779b005e4ec663de013b84f742e1d23c670ae88bcdc36bb1431238fabc14e3bf"
     },
     {
       "path": "docs/assets/videos/hugsim-waymo-342571611546_0_200-easy_00-recut.mp4",
@@ -407,8 +472,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22351,
-      "sha256": "69ec91da59d7d7733eb04607296140365ec68c1508c8da392fc13f5790069f9b"
+      "bytes": 22333,
+      "sha256": "418276d19af4f88c128767523b449e0acee8a82566ab6ed1686c52aa1a5dcf9d"
     },
     {
       "path": "docs/player.html",
@@ -431,14 +496,29 @@
       "sha256": "71dcc87f9c9f54b034c45c98a298934ce92fcf11c3d74fd2538884a1acdb09df"
     },
     {
+      "path": "tools/generate_leisure_piano.py",
+      "bytes": 10660,
+      "sha256": "53000106581abc9bb8b859bb079e6aa92cb0d56d74cf875b3db9edf01c554208"
+    },
+    {
       "path": "tools/generate_recut_music.py",
       "bytes": 12260,
       "sha256": "0c4c6b49e8ad6b430b8c356fedc6f9cf54a1a83040dcf01d50fd3bed4d81a62b"
     },
     {
+      "path": "tools/mux_piano_intro.py",
+      "bytes": 2381,
+      "sha256": "dd0974d7f64ed76cd65ff96567ad927dbbfbb99f437a9f341b2532765ef10a9c"
+    },
+    {
       "path": "tools/polish_recut_chapters.py",
       "bytes": 2961,
       "sha256": "5d3ea7201f14cdfef5d65177b5ee944c732dcbf9166a8728715574349e455340"
+    },
+    {
+      "path": "tools/publish_piano_intro.py",
+      "bytes": 11929,
+      "sha256": "e8c82f34ffc53ef82e26877013b10fba4383a5ead7273ab49b0d5bcd19e3363d"
     },
     {
       "path": "tools/publish_recut_gallery.py",
@@ -449,6 +529,11 @@
       "path": "tools/render_logo_intro.py",
       "bytes": 10363,
       "sha256": "58e14f2b40a8ae1d91b972a55d6e49f9844fb9c7995e26604a9a7dcd9a66feb1"
+    },
+    {
+      "path": "tools/render_piano_hard_edit.py",
+      "bytes": 6796,
+      "sha256": "44a69214594c078ba939e36f44dbb4497197504b6d1afe32db152ffdb75a804c"
     },
     {
       "path": "tools/render_recut_20261030.py",
