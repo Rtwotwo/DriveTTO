@@ -22,8 +22,8 @@
     },
     {
       "path": "docs/app.js",
-      "bytes": 19606,
-      "sha256": "ca0993ea2f22f84c751bf6ac473061d96ab7317e2859dfca0f438965288cf380"
+      "bytes": 18786,
+      "sha256": "4a40f42ca7d772bd319b95012c88a2b95ba2c10062878a67958a2de061d8f758"
     },
     {
       "path": "docs/assets/data/intro-edit.json",
@@ -38,7 +38,7 @@
     {
       "path": "docs/assets/data/media-selection.json",
       "bytes": 63559,
-      "sha256": "4f8d38b025fee76fa340e9e1939c8671c95adf2a50653feda72994212cfe865c"
+      "sha256": "949007b68d03a9988ab72132d7d04797b8132d1927be98b0641e25de80fb32b3"
     },
     {
       "path": "docs/assets/data/piano-music.json",
@@ -52,8 +52,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 38858,
-      "sha256": "ba36ec6dd16f5af7851343c92118bffb3cde01a3354c7b2ffa03c87432b1b84e"
+      "bytes": 40846,
+      "sha256": "cd57f8e13fd51a29ba6d1f0c10bd0a5167438f8a03d09158162b42ce1e0d4711"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -472,8 +472,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22333,
-      "sha256": "418276d19af4f88c128767523b449e0acee8a82566ab6ed1686c52aa1a5dcf9d"
+      "bytes": 22061,
+      "sha256": "55e45ef4eac2aeb8702945539cd604abcb7f2b4773943c3bf397dbf90564392e"
     },
     {
       "path": "docs/player.html",
@@ -487,8 +487,8 @@
     },
     {
       "path": "docs/styles.css",
-      "bytes": 28779,
-      "sha256": "0ff7f5b0e9c8b3cf5796fb4e9aae4b4f921083899e832d1bd5116d07ef9a9d35"
+      "bytes": 29302,
+      "sha256": "7da21fa51bb63a7a14040fb46ee148af2ff34ab5a95e1ad54591ec4fac698297"
     },
     {
       "path": "tools/extend_recut_high_scores.py",

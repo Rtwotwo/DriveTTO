@@ -130,15 +130,10 @@
     if (lastImageTrigger) lastImageTrigger.focus();
   });
 
-  function renderSceneMetrics(scene) {
-    const root = $('#scene-metrics');
-    root.replaceChildren();
-    [['HD-Score', scene.hd], ['RC', scene.rc], ['PDMS', scene.pdms]].forEach(([label, value]) => {
-      if (!numeric(value)) return;
-      const metric = element('div', 'scene-metric');
-      metric.append(element('span', '', `${label} ↑`), element('strong', '', format(value)));
-      root.append(metric);
-    });
+  function sceneSummary(scene) {
+    const duration = numeric(scene.duration) ? `${Number(scene.duration)} s` : scene.duration;
+    return [scene.dataset || 'HUGSIM', scene.difficulty, duration,
+      `RC ${format(scene.rc, 1)}`, `HD ${format(scene.hd, 1)}`].filter(Boolean).join(' · ');
   }
 
   function selectScene(index) {
@@ -150,15 +145,10 @@
     const poster = safeMediaPath(scene.poster);
     if (poster) galleryVideo.poster = poster;
     else galleryVideo.removeAttribute('poster');
-    galleryVideo.setAttribute('aria-label', `${scene.title || 'DriveTTO driving scene'}. ${scene.description || ''}`);
+    galleryVideo.setAttribute('aria-label', sceneSummary(scene));
     galleryVideo.load();
     $('#gallery-empty').hidden = true;
-    $('#scene-title').textContent = scene.title || `Scene ${index + 1}`;
-    $('#scene-description').textContent = scene.description || '';
-    const duration = numeric(scene.duration) ? `${format(scene.duration, 0)} s` : scene.duration;
-    $('#scene-eyebrow').textContent = [scene.dataset || 'HUGSIM', scene.difficulty, duration].filter(Boolean).join(' · ');
-    $('#scene-id').textContent = scene.scene ? `Scene: ${scene.scene}` : '';
-    renderSceneMetrics(scene);
+    $('#scene-summary').textContent = sceneSummary(scene);
     $$('.scene-tab').forEach((tab, tabIndex) => {
       const selected = tabIndex === index;
       tab.setAttribute('aria-selected', selected);
@@ -192,8 +182,7 @@
         image.loading = 'lazy';
         thumb.append(image);
       }
-      thumb.append(element('span', 'scene-number', String(index + 1).padStart(2, '0')));
-      tab.append(thumb, element('span', 'scene-tab-title', scene.title || `Scene ${index + 1}`), element('span', 'scene-tab-difficulty', [scene.dataset || 'HUGSIM', scene.difficulty].filter(Boolean).join(' · ')));
+      tab.append(thumb, element('em', 'scene-tab-caption', sceneSummary(scene)));
       tab.addEventListener('click', () => selectScene(index));
       tabs.append(tab);
     });
