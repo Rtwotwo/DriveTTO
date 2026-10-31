@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.000
+In a tight corridor, a plausible centerline still leaves little room for the vehicle.
+
+00:00:07.000 --> 00:00:12.000
+A small lateral shift can turn clearance into overlap. The vehicle footprint matters.
+
+00:00:12.000 --> 00:00:18.000
+A small forward shift changes where the vehicle meets crossing traffic.
+
+00:00:18.000 --> 00:00:25.000
+DriveTTO starts with endpoint requests, completed through a native parent trajectory.
+
+00:00:25.000 --> 00:00:33.000
+Score the complete path. Store its utility at the endpoint that the path actually reaches.
+
+00:00:33.000 --> 00:00:43.000
+Nearby achieved states guide the next requests toward a promising region.
+
+00:00:43.000 --> 00:00:51.000
+The archive uses eight neighbors in position, heading and speed. This view projects XY.
+
+00:00:51.000 --> 00:00:58.000
+Each new request produces another complete path, which is evaluated before updating the archive.
+
+00:00:58.000 --> 00:01:07.000
+The accepted endpoint plan and a second planner provide different complete motions.
+
+00:01:07.000 --> 00:01:17.000
+Bounded interpolation and geometric refinement establish one shared trajectory center.
+
+00:01:17.000 --> 00:01:28.000
+Small longitudinal, lateral and timing changes refine the path around this center.
+
+00:01:28.000 --> 00:01:38.000
+Proposals from both frozen planners contribute alternative local shapes.
+
+00:01:38.000 --> 00:01:48.000
+A control branch transfers a bounded change between two rollouts onto the same center.
+
+00:01:48.000 --> 00:01:56.000
+Zero control perturbation preserves the center. Both branches retain a complete trajectory.
+
+00:01:56.000 --> 00:02:05.000
+Proposal and control outputs are combined at matching future timestamps.
+
+00:02:05.000 --> 00:02:14.000
+Smooth temporal weights allow the early and late parts to use different branch contributions.
+
+00:02:14.000 --> 00:02:22.000
+Compare each complete candidate with its reference. Configured dual-scoring stages use both heads.
+
+00:02:22.000 --> 00:02:31.000
+An admitted update replaces the reference; otherwise the reference is kept exactly.
+
+00:02:31.000 --> 00:02:40.000
+Endpoint search finds promising motions; local refinement adjusts their geometry and timing.
+
+00:02:40.000 --> 00:02:48.000
+The same complete motion links the endpoint, the narrow passage and the crossing interaction.

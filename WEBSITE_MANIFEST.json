@@ -7,13 +7,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9735,
-      "sha256": "715b2ec0ef59a3b8eba8f15209a85345e1c35bc4b1e2fb044eab0ecf562f697c"
+      "bytes": 9863,
+      "sha256": "8ae4c8fbe4da4a67bbcc5d2ed82ddb9b9276dc99939eddd02d98f1cb0d0fdbfe"
     },
     {
       "path": "WEBSITE.md",
-      "bytes": 2732,
-      "sha256": "e5c3a35c86c0c52de21e3d89166c9e46228487b92fb74572803371b0a6282c5d"
+      "bytes": 3101,
+      "sha256": "e6a82329ce4ad1d618bf5674f4bdc73102b1b88c8732f1f753645df908b5121f"
     },
     {
       "path": "docs/.nojekyll",
@@ -26,9 +26,14 @@
       "sha256": "4a40f42ca7d772bd319b95012c88a2b95ba2c10062878a67958a2de061d8f758"
     },
     {
+      "path": "docs/assets/data/continuous-method-20261031.json",
+      "bytes": 980,
+      "sha256": "79b65c967e070f86b39bd1008557424b36b0e04cef7c0ed3961dca4992f84ed3"
+    },
+    {
       "path": "docs/assets/data/intro-edit.json",
-      "bytes": 25952,
-      "sha256": "afbcd55005b1dc43776e0fa0915b3896a253eb201e4609a1416c14ecb24c29e7"
+      "bytes": 12982,
+      "sha256": "1de99029f939f8e44bfdc5fb7a19c475d8328d60b4925ae299254bb204b2cc59"
     },
     {
       "path": "docs/assets/data/logo-intro.json",
@@ -37,8 +42,8 @@
     },
     {
       "path": "docs/assets/data/media-selection.json",
-      "bytes": 63559,
-      "sha256": "949007b68d03a9988ab72132d7d04797b8132d1927be98b0641e25de80fb32b3"
+      "bytes": 50408,
+      "sha256": "0b2372b2816763710f2bb6b2e5e897f43d40473a4dc9e5e5fa316e3380514b55"
     },
     {
       "path": "docs/assets/data/piano-music.json",
@@ -52,8 +57,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 40846,
-      "sha256": "cd57f8e13fd51a29ba6d1f0c10bd0a5167438f8a03d09158162b42ce1e0d4711"
+      "bytes": 41070,
+      "sha256": "043b94803d5dfb941454c38b1a06b1a9638c0a58989381a6ea82831fb4cab004"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -231,6 +236,16 @@
       "sha256": "89d4216300dbdf3dc952555dbfdb4184d8b60ba32d62b43e670391d96fd38299"
     },
     {
+      "path": "docs/assets/images/method-continuous-20261031.gif",
+      "bytes": 324580,
+      "sha256": "2a3beaf142f26b1b592a983a0429d55600f94b0eb1f4c81e71151d6178988df5"
+    },
+    {
+      "path": "docs/assets/images/method-continuous-20261031.jpg",
+      "bytes": 132314,
+      "sha256": "f7fdc4e80246481c00a59b416bb1fb70d02d00ac52cb1cf08f32215e82bd6cec"
+    },
+    {
       "path": "docs/assets/images/nuscenes-scene-0166-hard_00.jpg",
       "bytes": 51993,
       "sha256": "a456aeb433a08fadde31dfe77db5234fc037d73b2d819140d3be1f9dc8e88e97"
@@ -276,6 +291,11 @@
       "sha256": "6c2444d8919722bf450ed73e94d4559ce56240c90e1ec54a66c69a4088e521c8"
     },
     {
+      "path": "docs/assets/videos/drivetto-introduction-continuous-20261031.mp4",
+      "bytes": 37916214,
+      "sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197"
+    },
+    {
       "path": "docs/assets/videos/drivetto-introduction-five-minute-20261030.mp4",
       "bytes": 42829620,
       "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
@@ -319,6 +339,11 @@
       "path": "docs/assets/videos/drivetto-logo-opening.mp4",
       "bytes": 1056761,
       "sha256": "9320ad56a3ab4c63cf3328ae0952cf070868139a5660cafdb3c2297905b393ee"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-method-continuous-20261031.mp4",
+      "bytes": 2760033,
+      "sha256": "33062318551dae19a248399ef76c7571d5118593b24ddfd8e4aaa700c5b81add"
     },
     {
       "path": "docs/assets/videos/hugsim-nuscenes-scene-0010-hard_00-piano.mp4",
@@ -416,9 +441,24 @@
       "sha256": "aed5f6d8fb59de0a0b7aaac58fbade7aeda650c6bc5244c6fb7503a49fcfa345"
     },
     {
+      "path": "docs/assets/videos/intro-continuous-20261031-chapters.vtt",
+      "bytes": 1607,
+      "sha256": "6da81fdcbfccdba4d8dbb06760d21ef24f05dd1a56de7334e69aa6c22bf51f1a"
+    },
+    {
       "path": "docs/assets/videos/kitti360-0000_8440_8640-easy_00.mp4",
       "bytes": 6977028,
       "sha256": "ce030b789c53ce4445a90a60968393f2c08b8b1c8d242b95380a4bc239d78df3"
+    },
+    {
+      "path": "docs/assets/videos/method-continuous-20261031-captions.vtt",
+      "bytes": 2350,
+      "sha256": "fc94f470bf6bf0817bad25c586fe5e654ac375ae11a5d57c4e2a70e5d793d46a"
+    },
+    {
+      "path": "docs/assets/videos/method-continuous-20261031-chapters.vtt",
+      "bytes": 288,
+      "sha256": "fb9a52f1168e3f2209767abc6659f29cd75eb8cdad036c71f82eb5621e8960b9"
     },
     {
       "path": "docs/assets/videos/navsim-003ead1914c051d7.mp4",
@@ -472,8 +512,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22061,
-      "sha256": "55e45ef4eac2aeb8702945539cd604abcb7f2b4773943c3bf397dbf90564392e"
+      "bytes": 22276,
+      "sha256": "1636afcbb20dd276b30667a418dc81b730659207e89dc45e64ac81fcb9653d92"
     },
     {
       "path": "docs/player.html",
@@ -482,13 +522,18 @@
     },
     {
       "path": "docs/player.js",
-      "bytes": 6436,
-      "sha256": "d324bb4a13fa1c10329677aa82558e48dfd846ed88cf1d8a6cfc5487644a5255"
+      "bytes": 6492,
+      "sha256": "ee22827c89797b3c0e4dbc6691a3cb799eac66ba0e76b4ebe8e3225bf4c4db6d"
     },
     {
       "path": "docs/styles.css",
       "bytes": 29302,
       "sha256": "7da21fa51bb63a7a14040fb46ee148af2ff34ab5a95e1ad54591ec4fac698297"
+    },
+    {
+      "path": "tools/assemble_continuous_method.py",
+      "bytes": 5154,
+      "sha256": "3a1483d0e2ac8b1ffdc636fc99e3ad1851d09c4e35e3828c605571a2214a305c"
     },
     {
       "path": "tools/extend_recut_high_scores.py",
@@ -516,6 +561,11 @@
       "sha256": "5d3ea7201f14cdfef5d65177b5ee944c732dcbf9166a8728715574349e455340"
     },
     {
+      "path": "tools/publish_continuous_method.py",
+      "bytes": 9746,
+      "sha256": "1a8bcdc9e40365a5be31e1c120077255345e8d7d48f1ed5633aeae927b8ce8cd"
+    },
+    {
       "path": "tools/publish_piano_intro.py",
       "bytes": 11929,
       "sha256": "e8c82f34ffc53ef82e26877013b10fba4383a5ead7273ab49b0d5bcd19e3363d"
@@ -524,6 +574,11 @@
       "path": "tools/publish_recut_gallery.py",
       "bytes": 16183,
       "sha256": "42d49dc602331bfe15725a8a19004ba17875c054598fabe2f9810cbbec132419"
+    },
+    {
+      "path": "tools/render_continuous_method.py",
+      "bytes": 20926,
+      "sha256": "99c21f4d9622e071824169e00ad779863e2ea8e0934836ae21975cb626278b85"
     },
     {
       "path": "tools/render_logo_intro.py",

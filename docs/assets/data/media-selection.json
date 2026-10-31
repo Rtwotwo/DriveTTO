@@ -364,378 +364,173 @@
     }
   ],
   "intro": {
-    "duration_seconds": 300.0,
+    "duration_seconds": 396,
     "width": 1280,
     "height": 720,
     "fps": 24,
-    "src": "assets/videos/drivetto-introduction-piano-20261030.mp4",
-    "poster": "assets/images/intro-recut-20261030.jpg",
-    "chapters_src": "assets/videos/drivetto-introduction-piano-20261030.vtt",
-    "sha256": "c7bdf464abec5fb2a88a95ffd748874fc08b6a5d3a722684232e99553b4aa486",
+    "src": "assets/videos/drivetto-introduction-continuous-20261031.mp4",
+    "poster": "assets/images/method-continuous-20261031.jpg",
+    "chapters_src": "assets/videos/intro-continuous-20261031-chapters.vtt",
+    "sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197",
     "poster_sha256": "c877e4e07f1b0989deda6e8a6c1b8c8af5b88fb9757b5216afa87a83ae4375ad",
-    "chapters_sha256": "27ef7a02e6767eca9c3e4febcf1fc09171d21d55ad8c43db4da5df0bd7502444",
+    "chapters_sha256": "6da81fdcbfccdba4d8dbb06760d21ef24f05dd1a56de7334e69aa6c22bf51f1a",
     "teaser": "assets/images/intro-recut-20261030.gif",
     "teaser_sha256": "2f6a066024747b91db6927ad6f32353e3956c7357eb957ee62cd7c3b2c7da489",
-    "bytes": 40716820,
+    "bytes": 37916214,
     "chapters": [
       {
         "title": "DriveTTO",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/logo.mp4",
-        "duration": 5,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-logo-opening.mp4",
-        "source_sha256": "9320ad56a3ab4c63cf3328ae0952cf070868139a5660cafdb3c2297905b393ee",
-        "source_start": 0,
         "start": 0,
         "end": 5,
-        "rendered_sha256": "10ca1e75c07d51bbfbeaa6b92c2524d6a2780b2fc5dd337d1e0fee1d14f6b383"
+        "duration": 5
       },
       {
         "title": "Search and selection at test time",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/opening.mp4",
-        "duration": 4,
         "start": 5,
         "end": 9,
-        "rendered_sha256": "36f4daaa908976e1b7fc97f45950263bf7900135715a76f7e0654ef546d0f1d2"
+        "duration": 4
       },
       {
         "title": "A continuous search-and-selection pipeline",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/overview.mp4",
-        "duration": 6,
         "start": 9,
         "end": 15,
-        "rendered_sha256": "f83d7cf64bf729ee076480e15f83d9718866efd0ad39c4c72c94a2fd29201478"
+        "duration": 6
       },
       {
-        "title": "Method | Search. Compare. Select.",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-0.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 0,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
+        "title": "Method | SMALL MARGINS",
         "start": 15,
-        "end": 24,
-        "rendered_sha256": "8ff52f0b26a88d67bcb07fa889a6967672db12aa1ac11df7ce5932430b88fa2e"
-      },
-      {
-        "title": "Method | A bank of complete trajectories",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-1.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 9,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-        "start": 24,
         "end": 33,
-        "rendered_sha256": "f36d45ab424d0bedca173663916797b866a729300fedb34db68d53a557ae8c38"
+        "duration": 18
       },
       {
-        "title": "Method | Learn from where the path ends",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-2.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 18,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
+        "title": "Method | ENDPOINT SEARCH",
         "start": 33,
-        "end": 42,
-        "rendered_sha256": "c372f6a5b710d60faca17cd610f3b282e2b707b2b4353d1d73064d8778ae78df"
+        "end": 73,
+        "duration": 40
       },
       {
-        "title": "Method | Refine within a bounded neighborhood",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-3.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 27,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-        "start": 42,
-        "end": 51,
-        "rendered_sha256": "1db46987e10a0f0645762ed1186214e6a08794c81520ac46771c0604d519ded4"
+        "title": "Method | TWO PLANNERS",
+        "start": 73,
+        "end": 103,
+        "duration": 30
       },
       {
-        "title": "Method | Compare against the same reference",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-4.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 36,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-        "start": 51,
-        "end": 60,
-        "rendered_sha256": "884db74ab90164efff97fb0b48a3ddfb72669adaf401424b348f1a1cba274d07"
+        "title": "Method | LOCAL REFINEMENT",
+        "start": 103,
+        "end": 131,
+        "duration": 28
       },
       {
-        "title": "Method | Fuse along the same horizon",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-5.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 45,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-        "start": 60,
-        "end": 69,
-        "rendered_sha256": "8e4156a62e068ca2c529fe31edacc343ab367ea7c34b47db1a65b06e3204d18f"
+        "title": "Method | FUSION & SELECTION",
+        "start": 131,
+        "end": 157,
+        "duration": 26
       },
       {
-        "title": "Method | Select conservatively; keep a fallback",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-6.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 54,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-        "start": 69,
-        "end": 78,
-        "rendered_sha256": "3140ba86750c862ff94192614d5494d8ed10e1215f3403a919d0eff0c71330da"
-      },
-      {
-        "title": "Method | A new path. The same frozen models.",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/method-7.mp4",
-        "duration": 9,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/drivetto-algorithm-animation.mp4",
-        "source_start": 63,
-        "source_sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-        "start": 78,
-        "end": 87,
-        "rendered_sha256": "52c6d7966a0c01b161ca4170093dec3fa2cf1a081bccefdaf4c472ef90d9e26b"
+        "title": "Method | COMPLETE MOTION",
+        "start": 157,
+        "end": 183,
+        "duration": 26
       },
       {
         "title": "NAVSIM | Urban bend",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/navsim-00c489998dd4555c.mp4",
-        "duration": 6,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/navsim-00c489998dd4555c.mp4",
-        "source_sha256": "2845faf304f1320677b4b34f996498c0a36866e863892800ac337b62968fea75",
-        "source_start": 0,
-        "start": 87,
-        "end": 93,
-        "rendered_sha256": "13d032955f0cb5a7d287e09166a249b1b880be81913b4ba1ab42c343c4b36c0a"
+        "start": 183,
+        "end": 189,
+        "duration": 6
       },
       {
         "title": "NAVSIM | Narrow street",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/navsim-0114734fd69b598e.mp4",
-        "duration": 6,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/navsim-0114734fd69b598e.mp4",
-        "source_sha256": "895b5c129c0e70ed4d201d1c09e4945f2dd8af87fe2f50be9bd780506d47deb8",
-        "source_start": 0,
-        "start": 93,
-        "end": 99,
-        "rendered_sha256": "76bde241f3219a0d844f5109ae20038a579a11f85752e5e427bb8dfb27a216cf"
+        "start": 189,
+        "end": 195,
+        "duration": 6
       },
       {
         "title": "NAVSIM | Junction",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/navsim-013ec5b715635a66.mp4",
-        "duration": 6,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/navsim-013ec5b715635a66.mp4",
-        "source_sha256": "ddd461a67a7e593b278aafbfe1330df0be1f3c4e499b38d2089814c5bedaff12",
-        "source_start": 0,
-        "start": 99,
-        "end": 105,
-        "rendered_sha256": "cdd87e2ecc0156c1f95b126e87e1f8bc01f83e639f6ad218c217b31bcd443cea"
+        "start": 195,
+        "end": 201,
+        "duration": 6
       },
       {
         "title": "NAVSIM | Bridge curve",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/navsim-003ead1914c051d7.mp4",
-        "duration": 6,
-        "source": "/data/xinyao/release/DriveTTO/docs/assets/videos/navsim-003ead1914c051d7.mp4",
-        "source_sha256": "c8286d1bf6ebfaffe4e0ad24bf731f5ecb0e2bdb572b62983ea6a6522c7a573c",
-        "source_start": 0,
-        "start": 105,
-        "end": 111,
-        "rendered_sha256": "a85320629b78152368094caa3e82abecfdf1fc6ce80483230ead7b3c43c91188"
+        "start": 201,
+        "end": 207,
+        "duration": 6
       },
       {
         "title": "HUGSIM | City blocks and marked crossings",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-00.mp4",
-        "duration": 9.5,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/pandaset/053_easy_00/video.mp4",
-        "source_sha256": "705029f668b74a3d14c036606af3db30fdc8fb9c35660efb7c5755cf5bbc5a24",
-        "source_start": 0,
-        "source_duration": 9.5,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 100.0,
-        "difficulty": "easy",
-        "complete_episode": true,
-        "start": 111,
-        "end": 120.5,
-        "rendered_sha256": "f1c833721a174162d88719542ef55dd7b8aa63127676d524d62ed2b1d7182273"
+        "start": 207,
+        "end": 216.5,
+        "duration": 9.5
       },
       {
         "title": "HUGSIM | A curved road beside greenery",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-01.mp4",
-        "duration": 12.0,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/nuscenes/scene-0013_easy_00/video.mp4",
-        "source_sha256": "3c3361368436eee3353e3d32ec6081b631fee5dc7036a71ac9f0525ff5ea0f07",
-        "source_start": 0,
-        "source_duration": 12.0,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 99.40476190476191,
-        "difficulty": "easy",
-        "complete_episode": true,
-        "start": 120.5,
-        "end": 132.5,
-        "rendered_sha256": "28cb69ec2b8302a7c97397a791397bc62472e431d0d0902d050f049765d8530c"
+        "start": 216.5,
+        "end": 228.5,
+        "duration": 12.0
       },
       {
         "title": "HUGSIM | A tree-lined residential bend",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-02.mp4",
-        "duration": 16.5,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/waymo/113792265837_0_200_hard_00/video.mp4",
-        "source_sha256": "028ae2977f9a058e731317e33e9756691727c83a5a07d830491bd27ae93b94dc",
-        "source_start": 0,
-        "source_duration": 16.5,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 94.15584415584416,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 132.5,
-        "end": 149.0,
-        "rendered_sha256": "7db7f1536014673f0cada609d9582534156017a962c5fb4b4051d62bc481d832"
+        "start": 228.5,
+        "end": 245.0,
+        "duration": 16.5
       },
       {
         "title": "HUGSIM | A tree-lined road with nearby traffic",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-03.mp4",
-        "duration": 17.5,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/nuscenes/scene-0010_hard_00/video.mp4",
-        "source_sha256": "6cd1a3d827f7d9c544cc85cf2ab1af9175e0d7f04bfc550b7e501a02bbf07ac5",
-        "source_start": 0,
-        "source_duration": 17.5,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 97.14285714285714,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 149.0,
-        "end": 166.5,
-        "rendered_sha256": "e047ca2e00dbd72a884795c6522eebe7abcb77148a5c97a82a2c9935953d3803"
+        "start": 245.0,
+        "end": 262.5,
+        "duration": 17.5
       },
       {
         "title": "HUGSIM | A neighborhood turn among parked cars",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-04.mp4",
-        "duration": 29.0,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/waymo/163453191685_0_200_hard_00/video.mp4",
-        "source_sha256": "dce4f30b9d393f473111f030c79a6723124ee3d15d9e7a331b42877a129e6c53",
-        "source_start": 0,
-        "source_duration": 29.0,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 96.6748768472906,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 166.5,
-        "end": 195.5,
-        "rendered_sha256": "766d4723b8a49264e702422d0916e6d78ccc266c7debebb5a5349c66e7311d8e"
+        "start": 262.5,
+        "end": 291.5,
+        "duration": 29.0
       },
       {
         "title": "HUGSIM | Turning through a busy city block",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-05.mp4",
-        "duration": 33.25,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/waymo/166085257829_0_200_hard_00/video.mp4",
-        "source_sha256": "d5dc3475fc1fd92277c5ba6afb7f34e6f9384c0be0ac7ee346c6b46b9bd46119",
-        "source_start": 0,
-        "source_duration": 33.25,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 97.20730397422126,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 195.5,
-        "end": 228.75,
-        "rendered_sha256": "85f9b3ea192bccdb8c44823f844698904ec217b780291916f5ae608376438ee6"
+        "start": 291.5,
+        "end": 324.75,
+        "duration": 33.25
       },
       {
         "title": "HUGSIM | Crossing traffic on an urban street",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-06.mp4",
-        "duration": 8.25,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/nuscenes/scene-0528_hard_01/video.mp4",
-        "source_sha256": "3432f49369a541c4d4f3e8e4b46b140c79a76a46c476381c8df0bd367e5dbfb2",
-        "source_start": 0,
-        "source_duration": 8.25,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 100.0,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 228.75,
-        "end": 237.0,
-        "rendered_sha256": "75f481ef275945bf13c7c7db3c635dd55c39dfd4cb89515335ac4f9377783b3e"
+        "start": 324.75,
+        "end": 333.0,
+        "duration": 8.25
       },
       {
         "title": "HUGSIM | Moving traffic beside an industrial block",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-07.mp4",
-        "duration": 15.5,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/nuscenes/scene-0166_hard_00/video.mp4",
-        "source_sha256": "ab39c950dbae4a5e58383f8a8251032131d0ab3ae96a6bdd6f1ad524cd3d3cd3",
-        "source_start": 0,
-        "source_duration": 15.5,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 100.0,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 237.0,
-        "end": 252.5,
-        "rendered_sha256": "64c92d28049aabec9129f947f863dcbe45f337a62903f7ed884705d6a02c28f3"
+        "start": 333.0,
+        "end": 348.5,
+        "duration": 15.5
       },
       {
         "title": "HUGSIM | Heavy vehicles around an industrial junction",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-08.mp4",
-        "duration": 23.0,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/nuscenes/scene-0071_hard_00/video.mp4",
-        "source_sha256": "3a4d534705b28128b49832526d70cf3dc86cc6e0ad00763d4c9110382228f4e3",
-        "source_start": 0,
-        "source_duration": 23.0,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 99.37888198757764,
-        "difficulty": "hard",
-        "complete_episode": true,
-        "start": 252.5,
-        "end": 275.5,
-        "rendered_sha256": "dbaf14739ed063149e3897e46fcfc99092634e8b858659b049ee20d7e66b6b64"
+        "start": 348.5,
+        "end": 371.5,
+        "duration": 23.0
       },
       {
         "title": "HUGSIM | Dense traffic beside curbside parking",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-piano-v1/edit/episode-09.mp4",
-        "duration": 8.5,
-        "source": "/data/xinyao/hugsim_workspace/out/drivetto_command_v4_345_30300_20261001/full/episodes/pandaset/039_extreme_01/video.mp4",
-        "source_sha256": "5320559ac6de9a1ae71b16cd68dfccea9c5272306cf807fa40976056d506340f",
-        "source_start": 0,
-        "source_duration": 8.5,
-        "playback_speed": 1.0,
-        "view": "Front-center crop, x800 y0 width800 height450",
-        "rc": 100.0,
-        "hd": 99.15966386554622,
-        "difficulty": "extreme",
-        "complete_episode": true,
-        "start": 275.5,
-        "end": 284.0,
-        "rendered_sha256": "1b2b3903111bb29de3c22784d7c474bbd7b02cfeb80f6b99ae8da1cb124039e5"
+        "start": 371.5,
+        "end": 380.0,
+        "duration": 8.5
       },
       {
         "title": "Five aggregate benchmark metrics",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/five-minute/results.mp4",
-        "duration": 12,
-        "start": 284.0,
-        "end": 296.0,
-        "rendered_sha256": "d3d55f9158af7c5b161961654e397abfab4c3981f21f7fc4db3fd7ba339ae396"
+        "start": 380.0,
+        "end": 392.0,
+        "duration": 12
       },
       {
         "title": "Explore the project",
-        "path": "/data/xinyao/release/DriveTTO/.site-staging-20261030-recut-v1/edit/outro.mp4",
-        "duration": 4,
-        "start": 296.0,
-        "end": 300.0,
-        "rendered_sha256": "189f3bcfb3b3662ac4e9bae0ca310e2a3a0a868d2293258319c2531fffb39c96"
+        "start": 392.0,
+        "end": 396.0,
+        "duration": 4
       }
     ],
     "title": "DriveTTO | Search, planning and closed-loop driving",
-    "selection": "A five-minute introduction to DriveTTO: the complete algorithm animation, four NAVSIM plans at PDMS 100, and ten complete HUGSIM episodes with RC 100 and HD-Score 94.2–100. Seven hard and one extreme scene follow two easy introductions. Relaxed acoustic piano accompanies the film; all ten rollouts are available separately in the gallery.",
+    "selection": "A 6-minute 36-second introduction: one continuous endpoint-search and dual-planner refinement demonstration, four NAVSIM plans at PDMS 100, and the previously selected ten complete HUGSIM episodes at original speed. Relaxed piano accompanies the film. Method geometry and utility are schematic; scene scores belong to their complete recorded episodes.",
     "note": "Recorded driving retains complete episodes at original playback speed. RC/HD scores describe those complete episodes. Main-video views crop the front camera; gallery videos retain all six views. Schematic method animation is not a measured trajectory. These selected high-score examples are illustrative; aggregate experiment results are unchanged.",
     "music": {
       "title": "An Unhurried Drive",
@@ -752,7 +547,7 @@
       "pads": false,
       "sample_rate_hz": 48000,
       "channels": 2,
-      "duration_seconds": 300.0,
+      "duration_seconds": 396,
       "sample_frames": 14400000,
       "note_count": 718,
       "cached_pitches": 26,
@@ -979,12 +774,18 @@
         "license": "CC0 1.0 Universal",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "archive_sha256": "40d68616b4628c96eb1cdc79c07526311d387894b263de274693483864651b11"
-      }
+      },
+      "edit": "Existing relaxed piano recording, extended with an internal passage and two 2-second crossfades."
     },
     "source_results_sha256": "9198a18484ebed3e03be4a0c5c4553afe569147d914507ea2d2d18ba1bd48acf",
     "previous_audio_edition": {
       "src": "assets/videos/drivetto-introduction-five-minute-20261030.mp4",
       "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
+    },
+    "previous_edition": {
+      "src": "assets/videos/drivetto-introduction-piano-20261030.mp4",
+      "sha256": "c7bdf464abec5fb2a88a95ffd748874fc08b6a5d3a722684232e99553b4aa486",
+      "duration_seconds": 300
     }
   },
   "navsim_animations": [
@@ -1022,14 +823,14 @@
     }
   ],
   "algorithm_animation": {
-    "src": "assets/videos/drivetto-algorithm-animation.mp4",
-    "poster": "assets/images/algorithm-poster.jpg",
-    "captions": "assets/videos/drivetto-algorithm-animation.vtt",
-    "chapters": "assets/videos/algorithm-chapters.vtt",
-    "duration_seconds": 72,
-    "sha256": "8e927ad4b5d1f7b5c69ba548a188a7b72acfe16782192d946b8172ee082f4b60",
-    "scope": "NAV1 Full schematic; benchmark schedules differ",
-    "note": "Original 2D animation. Paths and predicted gains are illustrative; the NAV1 Full schedule is shown."
+    "src": "assets/videos/drivetto-method-continuous-20261031.mp4",
+    "poster": "assets/images/method-continuous-20261031.jpg",
+    "captions": "assets/videos/method-continuous-20261031-captions.vtt",
+    "chapters": "assets/videos/method-continuous-20261031-chapters.vtt",
+    "duration_seconds": 168,
+    "sha256": "33062318551dae19a248399ef76c7571d5118593b24ddfd8e4aaa700c5b81add",
+    "scope": "NAV1 Full continuous schematic; benchmark schedules differ",
+    "note": "A continuous NAV1 Full illustration: full-path utility guides endpoint requests; ChainFlow and DrivoR proposals establish a shared center; bounded refinement and temporal fusion adjust the complete motion. Geometry, utility colors and perturbations are schematic."
   },
   "archived_videos": [
     {

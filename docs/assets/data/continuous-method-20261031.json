@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 168,
+  "intro_duration_seconds": 396,
+  "kind": "continuous_algorithm_schematic",
+  "scope": "NAV1 Full",
+  "paper_basis": [
+    "Endpoint completion and feedback",
+    "Bounded interpolation and geometric search",
+    "Cross-model proposal pool",
+    "Control residual transport",
+    "Branch fusion"
+  ],
+  "utility": "Synthetic full-path utility archived at achieved states; XY projection of a position/heading/speed archive",
+  "small_offsets": "Illustrative geometry, not a measured safety experiment",
+  "two_planners": [
+    "ChainFlow",
+    "DrivoR"
+  ],
+  "model_weights_changed": false,
+  "experiments_executed": false,
+  "real_gallery_and_result_tables_unchanged": true,
+  "render_sha256": "99c21f4d9622e071824169e00ad779863e2ea8e0934836ae21975cb626278b85",
+  "method_video_sha256": "33062318551dae19a248399ef76c7571d5118593b24ddfd8e4aaa700c5b81add",
+  "public_video_sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197"
+}

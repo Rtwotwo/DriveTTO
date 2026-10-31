@@ -32,3 +32,6 @@ The tables include all five PDMS components, all nine EPDMS components (separate
 Website source is deployed at `/data/xinyao/release/DriveTTO`. The local preview server binds only to loopback; use SSH forwarding to preview it remotely. The GitHub Pages workflow is the public deployment route.
 
 NAVTEST full-strategy, NAVHARD full57, HUGSIM command-v4, and R7 endpoint_post transfer are separate experimental settings. Their labels and interpretation notes must remain attached to their results.
+
+
+The active introduction is 6:36 (2026-10-31). Its 2:48 method segment is a continuous NAV1 Full schematic linking endpoint utility feedback, two-planner refinement, matched-time fusion and vehicle-footprint close-ups. The selected HUGSIM and NAVSIM examples, their scores, and the qualitative image layouts are unchanged. Earlier media remain at their original URLs.

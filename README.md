@@ -15,21 +15,21 @@
 
 <p align="center"><a href="assets/overview.png"><img src="assets/overview.png" alt="DriveTTO overview" width="100%"></a></p>
 
-**DriveTTO is a training-free framework for test-time trajectory optimization that connects structured search with reference-relative selection.** A driving planner may generate a good trajectory yet fail to select it. Adding more candidates therefore makes both trajectory quality and selection quality central to the value of search. DriveTTO explores alternatives around a retained complete plan and compares each proposed update with that reference, while keeping the driving models frozen throughout inference. Across the corresponding benchmark settings, DriveTTO achieves **95.5 PDMS** and **92.3 EPDMS** on NAVTEST, **57.1 EPDMS** on NAVHARD, and **54.5 route completion (RC)** with **40.1 HD-Score** on 345 HUGSIM scenarios. The single-scorer variant, **DriveTTO-S**, is also evaluated across six base planners against their native outputs and ToAD. [Full results](https://rtwotwo.github.io/DriveTTO/#results). The animation below illustrates how DriveTTO searches and selects around a retained complete plan at test time.
+**DriveTTO is a training-free framework for test-time trajectory optimization that connects structured search with reference-relative selection.** A driving planner may generate a good trajectory yet fail to select it. Adding more candidates therefore makes both trajectory quality and selection quality central to the value of search. DriveTTO explores alternatives around a retained complete plan and compares each proposed update with that reference, while keeping the driving models frozen throughout inference. Across the corresponding benchmark settings, DriveTTO achieves **95.5 PDMS** and **92.3 EPDMS** on NAVTEST, **57.1 EPDMS** on NAVHARD, and **54.5 route completion (RC)** with **40.1 HD-Score** on 345 HUGSIM scenarios. The single-scorer variant, **DriveTTO-S**, is also evaluated across six base planners against their native outputs and ToAD. [Full results](https://rtwotwo.github.io/DriveTTO/#results). The animation follows one road scene from endpoint search to fine trajectory refinement, with enlarged vehicle footprints showing why small position and timing changes matter.
 
-<p align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=algorithm"><img src="docs/assets/images/algorithm-teaser.gif" alt="DriveTTO algorithm animation" width="640"></a></p>
+<p align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=algorithm"><img src="docs/assets/images/method-continuous-20261031.gif" alt="DriveTTO algorithm animation" width="640"></a></p>
 
-Concretely, endpoint feedback associates the predicted utility of a complete trajectory with its achieved terminal state, guiding further search through the planner's native path geometry. Geometric refinement, cross-model proposals and bounded control residuals produce alternative motions around the retained plan. Frozen scorers evaluate gains over the reference in a shared scoring context, and temporal fusion combines proposal and control trajectories along the prediction horizon. Each accepted update becomes the reference for later decisions. By separating the best trajectory available in a candidate pool from the trajectory actually returned, DriveTTO examines how candidate construction, filtering and ranking contribute to the final driving result.
+DriveTTO first completes endpoint requests through native path geometry, scores each full trajectory, and records that utility at the terminal state actually reached. Feedback from nearby reached states guides later requests toward promising regions. The accepted endpoint plan and proposals from ChainFlow and DrivoR then establish a shared trajectory center. Geometric adjustments, cross-model proposals and bounded control residuals refine the complete motion; temporal fusion combines branch contributions at matching future timestamps. Configured scorers compare each candidate with its current reference, which remains available whenever an update is rejected. The animation makes this sequence visible in one tight road scene, including magnified lateral clearance and longitudinal interaction geometry.
 
 
 
 ## 🎬 Visualizations
 
 <p align="center">
-  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="docs/assets/images/intro-recut-20261030.gif" width="720" alt="Play the DriveTTO introduction with relaxed piano music"></a>
+  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="docs/assets/images/method-continuous-20261031.gif" width="720" alt="Play the DriveTTO introduction with relaxed piano music"></a>
 </p>
 
-<p align="center"><em>5 min 0 s · Relaxed piano · Method · Planning · Closed-loop driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
+<p align="center"><em>6 min 36 s · Relaxed piano · Endpoint search · Refinement · Driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
 
 ### 🛣️ HUGSIM closed-loop rollouts
 

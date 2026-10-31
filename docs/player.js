@@ -68,7 +68,7 @@
     }
     if (d.algorithm_animation) {
       push("algorithm", "DriveTTO algorithm animation", d.algorithm_animation.src, d.algorithm_animation.poster,
-        ["72 s", "Search. Compare. Select."], d.algorithm_animation.scope + ". " + (d.algorithm_animation.note || ""));
+        [d.algorithm_animation.duration_seconds + " s", "Endpoint search → trajectory refinement"], d.algorithm_animation.scope + ". " + (d.algorithm_animation.note || ""));
     }
     (d.archived_videos || []).forEach(function (v) {
       push(v.id, v.title || v.id, v.src, v.poster,
