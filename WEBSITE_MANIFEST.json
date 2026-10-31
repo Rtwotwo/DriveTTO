@@ -7,8 +7,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9848,
-      "sha256": "7f8ee2e2f57208e68f8a438c400bf2fa7a6a9b3365f8bb2d8d41cc676691a4f4"
+      "bytes": 9814,
+      "sha256": "86ace00cd1b4f6efac48778f378854793b5e9a55e7844df074a630a2727c11f5"
     },
     {
       "path": "WEBSITE.md",
@@ -26,6 +26,11 @@
       "sha256": "4a40f42ca7d772bd319b95012c88a2b95ba2c10062878a67958a2de061d8f758"
     },
     {
+      "path": "docs/assets/animation/method-svg-traffic-20261031.js",
+      "bytes": 21975,
+      "sha256": "702a812c23338f5d63598eec5a2b56fe194b30b76c69bd99390622f8b77ae447"
+    },
+    {
       "path": "docs/assets/animation/method-svg.js",
       "bytes": 20740,
       "sha256": "6a7ac6c7998684e445fe54e40c63dfd89a2c7b07c57a18e9d29776d8e9545e50"
@@ -37,13 +42,13 @@
     },
     {
       "path": "docs/assets/data/continuous-method-20261031.json",
-      "bytes": 1339,
-      "sha256": "a29b612a8fe33573a4622006fd8a4583acb309f241b6513a4501f7edb891e0a3"
+      "bytes": 2087,
+      "sha256": "69899e6fe5dc696c87aa2f12a3c3272d39bbe44672e581e4327599dcdaa945c7"
     },
     {
       "path": "docs/assets/data/intro-edit.json",
-      "bytes": 12986,
-      "sha256": "5a8e7388df7104aceb6472cbf02c3dcdb0f165efac9be751dc92a2cdf0b9f2b6"
+      "bytes": 13584,
+      "sha256": "db8db2868a0af35b24d76afc833485176a8b7bb5ad74580bc2cc9846e71734f7"
     },
     {
       "path": "docs/assets/data/logo-intro.json",
@@ -52,8 +57,8 @@
     },
     {
       "path": "docs/assets/data/media-selection.json",
-      "bytes": 50493,
-      "sha256": "e45c41ce5da08d115f59a7bd53099df0b5f7bdcbc288afd686389a5a5bd7c0d4"
+      "bytes": 51170,
+      "sha256": "d379d00fd3b4160958ea534da047db040a9618d655d460448037562def7db1f6"
     },
     {
       "path": "docs/assets/data/piano-music.json",
@@ -67,8 +72,8 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 41134,
-      "sha256": "b3c2dfd576923be85dbf45c7885b4c0df5873b550d9dc47fec9e5a1a92105138"
+      "bytes": 41179,
+      "sha256": "35cf3fe06e25892c0d29073af2420f03816207a3e1579be5739c929b5a9ef4e8"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -266,6 +271,16 @@
       "sha256": "14e78d099ada1554b9eb17f035f5583f4f7d336da3370749d25814e757abf896"
     },
     {
+      "path": "docs/assets/images/method-traffic-20261031.gif",
+      "bytes": 278722,
+      "sha256": "84753201981da625005014054818f1a8487358aa3662bef7f36aed8c39676c36"
+    },
+    {
+      "path": "docs/assets/images/method-traffic-20261031.jpg",
+      "bytes": 92644,
+      "sha256": "6f87f535c5e835da52b4ac046cd653431d5bf516c478654683f3a8f800262588"
+    },
+    {
       "path": "docs/assets/images/method-two-planners-20261031.gif",
       "bytes": 343645,
       "sha256": "6d4b26db46577fd6a8327b70e139d4e717c75d0bcc31fd10ac4eecc49c3a1f8a"
@@ -361,6 +376,11 @@
       "sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc"
     },
     {
+      "path": "docs/assets/videos/drivetto-introduction-traffic-20261031.mp4",
+      "bytes": 43588032,
+      "sha256": "20061ad98254d1860cb557814341f5f363083ffbef03ad01209b18ced381892b"
+    },
+    {
       "path": "docs/assets/videos/drivetto-introduction-two-planners-20261031.mp4",
       "bytes": 37407200,
       "sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03"
@@ -389,6 +409,11 @@
       "path": "docs/assets/videos/drivetto-method-svg-20261031.mp4",
       "bytes": 2474711,
       "sha256": "6b17df20c28caa9eceb19c8bf8edc8376aa640fc8a755f672066ecb5fc615fb1"
+    },
+    {
+      "path": "docs/assets/videos/drivetto-method-traffic-20261031.mp4",
+      "bytes": 2518443,
+      "sha256": "534f4b55ff761ee29779c2bfd17ad596d2c6554260cd7b50ae7dc25bd0433792"
     },
     {
       "path": "docs/assets/videos/drivetto-method-two-planners-20261031.mp4",
@@ -501,6 +526,11 @@
       "sha256": "a55c9ab236b842bef4a89d4215ad4f44ad4dc8bbd00e47b7390600408f9c38ff"
     },
     {
+      "path": "docs/assets/videos/intro-traffic-20261031-chapters.vtt",
+      "bytes": 1626,
+      "sha256": "a55c9ab236b842bef4a89d4215ad4f44ad4dc8bbd00e47b7390600408f9c38ff"
+    },
+    {
       "path": "docs/assets/videos/intro-two-planners-20261031-chapters.vtt",
       "bytes": 1607,
       "sha256": "6da81fdcbfccdba4d8dbb06760d21ef24f05dd1a56de7334e69aa6c22bf51f1a"
@@ -527,6 +557,16 @@
     },
     {
       "path": "docs/assets/videos/method-svg-20261031-chapters.vtt",
+      "bytes": 307,
+      "sha256": "51f8f36c8b459979b7e68fcf8c6533a4b8fdf2e8069fe8e27d034fb4461b76d2"
+    },
+    {
+      "path": "docs/assets/videos/method-traffic-20261031-captions.vtt",
+      "bytes": 2197,
+      "sha256": "1b629cc712858a56536548b33361353846cb08a95ad94c60ea13a2b0b197fd70"
+    },
+    {
+      "path": "docs/assets/videos/method-traffic-20261031-chapters.vtt",
       "bytes": 307,
       "sha256": "51f8f36c8b459979b7e68fcf8c6533a4b8fdf2e8069fe8e27d034fb4461b76d2"
     },
@@ -592,13 +632,13 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22283,
-      "sha256": "3e5e4baa05450d3139f27b6f9683f510adcd15121fc3239a705e94754fb50e22"
+      "bytes": 22319,
+      "sha256": "8b36e31ca64d8ee2a9f896c1eb1075bc5455e88388fa7ad2a727abdd25670da4"
     },
     {
       "path": "docs/method-animation.html",
-      "bytes": 2295,
-      "sha256": "b0de6c0ce752ec46573b198f5644c3d055d3c8bb21288289bca48737d90737eb"
+      "bytes": 2312,
+      "sha256": "2e350eb2def5124d60479bdb08dde5769730189208a71f94e11a58d7d49a4b4f"
     },
     {
       "path": "docs/player.html",
@@ -624,6 +664,11 @@
       "path": "tools/assemble_svg_method.py",
       "bytes": 4811,
       "sha256": "49328d7a4d3fd9f5816d9519b09298f802b1b2172126425bf52945a715fe1740"
+    },
+    {
+      "path": "tools/assemble_svg_traffic.py",
+      "bytes": 6893,
+      "sha256": "014be12cc2cf699b3cbb1682368a3f2bf77cfa04981d361e337f388d6b8db87f"
     },
     {
       "path": "tools/assemble_two_planner_visuals.py",
@@ -656,6 +701,11 @@
       "sha256": "5d3ea7201f14cdfef5d65177b5ee944c732dcbf9166a8728715574349e455340"
     },
     {
+      "path": "tools/prepare_svg_traffic.py",
+      "bytes": 4151,
+      "sha256": "9ff56c434d10537ade35fb4d852f817bbeb52f125d1790014adae495ca0f6e92"
+    },
+    {
       "path": "tools/publish_continuous_method.py",
       "bytes": 9746,
       "sha256": "1a8bcdc9e40365a5be31e1c120077255345e8d7d48f1ed5633aeae927b8ce8cd"
@@ -674,6 +724,11 @@
       "path": "tools/publish_svg_method.py",
       "bytes": 5506,
       "sha256": "87a2f3a871d68c87f822193b7f28cf952d32ee652952b118d68c4628558dc4d4"
+    },
+    {
+      "path": "tools/publish_svg_traffic.py",
+      "bytes": 5471,
+      "sha256": "5d561b7349c0b5997bd6215fda9b2683157575fe1a46d1f957fede099881e6ec"
     },
     {
       "path": "tools/publish_two_planner_visuals.py",
@@ -704,6 +759,11 @@
       "path": "tools/render_svg_method.cjs",
       "bytes": 3190,
       "sha256": "f06b49bdf3e3b2c8e29cca7dab13b33cbaf65c630475e7aca5f673d5c6327e96"
+    },
+    {
+      "path": "tools/render_svg_traffic.cjs",
+      "bytes": 3263,
+      "sha256": "f41f992a7bdf085f642937075b4593a54c79fbdbdd21cb105216ad0e34c960d3"
     },
     {
       "path": "tools/serve_site.py",

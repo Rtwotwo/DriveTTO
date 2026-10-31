@@ -368,15 +368,15 @@
     "width": 1280,
     "height": 720,
     "fps": 24,
-    "src": "assets/videos/drivetto-introduction-svg-20261031.mp4",
-    "poster": "assets/images/method-svg-20261031.jpg",
-    "chapters_src": "assets/videos/intro-svg-20261031-chapters.vtt",
-    "sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc",
-    "poster_sha256": "14e78d099ada1554b9eb17f035f5583f4f7d336da3370749d25814e757abf896",
+    "src": "assets/videos/drivetto-introduction-traffic-20261031.mp4",
+    "poster": "assets/images/method-traffic-20261031.jpg",
+    "chapters_src": "assets/videos/intro-traffic-20261031-chapters.vtt",
+    "sha256": "20061ad98254d1860cb557814341f5f363083ffbef03ad01209b18ced381892b",
+    "poster_sha256": "6f87f535c5e835da52b4ac046cd653431d5bf516c478654683f3a8f800262588",
     "chapters_sha256": "a55c9ab236b842bef4a89d4215ad4f44ad4dc8bbd00e47b7390600408f9c38ff",
-    "teaser": "assets/images/method-svg-20261031.gif",
-    "teaser_sha256": "efc0ba6ae4a35b5423eb84e66ef3a577321d24f5cf15d80b4c88af849f2716b4",
-    "bytes": 36563851,
+    "teaser": "assets/images/method-traffic-20261031.gif",
+    "teaser_sha256": "84753201981da625005014054818f1a8487358aa3662bef7f36aed8c39676c36",
+    "bytes": 43588032,
     "chapters": [
       {
         "title": "DriveTTO",
@@ -530,9 +530,42 @@
       }
     ],
     "title": "DriveTTO | Search, planning and closed-loop driving",
-    "selection": "A 6-minute 36-second introduction: one continuous endpoint-search and dual-planner refinement demonstration, four NAVSIM plans at PDMS 100, and the previously selected ten complete HUGSIM episodes at original speed. Relaxed piano accompanies the film. Method geometry and utility are schematic; scene scores belong to their complete recorded episodes.",
+    "selection": "A 6-minute 36-second introduction: one continuous endpoint-search and dual-planner refinement demonstration, four NAVSIM plans at PDMS 100, and the previously selected ten complete HUGSIM episodes at original speed. The soundtrack follows the user-provided DriveTTO video edit. Method geometry and utility are schematic; scene scores belong to their complete recorded episodes.",
     "note": "Recorded driving retains complete episodes at original playback speed. RC/HD scores describe those complete episodes. Main-video views crop the front camera; gallery videos retain all six views. Schematic method animation is not a measured trajectory. These selected high-score examples are illustrative; aggregate experiment results are unchanged.",
     "music": {
+      "source": "User-provided DriveTTO video",
+      "reference_url": "https://xhslink.cn/o/7L9MCxT53xS",
+      "reference_sha256": "fb8920ba8d40b2137fa599a20eea0df1eea70959a12ce6ce16ea453783688951",
+      "music_identity": "Not specified by source",
+      "edit_segments_seconds": [
+        [
+          0,
+          180
+        ],
+        [
+          100,
+          184
+        ],
+        [
+          180,
+          316
+        ]
+      ],
+      "crossfade_seconds": 2,
+      "target_lufs": -21,
+      "sha256": "8cedd01190ff31bedb66db6daa63c346a4aef0f765a4b57baa3167e4634f3086"
+    },
+    "source_results_sha256": "9198a18484ebed3e03be4a0c5c4553afe569147d914507ea2d2d18ba1bd48acf",
+    "previous_audio_edition": {
+      "src": "assets/videos/drivetto-introduction-five-minute-20261030.mp4",
+      "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
+    },
+    "previous_edition": {
+      "src": "assets/videos/drivetto-introduction-svg-20261031.mp4",
+      "sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc",
+      "duration_seconds": 396
+    },
+    "previous_music": {
       "title": "An Unhurried Drive",
       "style": "Relaxed solo piano",
       "composition": "Original composition for the DriveTTO five-minute introduction.",
@@ -776,16 +809,6 @@
         "archive_sha256": "40d68616b4628c96eb1cdc79c07526311d387894b263de274693483864651b11"
       },
       "edit": "Existing relaxed piano recording, extended with an internal passage and two 2-second crossfades."
-    },
-    "source_results_sha256": "9198a18484ebed3e03be4a0c5c4553afe569147d914507ea2d2d18ba1bd48acf",
-    "previous_audio_edition": {
-      "src": "assets/videos/drivetto-introduction-five-minute-20261030.mp4",
-      "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
-    },
-    "previous_edition": {
-      "src": "assets/videos/drivetto-introduction-two-planners-20261031.mp4",
-      "sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
-      "duration_seconds": 396
     }
   },
   "navsim_animations": [
@@ -823,16 +846,16 @@
     }
   ],
   "algorithm_animation": {
-    "src": "assets/videos/drivetto-method-svg-20261031.mp4",
-    "poster": "assets/images/method-svg-20261031.jpg",
-    "captions": "assets/videos/method-svg-20261031-captions.vtt",
-    "chapters": "assets/videos/method-svg-20261031-chapters.vtt",
+    "src": "assets/videos/drivetto-method-traffic-20261031.mp4",
+    "poster": "assets/images/method-traffic-20261031.jpg",
+    "captions": "assets/videos/method-traffic-20261031-captions.vtt",
+    "chapters": "assets/videos/method-traffic-20261031-chapters.vtt",
     "duration_seconds": 168,
-    "sha256": "6b17df20c28caa9eceb19c8bf8edc8376aa640fc8a755f672066ecb5fc615fb1",
+    "sha256": "534f4b55ff761ee29779c2bfd17ad596d2c6554260cd7b50ae7dc25bd0433792",
     "scope": "NAV1 Full continuous schematic; benchmark schedules differ",
     "note": "A continuous NAV1 Full illustration: full-path utility guides endpoint requests; proposals from two frozen planners establish a shared center; bounded refinement and temporal fusion adjust the complete motion. Geometry, utility colors and perturbations are schematic.",
     "interactive_src": "method-animation.html",
-    "editable_source": "assets/animation/method-svg.js"
+    "editable_source": "assets/animation/method-svg-traffic-20261031.js"
   },
   "archived_videos": [
     {

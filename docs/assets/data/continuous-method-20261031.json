@@ -19,12 +19,36 @@
   "model_weights_changed": false,
   "experiments_executed": false,
   "real_gallery_and_result_tables_unchanged": true,
-  "render_sha256": "6a7ac6c7998684e445fe54e40c63dfd89a2c7b07c57a18e9d29776d8e9545e50",
-  "method_video_sha256": "6b17df20c28caa9eceb19c8bf8edc8376aa640fc8a755f672066ecb5fc615fb1",
-  "public_video_sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc",
+  "render_sha256": "702a812c23338f5d63598eec5a2b56fe194b30b76c69bd99390622f8b77ae447",
+  "method_video_sha256": "534f4b55ff761ee29779c2bfd17ad596d2c6554260cd7b50ae7dc25bd0433792",
+  "public_video_sha256": "20061ad98254d1860cb557814341f5f363083ffbef03ad01209b18ced381892b",
   "actor_art": "Original SVG cars with glazing, lamps, wheels and mirrors; pedestrians, cones, trees and street furniture",
   "vehicle_footprint_dimensions_unchanged": true,
   "render_format": "Native SVG rendered by Sharp/librsvg, encoded by ffmpeg",
-  "editable_source": "assets/animation/method-svg.js",
-  "interactive_viewer": "method-animation.html"
+  "editable_source": "assets/animation/method-svg-traffic-20261031.js",
+  "interactive_viewer": "method-animation.html",
+  "traffic": "Same-direction lead vehicle follows the road tangent; ego follows with positive gap; parked vehicle remains at curb. No perpendicular crossing vehicle.",
+  "public_audio": {
+    "source": "User-provided DriveTTO video",
+    "reference_url": "https://xhslink.cn/o/7L9MCxT53xS",
+    "reference_sha256": "fb8920ba8d40b2137fa599a20eea0df1eea70959a12ce6ce16ea453783688951",
+    "music_identity": "Not specified by source",
+    "edit_segments_seconds": [
+      [
+        0,
+        180
+      ],
+      [
+        100,
+        184
+      ],
+      [
+        180,
+        316
+      ]
+    ],
+    "crossfade_seconds": 2,
+    "target_lufs": -21,
+    "sha256": "8cedd01190ff31bedb66db6daa63c346a4aef0f765a4b57baa3167e4634f3086"
+  }
 }
