@@ -89,12 +89,43 @@ def path(d,xy,col,width=3,portion=1,poses=False,dashed=False):
   for j in np.linspace(0,n-1,9).astype(int):dot(d,points[j],3,col)
  return points[-1]
 def vehicle(d,x,y,col,scale=1,angle=0,outline=None,mapper=pos):
- # Vehicle is a 4.6 m x 1.85 m rectangle, headed along the road.
+ # Original 4.6 m x 1.85 m footprint; a shaped sedan replaces the box glyph.
  c,s=math.cos(angle),math.sin(angle)
- pts=[mapper(x+c*a-s*b,y+s*a+c*b) for a,b in [(-2.3*scale,-.925*scale),(2.3*scale,-.925*scale),(2.3*scale,.925*scale),(-2.3*scale,.925*scale)]]
- d.polygon(pts,fill=col,outline=outline or C['bg']);d.line(pts+[pts[0]],fill=outline or C['bg'],width=2)
- a=mapper(x+.5*scale,y-.7*scale);b=mapper(x+1.25*scale,y+.7*scale)
- d.line((a,b),fill=mix(col,'#ffffff',.5),width=3)
+ def p(a,b):return mapper(x+scale*(c*a-s*b),y+scale*(s*a+c*b))
+ def poly(points,fill,edge=None,w=1):
+  q=[p(a,b) for a,b in points];d.polygon(q,fill=fill)
+  if edge:d.line(q+[q[0]],fill=edge,width=w,joint='curve')
+ for a in [-1.42,1.32]:
+  for b in [-.83,.83]:poly([(a-.40,b-.095),(a+.40,b-.095),(a+.40,b+.095),(a-.40,b+.095)],'#080f16')
+ hull=[(-2.3,-.54),(-2.15,-.77),(-1.76,-.85),(1.57,-.85),(2.06,-.70),(2.30,-.42),(2.30,.42),(2.06,.70),(1.57,.85),(-1.76,.85),(-2.15,.77),(-2.3,.54)]
+ poly(hull,col,outline or mix(col,'#ffffff',.35),2)
+ # Cabin glass, roof, hood seams, mirrors and lights indicate heading at both scales.
+ poly([(-1.18,-.65),(.60,-.65),(1.14,-.48),(1.14,.48),(.60,.65),(-1.18,.65),(-1.55,.47),(-1.55,-.47)],'#122b3c')
+ poly([(-.98,-.51),(.38,-.51),(.48,.51),(-.98,.51)],mix(col,'#ffffff',.14))
+ poly([(.51,-.56),(.76,-.52),(1.06,-.37),(1.06,.37),(.76,.52),(.51,.56)],'#b0d9e4')
+ poly([(-1.11,-.51),(-1.40,-.36),(-1.40,.36),(-1.11,.51)],'#7eacbe')
+ for b in [-1,1]:
+  poly([(.42,b*.72),(.74,b*.74),(.70,b*.925),(.44,b*.925)],mix(col,'#ffffff',.20))
+  d.line([p(1.55,b*.57),p(2.02,b*.40)],fill='#fff3cc',width=3)
+  d.line([p(-2.05,b*.53),p(-2.14,b*.28)],fill='#ff8176',width=3)
+  d.line([p(1.28,b*.38),p(1.85,b*.26)],fill=mix(col,'#ffffff',.22),width=1)
+
+def pedestrian(d,px,py,scale=1):
+ # Top-down person: head, shoulders, swinging arms and two feet.
+ def q(a,b):return (px+a*scale,py+b*scale)
+ d.ellipse((*q(-11,8),*q(12,17)),fill='#12232c')
+ d.line([q(-3,5),q(-8,12)],fill='#8498aa',width=max(2,round(5*scale)))
+ d.line([q(3,5),q(8,10)],fill='#8498aa',width=max(2,round(5*scale)))
+ d.line([q(-6,-2),q(-13,4)],fill='#e4b496',width=max(2,round(4*scale)))
+ d.line([q(6,-2),q(12,-7)],fill='#e4b496',width=max(2,round(4*scale)))
+ d.ellipse((*q(-8,-7),*q(8,8)),fill='#cf8663',outline='#f0b78a',width=1)
+ d.ellipse((*q(-5,-11),*q(5,-1)),fill='#edc7a4',outline='#734b3e',width=2)
+
+def cone(d,px,py,scale=1):
+ def q(a,b):return (px+a*scale,py+b*scale)
+ d.polygon([q(-10,7),q(0,12),q(10,7),q(0,2)],fill='#111e28')
+ d.polygon([q(-7,7),q(0,-10),q(7,7)],fill='#ed9553',outline='#f9c18a')
+ d.polygon([q(-3,-2),q(3,-2),q(5,2),q(-5,2)],fill='#e6ece7')
 def world_base():
  im=Image.new('RGB',(W,H),C['bg']);d=ImageDraw.Draw(im)
  d.rounded_rectangle((26,144,839,594),radius=18,fill=C['panel'])
@@ -110,8 +141,11 @@ def world_base():
   d.rounded_rectangle((x,y,x+56,y+33),6,fill='#243945',outline='#3c5261')
  for j in range(4):
   dot(d,(111+j*192,555),15,'#234a45');dot(d,(105+j*192,549),9,'#306457')
+ # Street-side actors are contextual illustrations, outside the driven corridor.
+ pedestrian(d,598,182,.85);pedestrian(d,627,180,.75)
+ for j in range(3):cone(d,690+j*28,499+j*2,.70)
  vehicle(d,22,float(center(22))+1.95,'#8297a4',1.02)
- txt(d,(336,269),'parked vehicle',15,C['muted'])
+ txt(d,(336,253),'parked vehicle',15,C['muted'])
  txt(d,(595,260),'crossing traffic',15,C['muted'])
  txt(d,(47,163),'ONE SCENE  /  ONE CONTINUOUS REFINEMENT',14,C['muted'],True)
  txt(d,(48,564),'0',12,C['muted']);txt(d,(746,564),'forward distance',12,C['muted'])
@@ -176,7 +210,7 @@ def closeup(im,d,t,mode='lateral'):
   txt(d,(879,496),'+0.35 m sideways',21,C['gold'],True)
   wrap(d,'A small shift uses the remaining clearance.',879,534,352,18,C['muted'])
  else:
-  # A second rectangular footprint crosses the longitudinal path.
+  # The same detailed crossing vehicle appears in the enlarged interaction.
   vehicle(z,24.8,float(center(22))-1.2,C['red'],.75,angle=math.pi/2,mapper=mx)
   shift=.55*ramp(t%10,2,6)
   vehicle(z,20.8+shift,yy,C['green'],mapper=mx,outline=C['text'])
@@ -196,7 +230,7 @@ def local_detail(d,a,b,cur,labels):
 
 def refinement_panel(d,t):
  txt(d,(879,163),'TWO FROZEN PLANNERS',17,C['green'],True)
- for j,(name,col) in enumerate([('ChainFlow',C['cyan']),('DrivoR',C['gold'])]):
+ for j,(name,col) in enumerate([('Planner 1',C['cyan']),('Planner 2',C['gold'])]):
   y=209+j*67;d.rounded_rectangle((879,y,1231,y+48),9,fill='#193442',outline=col,width=2)
   txt(d,(895,y+12),name,22,col,True);txt(d,(1141,y+15),'frozen',15,C['muted'])
  arrow(d,(1055,329),(1055,355),C['muted'])
@@ -216,7 +250,7 @@ def refinement_panel(d,t):
   txt(d,(879,366),'REFERENCE-RELATIVE SCORING',16,b=True)
   txt(d,(879,406),'candidate + reference',21,C['text'],True)
   txt(d,(879,438),'fixed slots / same proposal bank',16,C['muted'])
-  for j,(name,col) in enumerate([('ChainFlow gain',C['cyan']),('DrivoR gain',C['gold'])]):
+  for j,(name,col) in enumerate([('Planner 1 gain',C['cyan']),('Planner 2 gain',C['gold'])]):
    y=478+j*32;txt(d,(879,y),name,16,col);d.line((1058,y+11,1221,y+11),fill=C['line'],width=6)
    d.line((1058,y+11,1125+45*math.sin(t*.35+j)**2,y+11),fill=col,width=6)
   txt(d,(879,550),'Minimum gain in configured stages',15,C['muted'])
@@ -262,7 +296,7 @@ def draw_frame(t):
   refinement_panel(d,t);path(d,end,C['cyan'],4,poses=True);path(d,p2,C['gold'],4,ramp(t,59,65),poses=True)
   cur=blend(end,p2,.40*ramp(t,67,76)) if t<77 else blend(blend(end,p2,.4),geo,ramp(t,77,86))
   path(d,cur,C['green'],5,poses=True);vehicle(d,22,float(np.interp(22,*cur)),C['green'],outline=C['text'])
-  txt(d,(49,198),'ChainFlow endpoint plan',17,C['cyan'],True);txt(d,(49,226),'DrivoR proposal',17,C['gold'],True)
+  txt(d,(49,198),'Planner 1 endpoint plan',17,C['cyan'],True);txt(d,(49,226),'Planner 2 proposal',17,C['gold'],True)
   if t>74:
    for x in [14,22,34]:
     p=pos(x,float(np.interp(x,*cur)));arrow(d,(p[0],p[1]+19),(p[0],p[1]-19),C['green'])

@@ -13,13 +13,15 @@
   "utility": "Synthetic full-path utility archived at achieved states; XY projection of a position/heading/speed archive",
   "small_offsets": "Illustrative geometry, not a measured safety experiment",
   "two_planners": [
-    "ChainFlow",
-    "DrivoR"
+    "Planner 1",
+    "Planner 2"
   ],
   "model_weights_changed": false,
   "experiments_executed": false,
   "real_gallery_and_result_tables_unchanged": true,
-  "render_sha256": "99c21f4d9622e071824169e00ad779863e2ea8e0934836ae21975cb626278b85",
-  "method_video_sha256": "33062318551dae19a248399ef76c7571d5118593b24ddfd8e4aaa700c5b81add",
-  "public_video_sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197"
+  "render_sha256": "d6acf158586503034bf05b0865c4ab020d815610799bde6ead184352f37409e7",
+  "method_video_sha256": "f3eae9901f6478806a64c0e646aef594feb5178c602121cc306b04b764967ccc",
+  "public_video_sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
+  "actor_art": "Original vector sedan silhouettes with windows, lights, wheels and mirrors; pedestrians and cones on roadside",
+  "vehicle_footprint_dimensions_unchanged": true
 }

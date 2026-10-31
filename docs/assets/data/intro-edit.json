@@ -3,15 +3,15 @@
   "width": 1280,
   "height": 720,
   "fps": 24,
-  "src": "assets/videos/drivetto-introduction-continuous-20261031.mp4",
-  "poster": "assets/images/method-continuous-20261031.jpg",
-  "chapters_src": "assets/videos/intro-continuous-20261031-chapters.vtt",
-  "sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197",
-  "poster_sha256": "c877e4e07f1b0989deda6e8a6c1b8c8af5b88fb9757b5216afa87a83ae4375ad",
+  "src": "assets/videos/drivetto-introduction-two-planners-20261031.mp4",
+  "poster": "assets/images/method-two-planners-20261031.jpg",
+  "chapters_src": "assets/videos/intro-two-planners-20261031-chapters.vtt",
+  "sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
+  "poster_sha256": "80d96589b1724e7ffa890283f89c0a950502e529ec938afd6c4da408eb7ff972",
   "chapters_sha256": "6da81fdcbfccdba4d8dbb06760d21ef24f05dd1a56de7334e69aa6c22bf51f1a",
-  "teaser": "assets/images/intro-recut-20261030.gif",
-  "teaser_sha256": "2f6a066024747b91db6927ad6f32353e3956c7357eb957ee62cd7c3b2c7da489",
-  "bytes": 37916214,
+  "teaser": "assets/images/method-two-planners-20261031.gif",
+  "teaser_sha256": "6d4b26db46577fd6a8327b70e139d4e717c75d0bcc31fd10ac4eecc49c3a1f8a",
+  "bytes": 37407200,
   "chapters": [
     {
       "title": "DriveTTO",
@@ -418,8 +418,8 @@
     "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
   },
   "previous_edition": {
-    "src": "assets/videos/drivetto-introduction-piano-20261030.mp4",
-    "sha256": "c7bdf464abec5fb2a88a95ffd748874fc08b6a5d3a722684232e99553b4aa486",
-    "duration_seconds": 300
+    "src": "assets/videos/drivetto-introduction-continuous-20261031.mp4",
+    "sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197",
+    "duration_seconds": 396
   }
 }
