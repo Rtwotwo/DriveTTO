@@ -1,0 +1,15 @@
+{
+  "kind": "continuous_svg_animation",
+  "scope": "NAV1 Full method illustration",
+  "duration_seconds": 168,
+  "canvas": [1600, 900],
+  "export": [1280, 720, 24],
+  "source": "method-svg.js",
+  "goal": "Show full-path endpoint feedback followed by two-planner local refinement, fusion and reference-relative selection.",
+  "visual_reference": "FlowEdit process correspondence and the project's approved light overview; all artwork newly drawn in SVG.",
+  "paper_source": "CVPR2027_DriveTTO/cvpr/Sessions/04_method.tex",
+  "stages": ["Footprint and interaction geometry", "Endpoint request, completion, full-path score, reached-state archive", "Bounded interpolation and geometry establish shared center", "Proposal and residual branches refine shared center", "Matched-time fusion and stage-specific relative comparison", "Return complete plan"],
+  "labels": ["Planner 1", "Planner 2", "Scorer 1", "Scorer 2"],
+  "drawn_data": "Illustrative trajectories, utility samples and geometry; not an experiment or a measured safety result.",
+  "unchanged": ["Method order", "Frozen models", "Benchmark scores", "Real-scene gallery", "Relaxed piano audio", "Original qualitative image layout"]
+}

@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.000
+A trajectory is a sequence of vehicle poses, not just a line on the road.
+
+00:00:07.000 --> 00:00:12.000
+In a narrow passage, a small lateral change alters the remaining clearance.
+
+00:00:12.000 --> 00:00:18.000
+Position and arrival time also determine how the plan meets crossing traffic.
+
+00:00:18.000 --> 00:00:25.000
+Start with an endpoint request. A native parent supplies the path in between.
+
+00:00:25.000 --> 00:00:33.000
+Score the complete path, then store its utility at the terminal state it reaches.
+
+00:00:33.000 --> 00:00:43.000
+Feedback from nearby reached states guides the next completion requests.
+
+00:00:43.000 --> 00:00:51.000
+The archive uses position, heading and speed. Here we see its XY projection.
+
+00:00:51.000 --> 00:00:58.000
+Each new request becomes a complete path before its utility enters the archive.
+
+00:00:58.000 --> 00:01:07.000
+The accepted endpoint plan meets a native proposal from the second planner.
+
+00:01:07.000 --> 00:01:17.000
+Bounded interpolation and geometric search establish a shared trajectory center.
+
+00:01:17.000 --> 00:01:28.000
+Longitudinal, lateral and timing adjustments refine the motion around this center.
+
+00:01:28.000 --> 00:01:38.000
+One branch tests bounded blends with proposals from both frozen planners.
+
+00:01:38.000 --> 00:01:48.000
+The control branch adds the bounded difference between two rollouts to the center.
+
+00:01:48.000 --> 00:01:56.000
+Both branches start from the same center. Zero control change preserves it exactly.
+
+00:01:56.000 --> 00:02:05.000
+Align the proposal and control trajectories at the same future timestamps.
+
+00:02:05.000 --> 00:02:14.000
+A temporal weight combines their contributions along the complete horizon.
+
+00:02:14.000 --> 00:02:22.000
+Configured scorers compare each complete candidate with the current reference.
+
+00:02:22.000 --> 00:02:31.000
+Select an admitted update, or retain the current reference when replacement fails.
+
+00:02:31.000 --> 00:02:40.000
+Endpoint feedback locates promising motions. Local search refines their shape and timing.
+
+00:02:40.000 --> 00:02:48.000
+Search the trajectory at test time. Keep the driving models frozen.

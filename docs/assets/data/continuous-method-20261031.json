@@ -19,9 +19,12 @@
   "model_weights_changed": false,
   "experiments_executed": false,
   "real_gallery_and_result_tables_unchanged": true,
-  "render_sha256": "d6acf158586503034bf05b0865c4ab020d815610799bde6ead184352f37409e7",
-  "method_video_sha256": "f3eae9901f6478806a64c0e646aef594feb5178c602121cc306b04b764967ccc",
-  "public_video_sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
-  "actor_art": "Original vector sedan silhouettes with windows, lights, wheels and mirrors; pedestrians and cones on roadside",
-  "vehicle_footprint_dimensions_unchanged": true
+  "render_sha256": "6a7ac6c7998684e445fe54e40c63dfd89a2c7b07c57a18e9d29776d8e9545e50",
+  "method_video_sha256": "6b17df20c28caa9eceb19c8bf8edc8376aa640fc8a755f672066ecb5fc615fb1",
+  "public_video_sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc",
+  "actor_art": "Original SVG cars with glazing, lamps, wheels and mirrors; pedestrians, cones, trees and street furniture",
+  "vehicle_footprint_dimensions_unchanged": true,
+  "render_format": "Native SVG rendered by Sharp/librsvg, encoded by ffmpeg",
+  "editable_source": "assets/animation/method-svg.js",
+  "interactive_viewer": "method-animation.html"
 }

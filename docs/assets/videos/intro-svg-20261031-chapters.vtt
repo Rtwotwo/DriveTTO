@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+DriveTTO
+
+00:00:05.000 --> 00:00:09.000
+Search and selection at test time
+
+00:00:09.000 --> 00:00:15.000
+A continuous search-and-selection pipeline
+
+00:00:15.000 --> 00:00:33.000
+Method | THE GEOMETRY OF A PLAN
+
+00:00:33.000 --> 00:01:13.000
+Method | ENDPOINT FEEDBACK
+
+00:01:13.000 --> 00:01:43.000
+Method | A SHARED CENTER
+
+00:01:43.000 --> 00:02:11.000
+Method | LOCAL REFINEMENT
+
+00:02:11.000 --> 00:02:37.000
+Method | FUSION & COMPARISON
+
+00:02:37.000 --> 00:03:03.000
+Method | THE COMPLETE MOTION
+
+00:03:03.000 --> 00:03:09.000
+NAVSIM | Urban bend
+
+00:03:09.000 --> 00:03:15.000
+NAVSIM | Narrow street
+
+00:03:15.000 --> 00:03:21.000
+NAVSIM | Junction
+
+00:03:21.000 --> 00:03:27.000
+NAVSIM | Bridge curve
+
+00:03:27.000 --> 00:03:36.500
+HUGSIM | City blocks and marked crossings
+
+00:03:36.500 --> 00:03:48.500
+HUGSIM | A curved road beside greenery
+
+00:03:48.500 --> 00:04:05.000
+HUGSIM | A tree-lined residential bend
+
+00:04:05.000 --> 00:04:22.500
+HUGSIM | A tree-lined road with nearby traffic
+
+00:04:22.500 --> 00:04:51.500
+HUGSIM | A neighborhood turn among parked cars
+
+00:04:51.500 --> 00:05:24.750
+HUGSIM | Turning through a busy city block
+
+00:05:24.750 --> 00:05:33.000
+HUGSIM | Crossing traffic on an urban street
+
+00:05:33.000 --> 00:05:48.500
+HUGSIM | Moving traffic beside an industrial block
+
+00:05:48.500 --> 00:06:11.500
+HUGSIM | Heavy vehicles around an industrial junction
+
+00:06:11.500 --> 00:06:20.000
+HUGSIM | Dense traffic beside curbside parking
+
+00:06:20.000 --> 00:06:32.000
+Five aggregate benchmark metrics
+
+00:06:32.000 --> 00:06:36.000
+Explore the project

@@ -3,15 +3,15 @@
   "width": 1280,
   "height": 720,
   "fps": 24,
-  "src": "assets/videos/drivetto-introduction-two-planners-20261031.mp4",
-  "poster": "assets/images/method-two-planners-20261031.jpg",
-  "chapters_src": "assets/videos/intro-two-planners-20261031-chapters.vtt",
-  "sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
-  "poster_sha256": "80d96589b1724e7ffa890283f89c0a950502e529ec938afd6c4da408eb7ff972",
-  "chapters_sha256": "6da81fdcbfccdba4d8dbb06760d21ef24f05dd1a56de7334e69aa6c22bf51f1a",
-  "teaser": "assets/images/method-two-planners-20261031.gif",
-  "teaser_sha256": "6d4b26db46577fd6a8327b70e139d4e717c75d0bcc31fd10ac4eecc49c3a1f8a",
-  "bytes": 37407200,
+  "src": "assets/videos/drivetto-introduction-svg-20261031.mp4",
+  "poster": "assets/images/method-svg-20261031.jpg",
+  "chapters_src": "assets/videos/intro-svg-20261031-chapters.vtt",
+  "sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc",
+  "poster_sha256": "14e78d099ada1554b9eb17f035f5583f4f7d336da3370749d25814e757abf896",
+  "chapters_sha256": "a55c9ab236b842bef4a89d4215ad4f44ad4dc8bbd00e47b7390600408f9c38ff",
+  "teaser": "assets/images/method-svg-20261031.gif",
+  "teaser_sha256": "efc0ba6ae4a35b5423eb84e66ef3a577321d24f5cf15d80b4c88af849f2716b4",
+  "bytes": 36563851,
   "chapters": [
     {
       "title": "DriveTTO",
@@ -32,19 +32,19 @@
       "duration": 6
     },
     {
-      "title": "Method | SMALL MARGINS",
+      "title": "Method | THE GEOMETRY OF A PLAN",
       "start": 15,
       "end": 33,
       "duration": 18
     },
     {
-      "title": "Method | ENDPOINT SEARCH",
+      "title": "Method | ENDPOINT FEEDBACK",
       "start": 33,
       "end": 73,
       "duration": 40
     },
     {
-      "title": "Method | TWO PLANNERS",
+      "title": "Method | A SHARED CENTER",
       "start": 73,
       "end": 103,
       "duration": 30
@@ -56,13 +56,13 @@
       "duration": 28
     },
     {
-      "title": "Method | FUSION & SELECTION",
+      "title": "Method | FUSION & COMPARISON",
       "start": 131,
       "end": 157,
       "duration": 26
     },
     {
-      "title": "Method | COMPLETE MOTION",
+      "title": "Method | THE COMPLETE MOTION",
       "start": 157,
       "end": 183,
       "duration": 26
@@ -418,8 +418,8 @@
     "sha256": "eb04e288ec0dadd2ddd5d8e9e6e15999a9d5e84bec0abd2a84390e2e5e0d548d"
   },
   "previous_edition": {
-    "src": "assets/videos/drivetto-introduction-continuous-20261031.mp4",
-    "sha256": "e665edc02efe7af8ac947fd1de5b38d8f82b47766b336468be2a6f7cd6afa197",
+    "src": "assets/videos/drivetto-introduction-two-planners-20261031.mp4",
+    "sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
     "duration_seconds": 396
   }
 }

@@ -1,12 +1,12 @@
 {
   "version": "2026-10-24",
   "intro": {
-    "src": "assets/videos/drivetto-introduction-two-planners-20261031.mp4",
-    "poster": "assets/images/method-two-planners-20261031.jpg",
+    "src": "assets/videos/drivetto-introduction-svg-20261031.mp4",
+    "poster": "assets/images/method-svg-20261031.jpg",
     "title": "DriveTTO | Search, planning and closed-loop driving",
     "duration": 396,
-    "sha256": "42709dcf6b8227c95eb7f5e2fad7ba2df0140858bc4411afb00aeef484acbe03",
-    "chapters": "assets/videos/intro-two-planners-20261031-chapters.vtt"
+    "sha256": "3c64d112dcd60cdbde9392278e532ae95c3d4de5db5679a0be8ac54fcf0f0bfc",
+    "chapters": "assets/videos/intro-svg-20261031-chapters.vtt"
   },
   "videos": [
     {
@@ -1259,14 +1259,16 @@
   "method": {
     "overview": "assets/images/overview.webp",
     "animation": {
-      "src": "assets/videos/drivetto-method-two-planners-20261031.mp4",
-      "poster": "assets/images/method-two-planners-20261031.jpg",
-      "captions": "assets/videos/method-two-planners-20261031-captions.vtt",
-      "chapters": "assets/videos/method-two-planners-20261031-chapters.vtt",
+      "src": "assets/videos/drivetto-method-svg-20261031.mp4",
+      "poster": "assets/images/method-svg-20261031.jpg",
+      "captions": "assets/videos/method-svg-20261031-captions.vtt",
+      "chapters": "assets/videos/method-svg-20261031-chapters.vtt",
       "duration_seconds": 168,
-      "sha256": "f3eae9901f6478806a64c0e646aef594feb5178c602121cc306b04b764967ccc",
+      "sha256": "6b17df20c28caa9eceb19c8bf8edc8376aa640fc8a755f672066ecb5fc615fb1",
       "scope": "NAV1 Full continuous schematic; benchmark schedules differ",
-      "note": "A continuous NAV1 Full illustration: full-path utility guides endpoint requests; proposals from two frozen planners establish a shared center; bounded refinement and temporal fusion adjust the complete motion. Geometry, utility colors and perturbations are schematic."
+      "note": "A continuous NAV1 Full illustration: full-path utility guides endpoint requests; proposals from two frozen planners establish a shared center; bounded refinement and temporal fusion adjust the complete motion. Geometry, utility colors and perturbations are schematic.",
+      "interactive_src": "method-animation.html",
+      "editable_source": "assets/animation/method-svg.js"
     }
   },
   "protocols": {
