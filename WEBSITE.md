@@ -21,9 +21,7 @@ Expected site URL: `https://rtwotwo.github.io/DriveTTO/`.
 - `docs/assets/data/results.csv`: downloadable numeric results.
 - `docs/assets/data/media-selection.json`: selected media and source hashes, without private server paths.
 
-All media are served locally. The 1:54 introduction combines eight selected hard/extreme HUGSIM excerpts, four NAVSIM plan animations, the overview, and a four-step method explanation. HUGSIM excerpts use the original recording cadence and show complete-rollout RC/HD scores. NAVSIM animations show recorded camera frames with calibrated saved-plan projections and a BEV; they do not simulate new closed-loop motion. The video is silent, with English on-screen explanation and chapter metadata.
-
-The six separate H.264 rollout videos retain their original duration and camera layout. Four NAVSIM clips can also be played individually. The page pauses other videos when a new video starts. The original experiment images, videos, and manuscript are unchanged.
+The introductory video, method animation and scene clips are served locally. README and homepage paper buttons link to [arXiv:2611.29205](https://arxiv.org/abs/2611.29205). The downloadable citation is in docs/assets/drivetto.bib. The teaser and method overview are rendered from the paper.
 
 The five headline values and other-method comparison tables are transcribed from the manuscript. The controlled three-seed experiment and the two six-planner transfer tables are labeled separately. `docs/assets/data/intro-edit.json` and `media-selection.json` record selected scenes and media hashes without private server paths.
 

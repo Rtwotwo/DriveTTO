@@ -7,13 +7,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9814,
-      "sha256": "86ace00cd1b4f6efac48778f378854793b5e9a55e7844df074a630a2727c11f5"
+      "bytes": 10648,
+      "sha256": "3245773d009f57807223c1f36682d4407fb72e758f816b1b31039ddc9afeacbe"
     },
     {
       "path": "WEBSITE.md",
-      "bytes": 3101,
-      "sha256": "e6a82329ce4ad1d618bf5674f4bdc73102b1b88c8732f1f753645df908b5121f"
+      "bytes": 2633,
+      "sha256": "02a7d17f0576e69b58f532813ed790ca61779fba783d162f5724148383eb6985"
     },
     {
       "path": "docs/.nojekyll",
@@ -39,6 +39,26 @@
       "path": "docs/assets/animation/overview.spec.json",
       "bytes": 1189,
       "sha256": "83d0eb00b8702cf7781870143cc5cd9e59d68ecba96c9f09c087a46d18948f42"
+    },
+    {
+      "path": "docs/assets/badges/arxiv.svg",
+      "bytes": 2848,
+      "sha256": "9c411889652e514d8f3163f8a0758376edfcf5947aabdd5341d94390b643ec0d"
+    },
+    {
+      "path": "docs/assets/badges/license.svg",
+      "bytes": 1313,
+      "sha256": "96ae2a5e24552c3ad0ae57f54f830caf5c102e876107d8c52e5821a3bf5d513a"
+    },
+    {
+      "path": "docs/assets/badges/project-page.svg",
+      "bytes": 2092,
+      "sha256": "b65618fe706af5d72dceb123c9d9107288a0355cfec4eb6877e079c9fac24da6"
+    },
+    {
+      "path": "docs/assets/badges/video.svg",
+      "bytes": 1298,
+      "sha256": "579264ab0f42e48aeb47aa8e79914fe270896b2cf64b94d95e662acc69a49e08"
     },
     {
       "path": "docs/assets/data/continuous-method-20261031.json",
@@ -72,8 +92,13 @@
     },
     {
       "path": "docs/assets/data/site-data.json",
-      "bytes": 41179,
-      "sha256": "35cf3fe06e25892c0d29073af2420f03816207a3e1579be5739c929b5a9ef4e8"
+      "bytes": 41280,
+      "sha256": "2d774e8a1089ce8dce69752d5dce87df526e096d488b4cefcf08d84004b4401a"
+    },
+    {
+      "path": "docs/assets/drivetto.bib",
+      "bytes": 354,
+      "sha256": "0886825615cbfe5281ea91e2237961f117641debcd6705a3f55e538d24b4ba70"
     },
     {
       "path": "docs/assets/images/003ead1914c051d7-bev.webp",
@@ -309,6 +334,16 @@
       "path": "docs/assets/images/pandaset-028-medium_00.jpg",
       "bytes": 80936,
       "sha256": "7f145909f872e8b78247e36be13244b71ec21d614d2abda544fe4718a2d61745"
+    },
+    {
+      "path": "docs/assets/images/paper-overview.png",
+      "bytes": 330362,
+      "sha256": "be58e5281d9e18ca85618763b6711f52019b911895fa1dcc114d5705c71394fe"
+    },
+    {
+      "path": "docs/assets/images/paper-teaser.png",
+      "bytes": 1058746,
+      "sha256": "e75e63ce9396b9150d05461a5da84043d387e3d3b7e6915d14b35f253324cec6"
     },
     {
       "path": "docs/assets/images/waymo-166085257829_0_200-hard_00.jpg",
@@ -632,8 +667,8 @@
     },
     {
       "path": "docs/index.html",
-      "bytes": 22319,
-      "sha256": "8b36e31ca64d8ee2a9f896c1eb1075bc5455e88388fa7ad2a727abdd25670da4"
+      "bytes": 24715,
+      "sha256": "92259f6aaa6580479b431d567f92378cdd27a5e12fa318023122f150d67f8cbb"
     },
     {
       "path": "docs/method-animation.html",
@@ -652,8 +687,8 @@
     },
     {
       "path": "docs/styles.css",
-      "bytes": 29302,
-      "sha256": "7da21fa51bb63a7a14040fb46ee148af2ff34ab5a95e1ad54591ec4fac698297"
+      "bytes": 30573,
+      "sha256": "9f9a0ecc22c633a9e342e0d5ff145615296e0ae763f5e436b7f46cae192e0a29"
     },
     {
       "path": "tools/assemble_continuous_method.py",

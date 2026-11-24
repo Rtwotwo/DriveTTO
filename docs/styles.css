@@ -32,3 +32,20 @@
 /* Compact HUGSIM captions shared with the README gallery. */
 .scene-tab-caption{display:block;font-size:13px;line-height:1.65;color:var(--muted);margin-top:9px;font-weight:400;white-space:normal}.scene-caption{display:block;font-size:14px;line-height:1.7;color:var(--muted);padding:18px 0}.scene-tab[aria-selected=true] .scene-tab-caption{color:var(--teal)}
 @media(max-width:650px){.scene-tab-caption{font-size:11px;line-height:1.6}.scene-caption{font-size:12px}}
+
+/* Publication header and citation, shared by desktop and mobile. */
+.hero .project-name { margin-top: 0; }
+.hero .project-subtitle { max-width: 940px; text-wrap: balance; }
+.paper-authors, .paper-affiliations { line-height: 1.9; }
+.paper-authors { margin: 24px auto 4px; font-size: clamp(15px, 2vw, 19px); font-weight: 600; }
+.paper-affiliations, .paper-contact { color: var(--muted); font-size: 14px; }
+.paper-contact { margin-top: 4px; }
+.paper-authors span, .paper-affiliations span { display: inline-block; }
+.paper-contact a, .citation-block a { color: var(--teal); text-decoration: underline; }
+.hero-actions { flex-wrap: wrap; }
+.paper-teaser { margin: 0 auto 32px; max-width: 1080px; }
+.paper-teaser img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+.paper-teaser figcaption { margin: 10px auto 0; max-width: 84ch; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.citation-block { margin-top: 44px; scroll-margin-top: 85px; }
+.citation-block h2 { margin-bottom: 8px; }
+.citation-block pre { margin-top: 15px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: #f4f7f6; white-space: pre-wrap; overflow-wrap: anywhere; text-align: left; font-size: 13px; line-height: 1.6; }

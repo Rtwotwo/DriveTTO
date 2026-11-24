@@ -1,37 +1,48 @@
-<h1 align="center">🚗 DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization</h1>
+<h1 align="center">DriveTTO: Understanding Search and Selection<br>in Test-Time Trajectory Optimization for End-to-End Driving</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&amp;logoColor=white" alt="arXiv" height="24">
-  <a href="https://github.com/Rtwotwo/DriveTTO"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&amp;logoColor=white" alt="GitHub repository" height="24"></a>
-  <a href="https://rtwotwo.github.io/DriveTTO/"><img src="https://img.shields.io/badge/GitHub.io-2563EB?logo=githubpages&amp;logoColor=white" alt="GitHub Pages project website" height="24"></a>
+  <a href="https://arxiv.org/abs/2611.29205"><img src="docs/assets/badges/arxiv.svg" alt="arXiv: 2611.29205" height="20"></a>
+  <a href="https://rtwotwo.github.io/DriveTTO/"><img src="docs/assets/badges/project-page.svg" alt="Project page" height="20"></a>
+  <a href="https://github.com/Rtwotwo/DriveTTO"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&amp;logoColor=white" alt="GitHub repository" height="20"></a>
+  <a href="https://rtwotwo.github.io/DriveTTO/#videos"><img src="docs/assets/badges/video.svg" alt="Video demos" height="20"></a>
+  <a href="LICENSE"><img src="docs/assets/badges/license.svg" alt="Apache 2.0 license" height="20"></a>
 </p>
 
-## 📰 News
+<p align="center"><span>Xinyao Rao<sup>1</sup></span> &nbsp; <span>Zecheng Tang<sup>2</sup></span> &nbsp; <span>Zheyuan Lai<sup>3</sup></span> &nbsp; <span>Liuxuan Sun<sup>1</sup></span> &nbsp; <span>Minjun Yu<sup>3</sup></span> &nbsp; <span>Xun Cao<sup>1</sup></span> &nbsp; <span>Wei Li<sup>1,3,*</sup></span></p>
+<p align="center"><span><sup>1</sup>Nanjing University</span> &nbsp; <span><sup>2</sup>Peking University</span> &nbsp; <span><sup>3</sup>EABOT.AI</span><br><sub><sup>*</sup>Corresponding author &nbsp; · &nbsp; <a href="mailto:yoloredal@gmail.com">yoloredal@gmail.com</a></sub></p>
 
-- [ ] **2026.10.22** — Project page and visualization videos released.
-- [ ] **2026.09.25** — DriveTTO reaches state-of-the-art PDMS/EPDMS on the NAVTEST benchmark.
+DriveTTO improves driving trajectories at inference time with the planning models held fixed. It searches near native proposals and uses frozen scorers to decide whether a refinement should replace the current plan.
 
-## 🔍 Overview
+## News
 
-<p align="center"><a href="assets/overview.png"><img src="assets/overview.png" alt="DriveTTO overview" width="100%"></a></p>
+- **2026.11.24** — The [DriveTTO paper](https://arxiv.org/abs/2611.29205) is available on arXiv. Read the [PDF](https://arxiv.org/pdf/2611.29205) or copy the [BibTeX citation](#citation).
+- **2026.10.22** — The [project page](https://rtwotwo.github.io/DriveTTO/) and [driving demonstrations](https://rtwotwo.github.io/DriveTTO/#videos) are available.
 
-**DriveTTO is a training-free framework for test-time trajectory optimization that connects structured search with reference-relative selection.** A driving planner may generate a good trajectory yet fail to select it. Adding more candidates therefore makes both trajectory quality and selection quality central to the value of search. DriveTTO explores alternatives around a retained complete plan and compares each proposed update with that reference, while keeping the driving models frozen throughout inference. Across the corresponding benchmark settings, DriveTTO achieves **95.5 PDMS** and **92.3 EPDMS** on NAVTEST, **57.1 EPDMS** on NAVHARD, and **54.5 route completion (RC)** with **40.1 HD-Score** on 345 HUGSIM scenarios. The single-scorer variant, **DriveTTO-S**, is also evaluated across six base planners against their native outputs and ToAD. [Full results](https://rtwotwo.github.io/DriveTTO/#results). The animation follows one road scene from endpoint search to fine trajectory refinement, with enlarged vehicle footprints showing why small position and timing changes matter.
+## DriveTTO at a glance
 
-<p align="center"><a href="https://rtwotwo.github.io/DriveTTO/player.html?v=algorithm"><img src="docs/assets/images/method-traffic-20261031.gif" alt="DriveTTO algorithm animation" width="640"></a></p>
+<p align="center"><a href="https://arxiv.org/pdf/2611.29205"><img src="docs/assets/images/paper-teaser.png" width="100%" alt="DriveTTO search and selection, two nearby endpoints with different driving scores, and results on three benchmarks"></a></p>
 
-DriveTTO first completes endpoint requests through native path geometry, scores each full trajectory, and records that utility at the terminal state actually reached. Feedback from nearby reached states guides later requests toward promising regions. The accepted endpoint plan and proposals from two frozen planners then establish a shared trajectory center. Geometric adjustments, cross-model proposals and bounded control residuals refine the complete motion; temporal fusion combines branch contributions at matching future timestamps. Configured scorers compare each candidate with its current reference, which remains available whenever an update is rejected. The animation makes this sequence visible in one tight road scene, including magnified lateral clearance and longitudinal interaction geometry.
+In the Navtrain example above, endpoint requests just 5 cm apart yield trajectories with offline PDMS of 100 and 0. On Navtest, DriveTTO recovers **51.35%** of native zero-score cases on average. Accounting for new failures, the zero-score rate falls from **1.63% to 1.13%**.
 
+| Benchmark | Result | Evaluation setting |
+| --- | --- | --- |
+| Navtest | 95.54 PDMS / 92.30 EPDMS | NAVSIM v1 / v2 |
+| Navhard | 57.10 EPDMS | Two-stage evaluation |
+| HUGSIM | 54.5 route completion / 40.1 HD-Score | 345 scenarios, observed commands |
 
+Each benchmark uses its reported configuration. DriveTTO-S, the single-scorer variant, improves all six evaluated native planners on both Navtest and Navhard. [Explore the results and evaluation settings.](https://rtwotwo.github.io/DriveTTO/#results)
 
-## 🎬 Visualizations
+## Method
 
-<p align="center">
-  <a href="https://rtwotwo.github.io/DriveTTO/player.html?v=intro"><img src="docs/assets/images/method-traffic-20261031.gif" width="720" alt="Play the DriveTTO introduction"></a>
-</p>
+<p align="center"><a href="docs/assets/images/paper-overview.png"><img src="docs/assets/images/paper-overview.png" width="100%" alt="DriveTTO endpoint search, proposal and control refinement branches, and temporal fusion"></a></p>
 
-<p align="center"><em>6 min 36 s · Endpoint search · Refinement · Driving — <a href="https://rtwotwo.github.io/DriveTTO/#videos">open the full gallery</a></em></p>
+A frozen scorer evaluates completed paths and guides resampling around the endpoints they reach. From a shared reference, one branch refines planner proposals while the other perturbs vehicle controls. DriveTTO blends poses at matching times and accepts a branch or fused plan when both scorers predict an improvement over the retained plan. [Watch the method animation.](https://rtwotwo.github.io/DriveTTO/player.html?v=algorithm)
 
-### 🛣️ HUGSIM closed-loop rollouts
+## Driving demonstrations
+
+[Watch the 6 min 36 s introduction](https://rtwotwo.github.io/DriveTTO/#introduction) or [browse the gallery](https://rtwotwo.github.io/DriveTTO/#videos).
+
+### HUGSIM closed-loop rollouts
 
 <table align="center">
 <tbody>
@@ -58,7 +69,7 @@ DriveTTO first completes endpoint requests through native path geometry, scores 
 </tbody>
 </table>
 
-### 🧭 NAVSIM planning animations
+### NAVSIM planning animations
 
 <table align="center">
 <tbody>
@@ -73,7 +84,19 @@ DriveTTO first completes endpoint requests through native path geometry, scores 
 </tbody>
 </table>
 
+## Citation
 
-## 🙏 Acknowledgements
+```bibtex
+@misc{rao2026drivetto,
+  title={DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization for End-to-End Driving},
+  author={Xinyao Rao and Zecheng Tang and Zheyuan Lai and Liuxuan Sun and Minjun Yu and Xun Cao and Wei Li},
+  year={2026},
+  eprint={2611.29205},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2611.29205}
+}
+```
+
+## Acknowledgements
 
 We thank the authors of [ToAD](https://github.com/valeoai/TOAD) for demonstrating that DrivoR's scorer can be used as a reward to search for better trajectories at test time, [DrivoR](https://github.com/valeoai/DrivoR) for the end-to-end driving model by driving on registers, our own [ChainFlow](https://github.com/Rtwotwo/ChainFlow) planning and evaluation pipeline built on NAVSIM, and the [GETok-DSR-NAVSIM-v1](https://huggingface.co/minfishmovemountain/GETok-DSR-NAVSIM-v1) driving model weights and resources, all of which supported this project.
